@@ -1,0 +1,23 @@
+(version 1)
+
+# nice!view reversible display mount
+#
+# The 5 display holes are NON-PLATED on purpose. A pin is soldered to the
+# display, passed through the bare hole, and soldered to ONE face of the
+# board. Because the barrel is unplated, the F.Cu ring and the B.Cu ring
+# around the same hole are electrically independent -- that isolation is what
+# lets the front-side jumpers pick the pin mapping while the display itself is
+# soldered from the back.
+#
+# KiCad reports copper concentric with an NPTH as a hole-clearance error. Here
+# the concentricity IS the design. Waived for this footprint only; the
+# condition names both A and B so it also covers a routed track arriving at a
+# ring. Verified: substituting a non-existent reference into the same
+# condition waives nothing, so the exception cannot leak board-wide.
+#
+# The matching solder-mask exception is NOT here -- it lives on the footprint
+# itself as (attr ... allow_soldermask_bridges), which is tighter than a rule.
+
+(rule "niceview_npth_ring_hole_clearance"
+	(constraint hole_clearance (min 0mm))
+	(condition "A.memberOfFootprint('display*') || B.memberOfFootprint('display*')"))
