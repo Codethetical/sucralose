@@ -1,0 +1,171 @@
+(footprint "diode_sod123_reversible"
+	(version 20240108)
+	(generator "sucralose")
+	(layer "F.Cu")
+	(attr smd)
+	(property "Reference" "D**"
+		(at 0 -1.8 0)
+		(layer "F.SilkS")
+		(effects (font (size 0.8 0.8) (thickness 0.12)))
+	)
+	(property "Value" "D"
+		(at 0 1.8 0)
+		(layer "F.Fab")
+		(hide yes)
+		(effects (font (size 0.8 0.8) (thickness 0.12)))
+	)
+	(property "LCSC" "C81598"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(effects (font (size 0.8 0.8) (thickness 0.12)))
+	)
+	(fp_line
+			(start -0.749999 0)
+			(end -0.349996 -0.000001)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+		)
+	(fp_line
+			(start -0.349996 -0.000001)
+			(end -0.349995 -0.549999)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+		)
+	(fp_line
+			(start -0.349996 -0.000001)
+			(end -0.349993 0.550004)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+		)
+	(fp_line
+			(start -0.349996 -0.000001)
+			(end 0.249999 -0.400003)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+		)
+	(fp_line
+			(start 0.249995 0.400006)
+			(end -0.349996 -0.000001)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+		)
+	(fp_line
+			(start 0.249999 -0.400003)
+			(end 0.249995 0.400006)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+		)
+	(fp_line
+			(start 0.250004 0.000002)
+			(end 0.749999 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+		)
+	(fp_line
+			(start -0.749999 0)
+			(end -0.349996 -0.000001)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.SilkS")
+		)
+	(fp_line
+			(start -0.349996 -0.000001)
+			(end -0.349995 -0.549999)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.SilkS")
+		)
+	(fp_line
+			(start -0.349996 -0.000001)
+			(end -0.349993 0.550004)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.SilkS")
+		)
+	(fp_line
+			(start -0.349996 -0.000001)
+			(end 0.249999 -0.400003)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.SilkS")
+		)
+	(fp_line
+			(start 0.249995 0.400006)
+			(end -0.349996 -0.000001)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.SilkS")
+		)
+	(fp_line
+			(start 0.249999 -0.400003)
+			(end 0.249995 0.400006)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.SilkS")
+		)
+	(fp_line
+			(start 0.250004 0.000002)
+			(end 0.749999 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.SilkS")
+		)
+	(pad "1" smd rect
+			(at -1.650001 -0.000004)
+			(size 0.9 1.2)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+		)
+	(pad "1" smd rect
+			(at -1.650001 -0.000004)
+			(size 0.9 1.2)
+			(layers "B.Cu" "B.Mask" "B.Paste")
+		)
+	(pad "2" smd rect
+			(at 1.650001 0.000004)
+			(size 0.9 1.2)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+		)
+	(pad "2" smd rect
+			(at 1.650001 0.000004)
+			(size 0.9 1.2)
+			(layers "B.Cu" "B.Mask" "B.Paste")
+		)
+	(fp_rect (start -2.35 -0.85) (end 2.35 0.85) (stroke (width 0.05) (type default)) (fill none) (layer "F.CrtYd"))
+	(fp_rect (start -2.35 -0.85) (end 2.35 0.85) (stroke (width 0.05) (type default)) (fill none) (layer "B.CrtYd"))
+)
