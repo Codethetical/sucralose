@@ -1,0 +1,374 @@
+** Drc report for sucralose.kicad_pcb **
+** Created on 2026-09-18T05:41:19 **
+** Report includes: Errors, Warnings **
+
+** Found 89 DRC violations **
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.0000 mm)
+    Local override; error
+    @(135.0980 mm, 129.4424 mm): Pad 1 [<no net>] of  on F.Cu
+    @(135.4980 mm, 128.1724 mm): Pad 15 [<no net>] of  on F.Cu
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.0000 mm)
+    Local override; error
+    @(118.5880 mm, 129.4424 mm): Pad 1 [<no net>] of  on B.Cu
+    @(118.1880 mm, 128.1724 mm): Pad 15 [<no net>] of  on B.Cu
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.0000 mm)
+    Local override; error
+    @(135.0980 mm, 126.9024 mm): Pad 2 [<no net>] of  on F.Cu
+    @(135.4980 mm, 128.1724 mm): Pad 15 [<no net>] of  on F.Cu
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.0000 mm)
+    Local override; error
+    @(135.0980 mm, 126.9024 mm): Pad 2 [<no net>] of  on F.Cu
+    @(135.4980 mm, 125.6324 mm): Pad 16 [<no net>] of  on F.Cu
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.0000 mm)
+    Local override; error
+    @(118.5880 mm, 126.9024 mm): Pad 2 [<no net>] of  on B.Cu
+    @(118.1880 mm, 128.1724 mm): Pad 15 [<no net>] of  on B.Cu
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.0000 mm)
+    Local override; error
+    @(118.5880 mm, 126.9024 mm): Pad 2 [<no net>] of  on B.Cu
+    @(118.1880 mm, 125.6324 mm): Pad 16 [<no net>] of  on B.Cu
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.0000 mm)
+    Local override; error
+    @(135.0980 mm, 124.3624 mm): Pad 3 [<no net>] of  on F.Cu
+    @(135.4980 mm, 125.6324 mm): Pad 16 [<no net>] of  on F.Cu
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.0000 mm)
+    Local override; error
+    @(135.0980 mm, 124.3624 mm): Pad 3 [<no net>] of  on F.Cu
+    @(135.4980 mm, 123.0924 mm): Pad 17 [<no net>] of  on F.Cu
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.0000 mm)
+    Local override; error
+    @(118.5880 mm, 124.3624 mm): Pad 3 [<no net>] of  on B.Cu
+    @(118.1880 mm, 125.6324 mm): Pad 16 [<no net>] of  on B.Cu
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.0000 mm)
+    Local override; error
+    @(118.5880 mm, 124.3624 mm): Pad 3 [<no net>] of  on B.Cu
+    @(118.1880 mm, 123.0924 mm): Pad 17 [<no net>] of  on B.Cu
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.0000 mm)
+    Local override; error
+    @(135.0980 mm, 121.8224 mm): Pad 4 [<no net>] of  on F.Cu
+    @(135.4980 mm, 123.0924 mm): Pad 17 [<no net>] of  on F.Cu
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.0000 mm)
+    Local override; error
+    @(135.0980 mm, 121.8224 mm): Pad 4 [<no net>] of  on F.Cu
+    @(135.4980 mm, 120.5524 mm): Pad 18 [<no net>] of  on F.Cu
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.0000 mm)
+    Local override; error
+    @(118.5880 mm, 121.8224 mm): Pad 4 [<no net>] of  on B.Cu
+    @(118.1880 mm, 123.0924 mm): Pad 17 [<no net>] of  on B.Cu
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.0000 mm)
+    Local override; error
+    @(118.5880 mm, 121.8224 mm): Pad 4 [<no net>] of  on B.Cu
+    @(118.1880 mm, 120.5524 mm): Pad 18 [<no net>] of  on B.Cu
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.0000 mm)
+    Local override; error
+    @(135.0980 mm, 119.2824 mm): Pad 5 [<no net>] of  on F.Cu
+    @(135.4980 mm, 120.5524 mm): Pad 18 [<no net>] of  on F.Cu
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.0000 mm)
+    Local override; error
+    @(135.0980 mm, 119.2824 mm): Pad 5 [<no net>] of  on F.Cu
+    @(135.4980 mm, 118.0124 mm): Pad 19 [<no net>] of  on F.Cu
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.0000 mm)
+    Local override; error
+    @(118.5880 mm, 119.2824 mm): Pad 5 [<no net>] of  on B.Cu
+    @(118.1880 mm, 120.5524 mm): Pad 18 [<no net>] of  on B.Cu
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.0000 mm)
+    Local override; error
+    @(118.5880 mm, 119.2824 mm): Pad 5 [<no net>] of  on B.Cu
+    @(118.1880 mm, 118.0124 mm): Pad 19 [<no net>] of  on B.Cu
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.0000 mm)
+    Local override; error
+    @(135.0980 mm, 116.7424 mm): Pad 6 [<no net>] of  on F.Cu
+    @(135.4980 mm, 115.4724 mm): Pad 20 [<no net>] of  on F.Cu
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.0000 mm)
+    Local override; error
+    @(135.0980 mm, 116.7424 mm): Pad 6 [<no net>] of  on F.Cu
+    @(135.4980 mm, 118.0124 mm): Pad 19 [<no net>] of  on F.Cu
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.0000 mm)
+    Local override; error
+    @(118.5880 mm, 116.7424 mm): Pad 6 [<no net>] of  on B.Cu
+    @(118.1880 mm, 118.0124 mm): Pad 19 [<no net>] of  on B.Cu
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.0000 mm)
+    Local override; error
+    @(118.5880 mm, 116.7424 mm): Pad 6 [<no net>] of  on B.Cu
+    @(118.1880 mm, 115.4724 mm): Pad 20 [<no net>] of  on B.Cu
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.0000 mm)
+    Local override; error
+    @(135.0980 mm, 114.2024 mm): Pad 7 [<no net>] of  on F.Cu
+    @(135.4980 mm, 115.4724 mm): Pad 20 [<no net>] of  on F.Cu
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.0000 mm)
+    Local override; error
+    @(118.5880 mm, 114.2024 mm): Pad 7 [<no net>] of  on B.Cu
+    @(118.1880 mm, 115.4724 mm): Pad 20 [<no net>] of  on B.Cu
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.0000 mm)
+    Local override; error
+    @(135.0980 mm, 114.2024 mm): Pad 8 [<no net>] of  on B.Cu
+    @(135.4980 mm, 115.4724 mm): Pad 21 [<no net>] of  on B.Cu
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.0000 mm)
+    Local override; error
+    @(118.5880 mm, 114.2024 mm): Pad 8 [<no net>] of  on F.Cu
+    @(118.1880 mm, 115.4724 mm): Pad 21 [<no net>] of  on F.Cu
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.0000 mm)
+    Local override; error
+    @(135.0980 mm, 116.7424 mm): Pad 9 [<no net>] of  on B.Cu
+    @(135.4980 mm, 115.4724 mm): Pad 21 [<no net>] of  on B.Cu
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.0000 mm)
+    Local override; error
+    @(135.0980 mm, 116.7424 mm): Pad 9 [<no net>] of  on B.Cu
+    @(135.4980 mm, 118.0124 mm): Pad 22 [<no net>] of  on B.Cu
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.0000 mm)
+    Local override; error
+    @(118.5880 mm, 116.7424 mm): Pad 9 [<no net>] of  on F.Cu
+    @(118.1880 mm, 115.4724 mm): Pad 21 [<no net>] of  on F.Cu
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.0000 mm)
+    Local override; error
+    @(118.5880 mm, 116.7424 mm): Pad 9 [<no net>] of  on F.Cu
+    @(118.1880 mm, 118.0124 mm): Pad 22 [<no net>] of  on F.Cu
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.0000 mm)
+    Local override; error
+    @(135.0980 mm, 119.2824 mm): Pad 10 [<no net>] of  on B.Cu
+    @(135.4980 mm, 118.0124 mm): Pad 22 [<no net>] of  on B.Cu
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.0000 mm)
+    Local override; error
+    @(135.0980 mm, 119.2824 mm): Pad 10 [<no net>] of  on B.Cu
+    @(135.4980 mm, 120.5524 mm): Pad 23 [<no net>] of  on B.Cu
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.0000 mm)
+    Local override; error
+    @(118.5880 mm, 119.2824 mm): Pad 10 [<no net>] of  on F.Cu
+    @(118.1880 mm, 120.5524 mm): Pad 23 [<no net>] of  on F.Cu
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.0000 mm)
+    Local override; error
+    @(118.5880 mm, 119.2824 mm): Pad 10 [<no net>] of  on F.Cu
+    @(118.1880 mm, 118.0124 mm): Pad 22 [<no net>] of  on F.Cu
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.0000 mm)
+    Local override; error
+    @(135.0980 mm, 121.8224 mm): Pad 11 [<no net>] of  on B.Cu
+    @(135.4980 mm, 120.5524 mm): Pad 23 [<no net>] of  on B.Cu
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.0000 mm)
+    Local override; error
+    @(118.5880 mm, 121.8224 mm): Pad 11 [<no net>] of  on F.Cu
+    @(118.1880 mm, 120.5524 mm): Pad 23 [<no net>] of  on F.Cu
+[invalid_outline]: Board has malformed outline (not a closed shape) (gap 0.6745 mm)
+    Local override; error
+    @(63.8404 mm, 73.7291 mm): Segment on Edge.Cuts
+    @(72.8892 mm, 129.0944 mm): Segment on Edge.Cuts
+[invalid_outline]: Board has malformed outline (not a closed shape) (gap 0.6096 mm)
+    Local override; error
+    @(63.8404 mm, 73.7291 mm): Segment on Edge.Cuts
+    @(140.7772 mm, 29.4776 mm): Segment on Edge.Cuts
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(135.0980 mm, 116.7424 mm): Pad 9 [<no net>] of  on B.Cu
+    @(135.4980 mm, 115.4724 mm): Pad 21 [<no net>] of  on B.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(135.0980 mm, 116.7424 mm): Pad 9 [<no net>] of  on B.Cu
+    @(135.4980 mm, 118.0124 mm): Pad 22 [<no net>] of  on B.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(135.0980 mm, 129.4424 mm): Pad 1 [<no net>] of  on F.Cu
+    @(135.4980 mm, 128.1724 mm): Pad 15 [<no net>] of  on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(118.5880 mm, 116.7424 mm): Pad 9 [<no net>] of  on F.Cu
+    @(118.1880 mm, 118.0124 mm): Pad 22 [<no net>] of  on F.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(118.5880 mm, 129.4424 mm): Pad 1 [<no net>] of  on B.Cu
+    @(118.1880 mm, 128.1724 mm): Pad 15 [<no net>] of  on B.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(118.5880 mm, 116.7424 mm): Pad 9 [<no net>] of  on F.Cu
+    @(118.1880 mm, 115.4724 mm): Pad 21 [<no net>] of  on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(135.0980 mm, 126.9024 mm): Pad 2 [<no net>] of  on F.Cu
+    @(135.4980 mm, 128.1724 mm): Pad 15 [<no net>] of  on F.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(135.0980 mm, 119.2824 mm): Pad 10 [<no net>] of  on B.Cu
+    @(135.4980 mm, 118.0124 mm): Pad 22 [<no net>] of  on B.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(135.0980 mm, 126.9024 mm): Pad 2 [<no net>] of  on F.Cu
+    @(135.4980 mm, 125.6324 mm): Pad 16 [<no net>] of  on F.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(135.0980 mm, 119.2824 mm): Pad 10 [<no net>] of  on B.Cu
+    @(135.4980 mm, 120.5524 mm): Pad 23 [<no net>] of  on B.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(118.5880 mm, 119.2824 mm): Pad 10 [<no net>] of  on F.Cu
+    @(118.1880 mm, 118.0124 mm): Pad 22 [<no net>] of  on F.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(118.5880 mm, 126.9024 mm): Pad 2 [<no net>] of  on B.Cu
+    @(118.1880 mm, 128.1724 mm): Pad 15 [<no net>] of  on B.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(118.5880 mm, 119.2824 mm): Pad 10 [<no net>] of  on F.Cu
+    @(118.1880 mm, 120.5524 mm): Pad 23 [<no net>] of  on F.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(118.5880 mm, 126.9024 mm): Pad 2 [<no net>] of  on B.Cu
+    @(118.1880 mm, 125.6324 mm): Pad 16 [<no net>] of  on B.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(135.0980 mm, 121.8224 mm): Pad 11 [<no net>] of  on B.Cu
+    @(135.4980 mm, 120.5524 mm): Pad 23 [<no net>] of  on B.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(135.0980 mm, 124.3624 mm): Pad 3 [<no net>] of  on F.Cu
+    @(135.4980 mm, 125.6324 mm): Pad 16 [<no net>] of  on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(118.5880 mm, 121.8224 mm): Pad 11 [<no net>] of  on F.Cu
+    @(118.1880 mm, 120.5524 mm): Pad 23 [<no net>] of  on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(135.0980 mm, 124.3624 mm): Pad 3 [<no net>] of  on F.Cu
+    @(135.4980 mm, 123.0924 mm): Pad 17 [<no net>] of  on F.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(118.5880 mm, 124.3624 mm): Pad 3 [<no net>] of  on B.Cu
+    @(118.1880 mm, 125.6324 mm): Pad 16 [<no net>] of  on B.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(135.4980 mm, 123.0924 mm): Pad 17 [<no net>] of  on F.Cu
+    @(135.0980 mm, 121.8224 mm): Pad 4 [<no net>] of  on F.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(118.5880 mm, 124.3624 mm): Pad 3 [<no net>] of  on B.Cu
+    @(118.1880 mm, 123.0924 mm): Pad 17 [<no net>] of  on B.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(118.1880 mm, 123.0924 mm): Pad 17 [<no net>] of  on B.Cu
+    @(118.5880 mm, 121.8224 mm): Pad 4 [<no net>] of  on B.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(135.0980 mm, 121.8224 mm): Pad 4 [<no net>] of  on F.Cu
+    @(135.4980 mm, 120.5524 mm): Pad 18 [<no net>] of  on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(135.4980 mm, 120.5524 mm): Pad 18 [<no net>] of  on F.Cu
+    @(135.0980 mm, 119.2824 mm): Pad 5 [<no net>] of  on F.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(118.5880 mm, 121.8224 mm): Pad 4 [<no net>] of  on B.Cu
+    @(118.1880 mm, 120.5524 mm): Pad 18 [<no net>] of  on B.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(118.1880 mm, 120.5524 mm): Pad 18 [<no net>] of  on B.Cu
+    @(118.5880 mm, 119.2824 mm): Pad 5 [<no net>] of  on B.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(135.0980 mm, 119.2824 mm): Pad 5 [<no net>] of  on F.Cu
+    @(135.4980 mm, 118.0124 mm): Pad 19 [<no net>] of  on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(135.4980 mm, 118.0124 mm): Pad 19 [<no net>] of  on F.Cu
+    @(135.0980 mm, 116.7424 mm): Pad 6 [<no net>] of  on F.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(118.5880 mm, 119.2824 mm): Pad 5 [<no net>] of  on B.Cu
+    @(118.1880 mm, 118.0124 mm): Pad 19 [<no net>] of  on B.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(135.0980 mm, 116.7424 mm): Pad 6 [<no net>] of  on F.Cu
+    @(135.4980 mm, 115.4724 mm): Pad 20 [<no net>] of  on F.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(118.1880 mm, 118.0124 mm): Pad 19 [<no net>] of  on B.Cu
+    @(118.5880 mm, 116.7424 mm): Pad 6 [<no net>] of  on B.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(118.5880 mm, 116.7424 mm): Pad 6 [<no net>] of  on B.Cu
+    @(118.1880 mm, 115.4724 mm): Pad 20 [<no net>] of  on B.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(135.4980 mm, 115.4724 mm): Pad 20 [<no net>] of  on F.Cu
+    @(135.0980 mm, 114.2024 mm): Pad 7 [<no net>] of  on F.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(118.1880 mm, 115.4724 mm): Pad 20 [<no net>] of  on B.Cu
+    @(118.5880 mm, 114.2024 mm): Pad 7 [<no net>] of  on B.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(135.0980 mm, 114.2024 mm): Pad 8 [<no net>] of  on B.Cu
+    @(135.4980 mm, 115.4724 mm): Pad 21 [<no net>] of  on B.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(118.1880 mm, 115.4724 mm): Pad 21 [<no net>] of  on F.Cu
+    @(118.5880 mm, 114.2024 mm): Pad 8 [<no net>] of  on F.Cu
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(150.7430 mm, 55.4724 mm): Footprint text of JP1_F (CS)
+    @(152.9430 mm, 55.4724 mm): Footprint text of JP2_F (SCK)
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(159.9430 mm, 55.4724 mm): Footprint text of JP4_F (GND)
+    @(157.7430 mm, 55.4724 mm): Footprint text of JP2_F (GND)
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(164.7430 mm, 55.4724 mm): Footprint text of JP4_F (SCK)
+    @(166.9430 mm, 55.4724 mm): Footprint text of JP5_F (CS)
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(151.0930 mm, 52.8224 mm): Segment of JP1_F on F.Silkscreen
+    @(150.3430 mm, 53.8224 mm): Pad 3 [<no net>] of JP1_F on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(158.0930 mm, 52.8224 mm): Segment of JP2_F on F.Silkscreen
+    @(157.3430 mm, 53.8224 mm): Pad 3 [<no net>] of JP2_F on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(165.0930 mm, 52.8224 mm): Segment of JP4_F on F.Silkscreen
+    @(164.3430 mm, 53.8224 mm): Pad 3 [<no net>] of JP4_F on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(172.0930 mm, 52.8224 mm): Segment of JP5_F on F.Silkscreen
+    @(171.3430 mm, 53.8224 mm): Pad 3 [<no net>] of JP5_F on F.Cu
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(150.7430 mm, 55.4724 mm): Footprint text of JP1_B (CS)
+    @(145.9430 mm, 55.4724 mm): Footprint text of JP1_B (MOSI)
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(166.9430 mm, 55.4724 mm): Footprint text of JP5_B (CS)
+    @(171.7430 mm, 55.4724 mm): Footprint text of JP5_B (MOSI)
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(159.9430 mm, 55.4724 mm): Footprint text of JP4_B (GND)
+    @(164.7430 mm, 55.4724 mm): Footprint text of JP4_B (SCK)
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(157.7430 mm, 55.4724 mm): Footprint text of JP2_B (GND)
+    @(152.9430 mm, 55.4724 mm): Footprint text of JP2_B (SCK)
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(172.0930 mm, 52.8224 mm): Segment of JP5_B on B.Silkscreen
+    @(171.3430 mm, 53.8224 mm): Pad 3 [<no net>] of JP5_B on B.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(165.0930 mm, 52.8224 mm): Segment of JP4_B on B.Silkscreen
+    @(164.3430 mm, 53.8224 mm): Pad 3 [<no net>] of JP4_B on B.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(151.0930 mm, 52.8224 mm): Segment of JP1_B on B.Silkscreen
+    @(150.3430 mm, 53.8224 mm): Pad 3 [<no net>] of JP1_B on B.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(158.0930 mm, 52.8224 mm): Segment of JP2_B on B.Silkscreen
+    @(157.3430 mm, 53.8224 mm): Pad 3 [<no net>] of JP2_B on B.Cu
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - Footprint component type doesn't match footprint pads
+
+** End of Report **
