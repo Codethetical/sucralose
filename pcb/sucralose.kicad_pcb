@@ -1592,7 +1592,10 @@
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
 			(pts
-				(xy -8 -8) (xy 8 -8) (xy 8 8) (xy -8 8)
+				(xy -12.75 -8)
+				(xy 12.75 -8)
+				(xy 12.75 8)
+				(xy -12.75 8)
 			)
 			(stroke
 				(width 0.05)
@@ -1604,7 +1607,10 @@
 		)
 		(fp_poly
 			(pts
-				(xy -8 -8) (xy 8 -8) (xy 8 8) (xy -8 8)
+				(xy -12.75 -8)
+				(xy 12.75 -8)
+				(xy 12.75 8)
+				(xy -12.75 8)
 			)
 			(stroke
 				(width 0.05)
