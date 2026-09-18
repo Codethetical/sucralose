@@ -1,200 +1,54 @@
 (footprint "SolderJumper_Chevron_JP2_SCK_GND_F_sucralose"
-	(version 20260206)
-	(generator "pcbnew")
-	(generator_version "10.0")
+	(version 20241229)
+	(generator "ryn")
 	(layer "F.Cu")
 	(descr "nice!view header hole 2 net select, F face. Bridge the centre chevron to SCK when the display is soldered to the FRONT, or to GND when soldered to the BACK. Exactly one bridge. Pad geometry follows KiCad SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm.")
 	(tags "solder jumper open chevron reversible niceview")
-	(property "Reference" ""
-		(at 0 0 0)
-		(layer "F.SilkS")
-		(uuid "9c3811fc-1ade-434c-84a0-77021aeabf54")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
-	(property "Value" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(uuid "60f7a3df-b3b5-4d12-9eb2-1ae97a60a6b0")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
-	(property "Datasheet" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "5b861a08-b3d0-41a2-a581-c68478c3090d")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
-	(property "Description" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "75bf3543-17a8-4c39-8930-36b2d1ce4d79")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(zone_connect 1)
 	(attr exclude_from_pos_files exclude_from_bom allow_soldermask_bridges)
 	(duplicate_pad_numbers_are_jumpers no)
-	(fp_rect
-		(start -2.5 -0.75)
-		(end 2.5 0.75)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill yes)
-		(layer "F.Mask")
-		(uuid "fda144a0-4fd2-4760-9cc2-0ecfe251f475")
-	)
-	(fp_line
-		(start -2.75 -1)
-		(end -2.75 1)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "7fcb39cd-9fbc-4d30-b8ab-000fe37374c3")
-	)
-	(fp_line
-		(start -2.75 -1)
-		(end 2.75 -1)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "7f203f3a-681b-44a2-803f-9d2cb3811ab9")
-	)
-	(fp_line
-		(start -2.75 1)
-		(end 2.75 1)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "fefb974f-c4b1-42a4-b929-6638c421236d")
-	)
-	(fp_line
-		(start 2.75 -1)
-		(end 2.75 1)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "4c786367-f5f9-44c2-a17b-3e9a854702af")
-	)
+	(fp_rect (start -2.5 -0.75) (end 2.5 0.75) (stroke (width 0) (type default)) (fill yes) (layer "F.Mask"))
+	(fp_line (start -2.75 -1) (end 2.75 -1) (stroke (width 0.12) (type solid)) (layer "F.SilkS"))
+	(fp_line (start -2.75 -1) (end -2.75 1) (stroke (width 0.12) (type solid)) (layer "F.SilkS"))
+	(fp_line (start 2.75 -1) (end 2.75 1) (stroke (width 0.12) (type solid)) (layer "F.SilkS"))
+	(fp_line (start -2.75 1) (end 2.75 1) (stroke (width 0.12) (type solid)) (layer "F.SilkS"))
 	(fp_text user "SCK"
 		(at -2.4 1.65 0)
 		(layer "F.SilkS")
-		(uuid "2cddeb4c-ec85-47ea-9ab8-4815c661bc36")
-		(effects
-			(font
-				(size 0.7 0.7)
-				(thickness 0.12)
-			)
-			(justify right)
-		)
-	)
-	(fp_text user "JP2"
-		(at 0 -1.65 0)
-		(layer "F.SilkS")
-		(uuid "e4f3ab97-57c8-4853-beff-5ad10d3dc15d")
-		(effects
-			(font
-				(size 0.7 0.7)
-				(thickness 0.12)
-			)
-		)
+		(effects (font (size 0.9 0.9) (thickness 0.15)) (justify right))
 	)
 	(fp_text user "GND"
 		(at 2.4 1.65 0)
 		(layer "F.SilkS")
-		(uuid "9d9747e6-17d0-4912-a8c5-806ee86960d6")
-		(effects
-			(font
-				(size 0.7 0.7)
-				(thickness 0.12)
-			)
-			(justify left)
-		)
+		(effects (font (size 0.9 0.9) (thickness 0.15)) (justify left))
+	)
+	(fp_text user "JP2"
+		(at 0 -1.65 0)
+		(layer "F.SilkS")
+		(effects (font (size 0.9 0.9) (thickness 0.15)) (justify))
 	)
 	(pad "1" smd custom
 		(at -2 0)
 		(size 0.3 0.3)
 		(layers "F.Cu" "F.Mask")
 		(zone_connect 2)
-		(options
-			(clearance outline)
-			(anchor rect)
-		)
-		(primitives
-			(gr_poly
-				(pts
-					(xy 1 0) (xy 0.5 0.75) (xy -0.5 0.75) (xy -0.5 -0.75) (xy 0.5 -0.75)
-				)
-				(width 0)
-				(fill yes)
-			)
-		)
-		(uuid "0fbb7f40-1141-45ae-8280-be98257c7399")
+		(options (clearance outline) (anchor rect))
+		(primitives (gr_poly (pts (xy 1 0) (xy 0.5 0.75) (xy -0.5 0.75) (xy -0.5 -0.75) (xy 0.5 -0.75)) (width 0) (fill yes)))
 	)
 	(pad "2" smd custom
 		(at 0 0)
 		(size 0.3 0.3)
 		(layers "F.Cu")
 		(zone_connect 2)
-		(options
-			(clearance outline)
-			(anchor rect)
-		)
-		(primitives
-			(gr_poly
-				(pts
-					(xy 0.7 0) (xy 1.2 0.75) (xy -1.2 0.75) (xy -0.7 0) (xy -1.2 -0.75) (xy 1.2 -0.75)
-				)
-				(width 0)
-				(fill yes)
-			)
-		)
-		(uuid "827e428d-e61c-4aab-bd56-39df3822c158")
+		(options (clearance outline) (anchor rect))
+		(primitives (gr_poly (pts (xy 0.7 0) (xy 1.2 0.75) (xy -1.2 0.75) (xy -0.7 0) (xy -1.2 -0.75) (xy 1.2 -0.75)) (width 0) (fill yes)))
 	)
 	(pad "3" smd custom
 		(at 2 0 180)
 		(size 0.3 0.3)
 		(layers "F.Cu" "F.Mask")
 		(zone_connect 2)
-		(options
-			(clearance outline)
-			(anchor rect)
-		)
-		(primitives
-			(gr_poly
-				(pts
-					(xy -1 0) (xy -0.5 -0.75) (xy 0.5 -0.75) (xy 0.5 0.75) (xy -0.5 0.75)
-				)
-				(width 0)
-				(fill yes)
-			)
-		)
-		(uuid "bfb669b7-4b9d-4cea-a85e-4fb8c2f4cff1")
+		(options (clearance outline) (anchor rect))
+		(primitives (gr_poly (pts (xy -1 0) (xy -0.5 -0.75) (xy 0.5 -0.75) (xy 0.5 0.75) (xy -0.5 0.75)) (width 0) (fill yes)))
 	)
-	(embedded_fonts no)
 )
