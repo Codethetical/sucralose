@@ -1,0 +1,201 @@
+(footprint "SolderJumper_Chevron_JP2_SCK_GND_B_sucralose"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "B.Cu")
+	(descr "nice!view header hole 2 net select, B face. Bridge the centre chevron to SCK when the display is soldered to the FRONT, or to GND when soldered to the BACK. Exactly one bridge. Pad geometry follows KiCad SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm.")
+	(tags "solder jumper open chevron reversible niceview")
+	(property "Reference" ""
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "f4138fd7-568c-4171-93cf-ab78ef1092e3")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Value" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "45c3850c-daa5-4bd6-8c3e-16ce79fea408")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0cf5a7cd-fdf8-47c7-ba3c-4856fcb29365")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "82eb0b4f-0f2b-4d64-af6d-a8ab79ce0df5")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(zone_connect 1)
+	(attr exclude_from_pos_files exclude_from_bom allow_soldermask_bridges)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -2.5 -0.75)
+		(end 2.5 0.75)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "B.Mask")
+		(uuid "0e5c2ecb-f648-4d01-a177-7bd670afbf5b")
+	)
+	(fp_line
+		(start -2.75 -1)
+		(end -2.75 1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "e4328f9c-aeff-4e82-883d-12018276e9d1")
+	)
+	(fp_line
+		(start -2.75 -1)
+		(end 2.75 -1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "2e3eacbe-3179-4e26-bb32-9e750760eba9")
+	)
+	(fp_line
+		(start -2.75 1)
+		(end 2.75 1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "f676ed8c-d4f9-42af-9d48-2b4df9ecede9")
+	)
+	(fp_line
+		(start 2.75 -1)
+		(end 2.75 1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "a0814b6a-4187-43bc-9bd6-de050e67de75")
+	)
+	(fp_text user "SCK"
+		(at -2.4 1.65 0)
+		(layer "B.SilkS")
+		(uuid "c5a21c72-d589-4987-943c-e2b6ef016759")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.12)
+			)
+			(justify right mirror)
+		)
+	)
+	(fp_text user "JP2"
+		(at 0 -1.65 0)
+		(layer "B.SilkS")
+		(uuid "412352bf-bd69-41d4-bfa1-e318854e09b3")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.12)
+			)
+			(justify mirror)
+		)
+	)
+	(fp_text user "GND"
+		(at 2.4 1.65 0)
+		(layer "B.SilkS")
+		(uuid "f68adee3-9830-4e45-9c93-fec945b8d44d")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.12)
+			)
+			(justify left mirror)
+		)
+	)
+	(pad "1" smd custom
+		(at -2 0)
+		(size 0.3 0.3)
+		(layers "B.Cu" "B.Mask")
+		(zone_connect 2)
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 1 0) (xy 0.5 0.75) (xy -0.5 0.75) (xy -0.5 -0.75) (xy 0.5 -0.75)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "04e6785e-97d3-4787-9e3e-e7c9dfccfe95")
+	)
+	(pad "2" smd custom
+		(at 0 0)
+		(size 0.3 0.3)
+		(layers "B.Cu")
+		(zone_connect 2)
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 0.7 0) (xy 1.2 0.75) (xy -1.2 0.75) (xy -0.7 0) (xy -1.2 -0.75) (xy 1.2 -0.75)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "eb23cc3c-a005-4af3-a230-e3157789bf94")
+	)
+	(pad "3" smd custom
+		(at 2 0 180)
+		(size 0.3 0.3)
+		(layers "B.Cu" "B.Mask")
+		(zone_connect 2)
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -1 0) (xy -0.5 -0.75) (xy 0.5 -0.75) (xy 0.5 0.75) (xy -0.5 0.75)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "822330d3-b65f-4d52-9889-07937f0bc76d")
+	)
+	(embedded_fonts no)
+)
