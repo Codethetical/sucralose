@@ -40,3 +40,28 @@
 (rule "diode_nests_inside_switch_courtyard"
 	(constraint courtyard_clearance (min -2mm))
 	(condition "A.Reference == 'D*' || B.Reference == 'D*'"))
+
+# Battery pads 28/29 on the XIAO: front and back stack on the same two holes
+#
+# Pads 28 and 29 (BAT+ / BAT-) are through-hole so the connection can cross the
+# board: the pads sit on the UNDERSIDE of the XIAO, so the module is soldered
+# from the opposite face. Mirroring the footprint swaps 28<->29, so each hole is
+# VCC for one mount side and GND for the other -- which is what the VCC/GND
+# solder jumpers select. Only one XIAO is ever populated.
+#
+# KiCad sees the front footprint's pad 28 and the back footprint's pad 29
+# occupying one hole with different pad numbers and reports clearance 0 and a
+# mask bridge. Both are the intended geometry. Scoped to REF**, which belongs
+# only to the two XIAO footprints, AND to pad numbers 28/29, so no other pad on
+# the module is covered.
+#
+# Verified: 'A.Footprint_Name == XIAO*' waives nothing (count stays 14), while
+# this condition drops it to 10 -- i.e. exactly the 4 battery-pad pairs.
+
+(rule "xiao_battery_pads_share_holes"
+	(constraint clearance (min 0mm))
+	(condition "(A.memberOfFootprint('REF**') && B.memberOfFootprint('REF**')) && (A.Pad_Number == '28' || A.Pad_Number == '29') && (B.Pad_Number == '28' || B.Pad_Number == '29')"))
+
+(rule "xiao_battery_pads_share_hole_clearance"
+	(constraint hole_clearance (min 0mm))
+	(condition "(A.memberOfFootprint('REF**') && B.memberOfFootprint('REF**')) && (A.Pad_Number == '28' || A.Pad_Number == '29') && (B.Pad_Number == '28' || B.Pad_Number == '29')"))
