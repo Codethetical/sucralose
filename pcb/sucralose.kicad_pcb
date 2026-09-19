@@ -8894,48 +8894,10 @@
 		(layer "Edge.Cuts")
 		(uuid "eb84633f-35f6-4580-a946-0a00e23d45c6")
 	)
-	(gr_curve
-		(pts
-			(xy 177.5 61.5) (xy 177.5 61) (xy 177.963607 60.331347) (xy 178.658999 60.32119)
-		)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "f28b1747-8eac-4179-a8b8-44706fb9e67d")
-	)
-	(gr_line
-		(start 177.5 102.955)
-		(end 177.5 61.5)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "c5e4e138-9ef7-4319-a5d5-f05d7cb58b22")
-	)
-	(gr_curve
-		(pts
-			(xy 178.510409 103.920752) (xy 178.005204 103.915799) (xy 177.495046 103.470031) (xy 177.499999 102.95492)
-		)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "99313621-937c-4cfe-acc5-195336ecf588")
-	)
-	(gr_line
-		(start 178.659 60.321)
-		(end 197.406 60.325)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "ac1b552e-8054-41ff-986b-76982627ec97")
-	)
+
+
+
+
 	(gr_line
 		(start 192.2085 138.7782)
 		(end 192.654 138.89)
@@ -9046,48 +9008,10 @@
 		(layer "Edge.Cuts")
 		(uuid "f11fb5ac-c939-4caf-bce0-00d1ad603d6d")
 	)
-	(gr_curve
-		(pts
-			(xy 197.499748 103.921004) (xy 197.985141 103.921003) (xy 198.505204 103.425704) (xy 198.505204 102.930406)
-		)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "9d99e3f5-15d5-40a2-8f0a-5fc1784c51c0")
-	)
-	(gr_line
-		(start 197.5 103.921)
-		(end 178.5104 103.9208)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "3a13b3d8-0c9f-44aa-86e9-31ca8c9a3dd1")
-	)
-	(gr_curve
-		(pts
-			(xy 198.5 61.5) (xy 198.5 61) (xy 198.085459 60.325388) (xy 197.405661 60.325388)
-		)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "23aa52b7-1198-4285-b0ef-b1543ae6021a")
-	)
-	(gr_line
-		(start 198.5 61.5)
-		(end 198.505 102.93)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "8383b36e-2bca-4957-a42d-f1db0e353b60")
-	)
+
+
+
+
 	(gr_curve
 		(pts
 			(xy 200 60) (xy 200 58.5) (xy 198.5 57.5) (xy 197 57.5)
@@ -12895,5 +12819,101 @@
 			)
 		(fp_rect (start -2.35 -0.85) (end 2.35 0.85) (stroke (width 0.05) (type default)) (fill none) (layer "F.CrtYd"))
 		(fp_rect (start -2.35 -0.85) (end 2.35 0.85) (stroke (width 0.05) (type default)) (fill none) (layer "B.CrtYd"))
+	)
+	(gr_line
+		(start 178.500000 60.321000)
+		(end 201.500000 60.321000)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "964cc1af-5e7a-4c2c-bc08-38200dc60f95")
+	)
+	(gr_line
+		(start 202.500000 61.321000)
+		(end 202.500000 96.321000)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "62273596-dd9b-4324-a8ed-9e979eaa9965")
+	)
+	(gr_line
+		(start 201.500000 97.321000)
+		(end 178.500000 97.321000)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "5be97f5e-9ffe-4d19-9090-bd3644705485")
+	)
+	(gr_line
+		(start 177.500000 96.321000)
+		(end 177.500000 61.321000)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "df9b6d7f-0108-4a54-bbda-9a556fbc2283")
+	)
+	(gr_curve
+		(pts
+			(xy 177.500000 61.321000)
+			(xy 177.500000 60.768715)
+			(xy 177.947715 60.321000)
+			(xy 178.500000 60.321000)
+		)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "402f5180-adc4-44da-bc8f-88cde7abaca1")
+	)
+	(gr_curve
+		(pts
+			(xy 201.500000 60.321000)
+			(xy 202.052285 60.321000)
+			(xy 202.500000 60.768715)
+			(xy 202.500000 61.321000)
+		)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "4d873de9-df28-489f-969d-09d092aca6c4")
+	)
+	(gr_curve
+		(pts
+			(xy 202.500000 96.321000)
+			(xy 202.500000 96.873285)
+			(xy 202.052285 97.321000)
+			(xy 201.500000 97.321000)
+		)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "6cb713c6-b03f-4378-b8c3-7044dfa25fed")
+	)
+	(gr_curve
+		(pts
+			(xy 178.500000 97.321000)
+			(xy 177.947715 97.321000)
+			(xy 177.500000 96.873285)
+			(xy 177.500000 96.321000)
+		)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "1e3b4c13-86ba-4e1d-9095-473a32994923")
 	)
 )
