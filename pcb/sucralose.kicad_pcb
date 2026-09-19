@@ -1582,7 +1582,7 @@
 	(footprint "CustomParts:MountingHole_1.2mm_M1"
 		(layer "F.Cu")
 		(uuid "1f7f3047-94a8-49c1-9425-aa428fd6da57")
-		(at 139.5 129.5)
+		(at 138.612806 130.378892)
 		(descr "Mounting Hole 1.2mm, M1, no annular, copied from M2 Mounting Hole")
 		(tags "mountinghole M2")
 		(property "Reference" "M1"
@@ -2410,113 +2410,6 @@
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "inner_top")
 			(uuid "bcfc9344-2173-44cf-a0bb-7e87ed6aa240")
-		)
-		(embedded_fonts no)
-	)
-	(footprint "CustomParts:MountingHole_1.2mm_M1"
-		(layer "F.Cu")
-		(uuid "3568d3df-65a0-45c8-9db1-54e24b676f0f")
-		(at 103.5 72.5)
-		(descr "Mounting Hole 1.2mm, M1, no annular, copied from M2 Mounting Hole")
-		(tags "mountinghole M2")
-		(property "Reference" "M1"
-			(at 0 2.5 0)
-			(layer "F.SilkS")
-			(uuid "6f037bfd-0ba1-4880-8fbe-15b662962bfa")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "MountingHole_1.2mm_M1"
-			(at 0 3.15 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "bc8c59bf-c32a-4460-8ead-d43ac2dc35da")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a1512d49-8139-47cc-9a27-78d688f49c7c")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b8bde9d4-6e6f-4659-9656-3155bdb64671")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KiLib_Generator" "mounting_hardware/mounting_hole"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "ba48f4bc-ec77-4561-88fd-c1897d1de956")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(attr exclude_from_pos_files exclude_from_bom)
-		(duplicate_pad_numbers_are_jumpers no)
-		(fp_circle
-			(center 0 0)
-			(end 1.2 0)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(fill no)
-			(layer "Cmts.User")
-			(uuid "35253b34-f0af-4938-9a98-dce1e884009e")
-		)
-		(fp_circle
-			(center 0 0)
-			(end 1.3 0)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "7da2bc79-055b-45c6-be41-365c193c03e3")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(uuid "42fad430-ec1d-4818-a053-f0a151e5387f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "" np_thru_hole circle
-			(at 0 0)
-			(size 1.2 1.2)
-			(drill 1.2)
-			(layers "*.Cu" "*.Mask")
-			(uuid "6b267ad4-117f-4399-b076-65241020800f")
 		)
 		(embedded_fonts no)
 	)
@@ -11328,11 +11221,11 @@
 	(footprint "CustomParts:MountingHole_1.2mm_M1"
 		(layer "F.Cu")
 		(uuid "bbd82016-2136-41b3-a2b7-30aa28d806a4")
-		(at 65.58624 69.479676)
+		(at 66.299106 74.3289)
 		(descr "Mounting Hole 1.2mm, M1, no annular, copied from M2 Mounting Hole")
 		(tags "mountinghole M2")
 		(property "Reference" "M1"
-			(at -0.58624 -2.479676 0)
+			(at -0.58624 -1.979676 0)
 			(layer "F.SilkS")
 			(uuid "66819069-ade1-49cd-ac51-5c23184f1ede")
 			(effects
@@ -12086,11 +11979,11 @@
 	(footprint "CustomParts:MountingHole_1.2mm_M1"
 		(layer "F.Cu")
 		(uuid "ddb7298c-72a8-40b5-a769-2a6a53e778ec")
-		(at 133 109)
+		(at 134.5 109.5)
 		(descr "Mounting Hole 1.2mm, M1, no annular, copied from M2 Mounting Hole")
 		(tags "mountinghole M2")
 		(property "Reference" "M1"
-			(at 2.523779 0.090644 0)
+			(at -2.5 0.090644 0)
 			(layer "F.SilkS")
 			(uuid "dd080a09-2e42-478e-8a82-e5d171513780")
 			(effects
@@ -12193,11 +12086,11 @@
 	(footprint "CustomParts:MountingHole_1.2mm_M1"
 		(layer "F.Cu")
 		(uuid "de3ca551-236d-470b-aa49-655b362618e4")
-		(at 114 118)
+		(at 116.616507 130.277058)
 		(descr "Mounting Hole 1.2mm, M1, no annular, copied from M2 Mounting Hole")
 		(tags "mountinghole M2")
 		(property "Reference" "M1"
-			(at 2.523779 0.090644 0)
+			(at 0 -2 0)
 			(layer "F.SilkS")
 			(uuid "e8044193-1366-4978-9a8a-3e6b5ab07b92")
 			(effects
@@ -12830,6 +12723,113 @@
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "middle_top")
 			(uuid "8dad6991-e31c-434c-9371-b312863ff873")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "CustomParts:MountingHole_1.2mm_M1"
+		(layer "F.Cu")
+		(uuid "ecaf311c-8255-4122-86f4-fa42b17c658a")
+		(at 64.66975 63.839924)
+		(descr "Mounting Hole 1.2mm, M1, no annular, copied from M2 Mounting Hole")
+		(tags "mountinghole M2")
+		(property "Reference" "M1"
+			(at 0.33025 2.160076 0)
+			(layer "F.SilkS")
+			(uuid "b643499b-97d4-4600-a18b-b0833277396f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole_1.2mm_M1"
+			(at 0 3.15 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7e79f25a-e351-433c-b390-133c0a409a82")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8d90a7f9-54f2-4bfe-b4b0-69b9defefc89")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "239ac192-7e54-4d5b-b6d4-99e1506ef960")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "mounting_hardware/mounting_hole"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "50dd1cf6-7579-41d3-8aca-5e672cdc5ba6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center 0 0)
+			(end 1.2 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill no)
+			(layer "Cmts.User")
+			(uuid "74acbaee-1322-40ca-b203-d39d16f8d866")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1.3 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "b97f9d5d-ce8f-4916-ae29-37d6df5959e2")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "1db1f16a-0bb5-4a44-a985-a7471e449a19")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 1.2 1.2)
+			(drill 1.2)
+			(layers "*.Cu" "*.Mask")
+			(uuid "a4b9c5ec-e05b-496c-97da-0629e0459dc1")
 		)
 		(embedded_fonts no)
 	)
