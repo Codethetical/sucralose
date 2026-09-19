@@ -9736,6 +9736,8 @@
 			(roundrect_rratio 0.1)
 			(thermal_bridge_angle 45)
 			(uuid "c9a02e75-5f3c-4c59-8463-c9f1beb987a5")
+		
+			(net 1 "COL0")
 		)
 		(pad "2" smd roundrect
 			(at 5.08 -8.255)
@@ -9744,6 +9746,8 @@
 			(roundrect_rratio 0.1)
 			(thermal_bridge_angle 45)
 			(uuid "cfe72d01-410b-4461-b0b3-8cbaead6a94c")
+		
+			(net 2 "COL1")
 		)
 		(pad "3" smd roundrect
 			(at 2.54 -8.255)
@@ -9752,6 +9756,8 @@
 			(roundrect_rratio 0.1)
 			(thermal_bridge_angle 45)
 			(uuid "659530c9-6f5c-4e01-91e0-ffdf4d521a65")
+		
+			(net 3 "COL2")
 		)
 		(pad "4" smd roundrect
 			(at 0 -8.255)
@@ -9760,6 +9766,8 @@
 			(roundrect_rratio 0.1)
 			(thermal_bridge_angle 45)
 			(uuid "93101472-30cc-46e7-9705-da1dbd15ea46")
+		
+			(net 4 "COL3")
 		)
 		(pad "5" smd roundrect
 			(at -2.54 -8.255)
@@ -9768,6 +9776,8 @@
 			(roundrect_rratio 0.1)
 			(thermal_bridge_angle 45)
 			(uuid "eae4a9c6-0af6-4c89-9c19-5a336f60ff29")
+		
+			(net 5 "COL4")
 		)
 		(pad "6" smd roundrect
 			(at -5.08 -8.255)
@@ -9776,6 +9786,8 @@
 			(roundrect_rratio 0.1)
 			(thermal_bridge_angle 45)
 			(uuid "1ccc7af4-64df-45ee-93f8-256ba21ca1a4")
+		
+			(net 6 "COL5")
 		)
 		(pad "7" smd roundrect
 			(at -7.62 -8.255)
@@ -9784,6 +9796,8 @@
 			(roundrect_rratio 0.1)
 			(thermal_bridge_angle 45)
 			(uuid "ed71c294-a863-443b-b167-bd31dc818d5a")
+		
+			(net 7 "ROW0")
 		)
 		(pad "8" smd roundrect
 			(at -7.62 8.255 180)
@@ -9792,6 +9806,8 @@
 			(roundrect_rratio 0.1)
 			(thermal_bridge_angle 45)
 			(uuid "17c56ee3-d5b6-422d-9add-ccf9a3fce6ff")
+		
+			(net 8 "ROW1")
 		)
 		(pad "9" smd roundrect
 			(at -5.08 8.255 180)
@@ -9800,6 +9816,8 @@
 			(roundrect_rratio 0.1)
 			(thermal_bridge_angle 45)
 			(uuid "63687368-e844-4cc4-9a7f-09d63c356234")
+		
+			(net 9 "ROW2")
 		)
 		(pad "10" smd roundrect
 			(at -2.54 8.255 180)
@@ -9808,6 +9826,8 @@
 			(roundrect_rratio 0.1)
 			(thermal_bridge_angle 45)
 			(uuid "73a3b711-e835-4c96-8497-d871632fedd6")
+		
+			(net 10 "ROW3")
 		)
 		(pad "11" smd roundrect
 			(at 0 8.255 180)
@@ -9816,6 +9836,8 @@
 			(roundrect_rratio 0.1)
 			(thermal_bridge_angle 45)
 			(uuid "9a48fc22-1f4f-4991-9669-f3069d59b6c8")
+		
+			(net 35 "MOSI")
 		)
 		(pad "12" smd roundrect
 			(at 2.54 8.255 180)
@@ -9824,6 +9846,8 @@
 			(roundrect_rratio 0.1)
 			(thermal_bridge_angle 45)
 			(uuid "c359e44a-6d5b-46b7-ae4e-d67d90d92e1d")
+		
+			(net 32 "VCC")
 		)
 		(pad "13" smd roundrect
 			(at 5.08 8.255 180)
@@ -9832,6 +9856,8 @@
 			(roundrect_rratio 0.1)
 			(thermal_bridge_angle 45)
 			(uuid "d8a27cbf-15c4-4846-a4e8-9b49550ea77d")
+		
+			(net 33 "GND")
 		)
 		(pad "14" smd roundrect
 			(at 7.62 8.255 180)
@@ -9850,6 +9876,8 @@
 			(chamfer top_left bottom_left)
 			(thermal_bridge_angle 45)
 			(uuid "e998b8ec-36f0-4b21-8b98-5bcaab79e5f0")
+		
+			(net 36 "SCK")
 		)
 		(pad "16" smd roundrect
 			(at 3.81 -8.655)
@@ -9860,6 +9888,8 @@
 			(chamfer top_left bottom_left)
 			(thermal_bridge_angle 45)
 			(uuid "dbbf4cd6-846b-4d1c-96c2-fe9cf833ae2d")
+		
+			(net 37 "CS")
 		)
 		(pad "17" smd roundrect
 			(at 1.27 -8.655)
@@ -14259,6 +14289,8 @@
 			(roundrect_rratio 0.1)
 			(thermal_bridge_angle 45)
 			(uuid "58926671-3441-43d6-9593-6bd1165d75eb")
+		
+			(net 1 "COL0")
 		)
 		(pad "2" smd roundrect
 			(at 5.08 8.255 180)
@@ -14267,6 +14299,8 @@
 			(roundrect_rratio 0.1)
 			(thermal_bridge_angle 45)
 			(uuid "99f38a7b-e65b-452e-8cb4-ca56270a9993")
+		
+			(net 2 "COL1")
 		)
 		(pad "3" smd roundrect
 			(at 2.54 8.255 180)
@@ -14275,6 +14309,8 @@
 			(roundrect_rratio 0.1)
 			(thermal_bridge_angle 45)
 			(uuid "036a125a-5eb0-441f-a0a8-2a63ef2bb5c4")
+		
+			(net 3 "COL2")
 		)
 		(pad "4" smd roundrect
 			(at 0 8.255 180)
@@ -14283,6 +14319,8 @@
 			(roundrect_rratio 0.1)
 			(thermal_bridge_angle 45)
 			(uuid "4dc5a5bc-eed6-416c-b65b-bc3d31004381")
+		
+			(net 4 "COL3")
 		)
 		(pad "5" smd roundrect
 			(at -2.54 8.255 180)
@@ -14291,6 +14329,8 @@
 			(roundrect_rratio 0.1)
 			(thermal_bridge_angle 45)
 			(uuid "ea821b14-0a8f-411d-9494-573a3d0d32e6")
+		
+			(net 5 "COL4")
 		)
 		(pad "6" smd roundrect
 			(at -5.08 8.255 180)
@@ -14299,6 +14339,8 @@
 			(roundrect_rratio 0.1)
 			(thermal_bridge_angle 45)
 			(uuid "986ffff7-84e5-491f-8885-4f0e1bc43345")
+		
+			(net 6 "COL5")
 		)
 		(pad "7" smd roundrect
 			(at -7.62 8.255 180)
@@ -14307,6 +14349,8 @@
 			(roundrect_rratio 0.1)
 			(thermal_bridge_angle 45)
 			(uuid "20f88bbe-c05f-4e90-b2ad-22ffb04a5c1d")
+		
+			(net 7 "ROW0")
 		)
 		(pad "8" smd roundrect
 			(at -7.62 -8.255)
@@ -14315,6 +14359,8 @@
 			(roundrect_rratio 0.1)
 			(thermal_bridge_angle 45)
 			(uuid "b70e850f-adc1-44d2-8889-e812b0734f2e")
+		
+			(net 8 "ROW1")
 		)
 		(pad "9" smd roundrect
 			(at -5.08 -8.255)
@@ -14323,6 +14369,8 @@
 			(roundrect_rratio 0.1)
 			(thermal_bridge_angle 45)
 			(uuid "03f207fb-cde8-4c3a-8222-331443e7fe20")
+		
+			(net 9 "ROW2")
 		)
 		(pad "10" smd roundrect
 			(at -2.54 -8.255)
@@ -14331,6 +14379,8 @@
 			(roundrect_rratio 0.1)
 			(thermal_bridge_angle 45)
 			(uuid "d3aa4f64-158a-4031-8027-7c35536e1ff9")
+		
+			(net 10 "ROW3")
 		)
 		(pad "11" smd roundrect
 			(at 0 -8.255)
@@ -14339,6 +14389,8 @@
 			(roundrect_rratio 0.1)
 			(thermal_bridge_angle 45)
 			(uuid "7be86761-5f2d-47a6-acef-9bf6400b549e")
+		
+			(net 35 "MOSI")
 		)
 		(pad "12" smd roundrect
 			(at 2.54 -8.255)
@@ -14347,6 +14399,8 @@
 			(roundrect_rratio 0.1)
 			(thermal_bridge_angle 45)
 			(uuid "527f2c29-6810-4d4b-94dd-80d8c3beaf7d")
+		
+			(net 32 "VCC")
 		)
 		(pad "13" smd roundrect
 			(at 5.08 -8.255)
@@ -14355,6 +14409,8 @@
 			(roundrect_rratio 0.1)
 			(thermal_bridge_angle 45)
 			(uuid "13abd96c-4209-4a6e-aaed-fb59bd188d7f")
+		
+			(net 33 "GND")
 		)
 		(pad "14" smd roundrect
 			(at 7.62 -8.255)
@@ -14373,6 +14429,8 @@
 			(chamfer top_left bottom_left)
 			(thermal_bridge_angle 45)
 			(uuid "9870aea3-e9d1-4dda-83dc-b849d1b6ed20")
+		
+			(net 36 "SCK")
 		)
 		(pad "16" smd roundrect
 			(at 3.81 8.655 180)
@@ -14383,6 +14441,8 @@
 			(chamfer top_left bottom_left)
 			(thermal_bridge_angle 45)
 			(uuid "754486a4-96aa-4fff-8527-6ead85f7af72")
+		
+			(net 37 "CS")
 		)
 		(pad "17" smd roundrect
 			(at 1.27 8.655 180)
