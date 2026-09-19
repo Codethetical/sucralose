@@ -9845,20 +9845,18 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(uuid "a32bb09e-874d-4cb2-823d-a062f1543a68")
 		)
-		(pad "28" thru_hole roundrect
+		(pad "28" smd roundrect
 			(at -5.517823 -0.993988 90)
 			(size 2.5 1.1)
-			(drill 0.8000)
-			(layers "*.Cu" "*.Mask")
+			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.1)
 			(thermal_bridge_angle 45)
 			(uuid "cdf1f6d8-9ea3-41bd-ac02-b160a5179069")
 		)
-		(pad "29" thru_hole roundrect
+		(pad "29" smd roundrect
 			(at -5.517823 1.006012 90)
 			(size 2.5 1.1)
-			(drill 0.8000)
-			(layers "*.Cu" "*.Mask")
+			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.1)
 			(thermal_bridge_angle 45)
 			(uuid "0fd91cc4-88b4-4c17-8924-29d76dc66669")
@@ -9923,7 +9921,21 @@
 				(xyz -90 0 0)
 			)
 		)
-	)
+			(pad "" np_thru_hole circle
+			(at -5.517823 -0.993988 90)
+			(size 0.8 0.8)
+			(drill 0.8)
+			(layers "*.Cu")
+			(uuid "2760906c-e241-4078-89d4-3c70ec735b74")
+		)
+		(pad "" np_thru_hole circle
+			(at -5.517823 1.006012 90)
+			(size 0.8 0.8)
+			(drill 0.8)
+			(layers "*.Cu")
+			(uuid "584ac264-5ca6-4190-a3f3-dc647be9484a")
+		)
+)
 	(footprint "diode_sod123_reversible"
 		(layer "F.Cu")
 		(uuid "ab41d641-4934-4b73-adab-d9d7bfc61960")
@@ -14320,20 +14332,18 @@
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(uuid "650c3571-f011-4690-a90b-55917e2bab50")
 		)
-		(pad "28" thru_hole roundrect
+		(pad "28" smd roundrect
 			(at -5.517823 0.993988 90)
 			(size 2.5 1.1)
-			(drill 0.8000)
-			(layers "*.Cu" "*.Mask")
+			(layers "B.Cu" "B.Mask")
 			(roundrect_rratio 0.1)
 			(thermal_bridge_angle 45)
 			(uuid "a2ca7023-1f38-459e-b479-3dbf16abdd31")
 		)
-		(pad "29" thru_hole roundrect
+		(pad "29" smd roundrect
 			(at -5.517823 -1.006012 90)
 			(size 2.5 1.1)
-			(drill 0.8000)
-			(layers "*.Cu" "*.Mask")
+			(layers "B.Cu" "B.Mask")
 			(roundrect_rratio 0.1)
 			(thermal_bridge_angle 45)
 			(uuid "92edd07f-47d5-4dcd-b3ac-a5e0aeaafcdf")
