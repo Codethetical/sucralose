@@ -1388,7 +1388,7 @@
 	(footprint "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
 		(layer "F.Cu")
 		(uuid "1b001709-e09b-401d-a0c7-3e99abfad624")
-		(at 152.5 53.5)
+		(at 150.775 53.5)
 		(descr "SMD Solder Jumper, 1x1.5mm Triangular Pads, 0.3mm gap, open")
 		(tags "solder jumper open")
 		(property "Reference" "SCK"
@@ -7578,7 +7578,7 @@
 	(footprint "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
 		(layer "F.Cu")
 		(uuid "90cf5b96-09a9-4d3f-bec4-3020fd4fd2ae")
-		(at 162 53.5)
+		(at 163.5 53.5)
 		(descr "SMD Solder Jumper, 1x1.5mm Triangular Pads, 0.3mm gap, open")
 		(tags "solder jumper open")
 		(property "Reference" "CS"
@@ -12836,7 +12836,7 @@
 	(footprint "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
 		(layer "F.Cu")
 		(uuid "ed4e1e2a-b435-4a46-8c23-b94533960ac8")
-		(at 134 105)
+		(at 138.275 105)
 		(descr "SMD Solder Jumper, 1x1.5mm Triangular Pads, 0.3mm gap, open")
 		(tags "solder jumper open")
 		(property "Reference" "GND"
@@ -13297,7 +13297,7 @@
 	(footprint "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
 		(layer "F.Cu")
 		(uuid "f2b5ca9c-1444-4728-9368-aaaa5b0f5b52")
-		(at 147.5 53.5)
+		(at 144.275659 53.5)
 		(descr "SMD Solder Jumper, 1x1.5mm Triangular Pads, 0.3mm gap, open")
 		(tags "solder jumper open")
 		(property "Reference" "MOSI"
@@ -14243,130 +14243,117 @@
 			(size 2.032 0.95)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.1)
+			(net "COL0")
 			(thermal_bridge_angle 45)
 			(uuid "58926671-3441-43d6-9593-6bd1165d75eb")
-		
-			(net "COL0")
 		)
 		(pad "2" smd roundrect
 			(at 5.08 8.255 180)
 			(size 2.032 0.95)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.1)
+			(net "COL1")
 			(thermal_bridge_angle 45)
 			(uuid "99f38a7b-e65b-452e-8cb4-ca56270a9993")
-		
-			(net "COL1")
 		)
 		(pad "3" smd roundrect
 			(at 2.54 8.255 180)
 			(size 2.032 0.95)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.1)
+			(net "COL2")
 			(thermal_bridge_angle 45)
 			(uuid "036a125a-5eb0-441f-a0a8-2a63ef2bb5c4")
-		
-			(net "COL2")
 		)
 		(pad "4" smd roundrect
 			(at 0 8.255 180)
 			(size 2.032 0.95)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.1)
+			(net "COL3")
 			(thermal_bridge_angle 45)
 			(uuid "4dc5a5bc-eed6-416c-b65b-bc3d31004381")
-		
-			(net "COL3")
 		)
 		(pad "5" smd roundrect
 			(at -2.54 8.255 180)
 			(size 2.032 0.95)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.1)
+			(net "COL4")
 			(thermal_bridge_angle 45)
 			(uuid "ea821b14-0a8f-411d-9494-573a3d0d32e6")
-		
-			(net "COL4")
 		)
 		(pad "6" smd roundrect
 			(at -5.08 8.255 180)
 			(size 2.032 0.95)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.1)
+			(net "COL5")
 			(thermal_bridge_angle 45)
 			(uuid "986ffff7-84e5-491f-8885-4f0e1bc43345")
-		
-			(net "COL5")
 		)
 		(pad "7" smd roundrect
 			(at -7.62 8.255 180)
 			(size 2.032 0.95)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.1)
+			(net "ROW0")
 			(thermal_bridge_angle 45)
 			(uuid "20f88bbe-c05f-4e90-b2ad-22ffb04a5c1d")
-		
-			(net "ROW0")
 		)
 		(pad "8" smd roundrect
 			(at -7.62 -8.255)
 			(size 2.032 0.95)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.1)
+			(net "ROW1")
 			(thermal_bridge_angle 45)
 			(uuid "b70e850f-adc1-44d2-8889-e812b0734f2e")
-		
-			(net "ROW1")
 		)
 		(pad "9" smd roundrect
 			(at -5.08 -8.255)
 			(size 2.032 0.95)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.1)
+			(net "ROW2")
 			(thermal_bridge_angle 45)
 			(uuid "03f207fb-cde8-4c3a-8222-331443e7fe20")
-		
-			(net "ROW2")
 		)
 		(pad "10" smd roundrect
 			(at -2.54 -8.255)
 			(size 2.032 0.95)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.1)
+			(net "ROW3")
 			(thermal_bridge_angle 45)
 			(uuid "d3aa4f64-158a-4031-8027-7c35536e1ff9")
-		
-			(net "ROW3")
 		)
 		(pad "11" smd roundrect
 			(at 0 -8.255)
 			(size 2.032 0.95)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.1)
+			(net "MOSI")
 			(thermal_bridge_angle 45)
 			(uuid "7be86761-5f2d-47a6-acef-9bf6400b549e")
-		
-			(net "MOSI")
 		)
 		(pad "12" smd roundrect
 			(at 2.54 -8.255)
 			(size 2.032 0.95)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.1)
+			(net "VCC")
 			(thermal_bridge_angle 45)
 			(uuid "527f2c29-6810-4d4b-94dd-80d8c3beaf7d")
-		
-			(net "VCC")
 		)
 		(pad "13" smd roundrect
 			(at 5.08 -8.255)
 			(size 2.032 0.95)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.1)
+			(net "GND")
 			(thermal_bridge_angle 45)
 			(uuid "13abd96c-4209-4a6e-aaed-fb59bd188d7f")
-		
-			(net "GND")
 		)
 		(pad "14" smd roundrect
 			(at 7.62 -8.255)
@@ -14383,10 +14370,9 @@
 			(roundrect_rratio 0.1)
 			(chamfer_ratio 0.35)
 			(chamfer top_left bottom_left)
+			(net "SCK")
 			(thermal_bridge_angle 45)
 			(uuid "9870aea3-e9d1-4dda-83dc-b849d1b6ed20")
-		
-			(net "SCK")
 		)
 		(pad "16" smd roundrect
 			(at 3.81 8.655 180)
@@ -14395,10 +14381,9 @@
 			(roundrect_rratio 0.1)
 			(chamfer_ratio 0.35)
 			(chamfer top_left bottom_left)
+			(net "CS")
 			(thermal_bridge_angle 45)
 			(uuid "754486a4-96aa-4fff-8527-6ead85f7af72")
-		
-			(net "CS")
 		)
 		(pad "17" smd roundrect
 			(at 1.27 8.655 180)
@@ -14576,7 +14561,7 @@
 	(footprint "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
 		(layer "B.Cu")
 		(uuid "24965078-4e8f-4ee4-bfa1-59dc40e3ff47")
-		(at 152.499341 53.495232)
+		(at 150.774341 53.495232)
 		(descr "SMD Solder Jumper, 1x1.5mm Triangular Pads, 0.3mm gap, open")
 		(tags "solder jumper open")
 		(property "Reference" "SCK"
@@ -14774,7 +14759,7 @@
 	(footprint "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
 		(layer "B.Cu")
 		(uuid "2546717d-ca50-4e10-b11d-df2b9c6e7a53")
-		(at 134.005498 104.994199)
+		(at 138.280498 104.994199)
 		(descr "SMD Solder Jumper, 1x1.5mm Triangular Pads, 0.3mm gap, open")
 		(tags "solder jumper open")
 		(property "Reference" "GND"
@@ -14972,7 +14957,7 @@
 	(footprint "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
 		(layer "B.Cu")
 		(uuid "39be5c21-b323-4e99-8f59-54011c0df184")
-		(at 147.499341 53.495232)
+		(at 144.275 53.495232)
 		(descr "SMD Solder Jumper, 1x1.5mm Triangular Pads, 0.3mm gap, open")
 		(tags "solder jumper open")
 		(property "Reference" "MOSI"
@@ -15762,7 +15747,7 @@
 	(footprint "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
 		(layer "B.Cu")
 		(uuid "8971f13b-3a03-48fc-9ede-26c53ac04bc8")
-		(at 161.999341 53.495232)
+		(at 163.499341 53.495232)
 		(descr "SMD Solder Jumper, 1x1.5mm Triangular Pads, 0.3mm gap, open")
 		(tags "solder jumper open")
 		(property "Reference" "CS"
@@ -16365,18 +16350,16 @@
 			(size 1 5.5)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
-			(uuid "e5ea2d98-9df0-4bee-87de-f2ac7916e12d")
-		
 			(net "GND")
+			(uuid "e5ea2d98-9df0-4bee-87de-f2ac7916e12d")
 		)
 		(pad "2" smd roundrect
 			(at 1 -0.5 180)
 			(size 1 5.5)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
-			(uuid "48082846-f598-4d2b-8ec7-f2142cd2b945")
-		
 			(net "BAT_P")
+			(uuid "48082846-f598-4d2b-8ec7-f2142cd2b945")
 		)
 		(pad "MP" smd roundrect
 			(at -3.4 1.75 180)
