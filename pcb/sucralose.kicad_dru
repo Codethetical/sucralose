@@ -37,6 +37,13 @@
 	(constraint hole_clearance (min 0mm))
 	(condition "A.memberOfFootprint('display*') || B.memberOfFootprint('display*')"))
 
+# Same exemption for the TRACK that arrives at a display ring. memberOfFootprint
+# covers pads; a track entering the ring is a free item and is tested against
+# the barrel by net. Scope by the hole nets so no other NPTH is affected.
+(rule "niceview_npth_track_to_ring"
+	(constraint hole_clearance (min 0mm))
+	(condition "(A.Type == 'Track' && (A.NetName == 'DISP_H1' || A.NetName == 'DISP_H2' || A.NetName == 'DISP_H4' || A.NetName == 'DISP_H5' || A.NetName == 'VCC') && B.memberOfFootprint('display*')) || (B.Type == 'Track' && (B.NetName == 'DISP_H1' || B.NetName == 'DISP_H2' || B.NetName == 'DISP_H4' || B.NetName == 'DISP_H5' || B.NetName == 'VCC') && A.memberOfFootprint('display*'))"))
+
 # Per-switch diode nests INSIDE the switch courtyard
 #
 # The PG1316S has a pocket in its body for the LED/diode. Chalk puts the SOD-123
@@ -85,6 +92,10 @@
 (rule "xiao_battery_npth_concentric_copper"
 	(constraint hole_clearance (min 0mm))
 	(condition "A.memberOfFootprint('REF**') || B.memberOfFootprint('REF**')"))
+
+(rule "xiao_battery_npth_track_to_ring"
+	(constraint hole_clearance (min 0mm))
+	(condition "(A.Type == 'Track' && (A.NetName == 'BATH_A' || A.NetName == 'BATH_B') && B.memberOfFootprint('REF**')) || (B.Type == 'Track' && (B.NetName == 'BATH_A' || B.NetName == 'BATH_B') && A.memberOfFootprint('REF**'))"))
 
 # NOTE: the 2 remaining npth_inside_courtyard reports are the battery barrels
 # sitting under the opposite XIAO's courtyard -- unavoidable, since the two
