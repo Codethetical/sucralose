@@ -2,18 +2,33 @@
 
 # nice!view reversible display mount
 #
-# The 5 display holes are NON-PLATED on purpose. A pin is soldered to the
-# display, passed through the bare hole, and soldered to ONE face of the
-# board. Because the barrel is unplated, the F.Cu ring and the B.Cu ring
-# around the same hole are electrically independent -- that isolation is what
-# lets the front-side jumpers pick the pin mapping while the display itself is
-# soldered from the back.
+# Structure mirrors the battery holes: the FRONT footprint owns the hole and
+# carries the F.Cu pad; the BACK footprint carries only its B.Cu pad, centred on
+# the same hole. One barrel per site, drilled once.
+#
+# The barrel is NON-PLATED, and that is what makes the mount reversible. The
+# front footprint sits at rot 99 and the back at rot -81, so one physical hole
+# is MOSI when the display mounts front and CS when it mounts back:
+#
+#   (102.101, 68.435)  front pad 1 MOSI  /  back pad 5 CS
+#   (101.704, 65.926)  front pad 2 SCK   /  back pad 4 GND
+#   (101.307, 63.417)  front pad 3 VCC   /  back pad 3 VCC     (self-symmetric)
+#   (100.909, 60.909)  front pad 4 GND   /  back pad 2 SCK
+#   (100.512, 58.400)  front pad 5 CS    /  back pad 1 MOSI
+#
+# A plated barrel would short each of those pairs together. Unplated keeps the
+# two faces independent -- verified by test on the battery holes, same geometry.
+#
+# Assembly: everything (XIAO, display, JST, switches, diodes) mounts on ONE
+# side and that side's solder jumpers are bridged. The display's pins are then
+# soldered from the OPPOSITE face, which is why the far-face pad must net to
+# the near-face jumpers.
 #
 # KiCad reports copper concentric with an NPTH as a hole-clearance error. Here
-# the concentricity IS the design. Waived for this footprint only; the
-# condition names both A and B so it also covers a routed track arriving at a
-# ring. Verified: substituting a non-existent reference into the same
-# condition waives nothing, so the exception cannot leak board-wide.
+# the concentricity IS the design. Waived for this footprint only; the condition
+# names both A and B so it also covers a routed track arriving at a pad.
+# Verified: removing this rule returns 10 hole_clearance errors, and a
+# non-existent reference in the same condition waives nothing.
 #
 # The matching solder-mask exception is NOT here -- it lives on the footprint
 # itself as (attr ... allow_soldermask_bridges), which is tighter than a rule.

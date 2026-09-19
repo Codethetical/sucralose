@@ -3348,61 +3348,36 @@
 			(layers "*.Cu")
 			(uuid "44b2cf7f-3bdd-5be8-9467-63c6242c7a82")
 		)
+
+
+
+
+
 		(pad "1" smd circle
-			(at -5.08 16.51 99)
-			(size 1.7526 1.7526)
-			(layers "B.Cu" "B.Mask")
-			(uuid "ff91a6ce-9db4-51ff-9d24-f041d5fe7790")
-		)
-		(pad "2" smd circle
-			(at -2.54 16.51 99)
-			(size 1.7526 1.7526)
-			(layers "B.Cu" "B.Mask")
-			(uuid "6a486a05-137f-5dde-90bc-a169516cbcd8")
-		)
-		(pad "3" smd circle
-			(at 0 16.51 99)
-			(size 1.7526 1.7526)
-			(layers "B.Cu" "B.Mask")
-			(uuid "8dcbf7e0-2d51-5a31-86b9-054f16c66029")
-		)
-		(pad "4" smd circle
-			(at 2.54 16.51 99)
-			(size 1.7526 1.7526)
-			(layers "B.Cu" "B.Mask")
-			(uuid "5368eb7c-55a5-55e5-b442-2113b721dd58")
-		)
-		(pad "5" smd circle
-			(at 5.08 16.51 99)
-			(size 1.7526 1.7526)
-			(layers "B.Cu" "B.Mask")
-			(uuid "b6d4ff05-dcaf-5cf9-bd26-d8dd59fa5a30")
-		)
-		(pad "6" smd circle
 			(at -5.08 16.51 99)
 			(size 1.7526 1.7526)
 			(layers "F.Cu" "F.Mask")
 			(uuid "420a4249-3121-5003-8b43-9f6e57159aba")
 		)
-		(pad "7" smd circle
+		(pad "2" smd circle
 			(at -2.54 16.51 99)
 			(size 1.7526 1.7526)
 			(layers "F.Cu" "F.Mask")
 			(uuid "9065b51d-a5c9-510f-8088-50737016dd12")
 		)
-		(pad "8" smd circle
+		(pad "3" smd circle
 			(at 0 16.51 99)
 			(size 1.7526 1.7526)
 			(layers "F.Cu" "F.Mask")
 			(uuid "e9072ba5-058b-575a-85ba-293ae3df49c9")
 		)
-		(pad "9" smd circle
+		(pad "4" smd circle
 			(at 2.54 16.51 99)
 			(size 1.7526 1.7526)
 			(layers "F.Cu" "F.Mask")
 			(uuid "a590ad81-c6c4-5c5d-b822-e57e69698c70")
 		)
-		(pad "10" smd circle
+		(pad "5" smd circle
 			(at 5.08 16.51 99)
 			(size 1.7526 1.7526)
 			(layers "F.Cu" "F.Mask")
@@ -15156,96 +15131,41 @@
 				(justify right mirror)
 			)
 		)
-		(pad "" np_thru_hole circle
-			(at -5.08 -16.510001 279)
-			(size 1.0922 1.0922)
-			(drill 1.0922)
-			(layers "*.Cu")
-			(uuid "a0188be3-95a5-4ab6-bec9-3c7a337c9004")
-		)
-		(pad "" np_thru_hole circle
-			(at -2.54 -16.51 279)
-			(size 1.0922 1.0922)
-			(drill 1.0922)
-			(layers "*.Cu")
-			(uuid "bb397adf-d9d5-4bf5-939e-3d8e44e7c8f7")
-		)
-		(pad "" np_thru_hole circle
-			(at 0 -16.51 279)
-			(size 1.0922 1.0922)
-			(drill 1.0922)
-			(layers "*.Cu")
-			(uuid "02d04d82-96ea-47b4-8966-0efce3284003")
-		)
-		(pad "" np_thru_hole circle
-			(at 2.54 -16.51 279)
-			(size 1.0922 1.0922)
-			(drill 1.0922)
-			(layers "*.Cu")
-			(uuid "1b9273a5-79a2-47f3-bca6-94f1c53ee538")
-		)
-		(pad "" np_thru_hole circle
-			(at 5.08 -16.509999 279)
-			(size 1.0922 1.0922)
-			(drill 1.0922)
-			(layers "*.Cu")
-			(uuid "3448b3d6-5914-4b70-95c7-4d2302811cf5")
-		)
+
+
+
+
+
+
+
+
+
+
 		(pad "1" smd circle
-			(at -5.08 -16.510001 279)
-			(size 1.7526 1.7526)
-			(layers "F.Cu" "F.Mask")
-			(uuid "851afb7d-0c88-4f39-b862-c2a64098c8ae")
-		)
-		(pad "2" smd circle
-			(at -2.54 -16.51 279)
-			(size 1.7526 1.7526)
-			(layers "F.Cu" "F.Mask")
-			(uuid "a6949b62-0b82-48a1-9076-6a54f0afa19d")
-		)
-		(pad "3" smd circle
-			(at 0 -16.51 279)
-			(size 1.7526 1.7526)
-			(layers "F.Cu" "F.Mask")
-			(uuid "8b90568e-b6a1-434d-a5ec-f4aa9b1e52e4")
-		)
-		(pad "4" smd circle
-			(at 2.54 -16.51 279)
-			(size 1.7526 1.7526)
-			(layers "F.Cu" "F.Mask")
-			(uuid "52d89c40-10b4-4dc6-9aa1-586ff1a2c8f6")
-		)
-		(pad "5" smd circle
-			(at 5.08 -16.509999 279)
-			(size 1.7526 1.7526)
-			(layers "F.Cu" "F.Mask")
-			(uuid "f805b13e-eae5-4c14-a670-9e28425ad914")
-		)
-		(pad "6" smd circle
 			(at -5.08 -16.510001 279)
 			(size 1.7526 1.7526)
 			(layers "B.Cu" "B.Mask")
 			(uuid "fb48e3a3-df72-4369-b41d-c004ba639e13")
 		)
-		(pad "7" smd circle
+		(pad "2" smd circle
 			(at -2.54 -16.51 279)
 			(size 1.7526 1.7526)
 			(layers "B.Cu" "B.Mask")
 			(uuid "9cc4b99f-9ebb-4bac-b559-61e2573a5213")
 		)
-		(pad "8" smd circle
+		(pad "3" smd circle
 			(at 0 -16.51 279)
 			(size 1.7526 1.7526)
 			(layers "B.Cu" "B.Mask")
 			(uuid "8f77486e-cbd7-4a81-88b6-e0272c2c1948")
 		)
-		(pad "9" smd circle
+		(pad "4" smd circle
 			(at 2.54 -16.51 279)
 			(size 1.7526 1.7526)
 			(layers "B.Cu" "B.Mask")
 			(uuid "30b2aeaf-e9b5-4953-a0fc-088054475ea9")
 		)
-		(pad "10" smd circle
+		(pad "5" smd circle
 			(at 5.08 -16.509999 279)
 			(size 1.7526 1.7526)
 			(layers "B.Cu" "B.Mask")
