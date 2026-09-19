@@ -20788,8 +20788,8 @@
 		(layer "Edge.Cuts")
 		(uuid "cf1b14d4-49d8-40c1-a17d-1aa563b34841")
 	)
-	(gr_text "BATTERY BAY 25x37mm"
-		(at 188.5 79.5 270)
+	(gr_text "BATTERY BAY 25x38.5mm"
+		(at 188.5 78.75 270)
 		(layer "Dwgs.User")
 		(uuid "eab36e0f-969f-4d22-af83-5d04410dce19")
 		(effects
