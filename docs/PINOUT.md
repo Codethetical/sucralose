@@ -24,13 +24,13 @@ Two independent chains agree on every pin used here.
 | 2 | D1 | P0.03 | COL1 |
 | 3 | D2 | P0.28 | COL2 |
 | 4 | D3 | P0.29 | COL3 |
-| 5 | D4 | P0.04 | COL4 |
+| 5 | D4 | P0.04 | display MOSI |
 | 6 | D5 | P0.05 | COL5 |
 | 7 | D6 | P1.11 | ROW0 |
 | 8 | D7 | P1.12 | ROW1 |
 | 9 | D8 | P1.13 | ROW2 |
 | 10 | D9 | P1.14 | ROW3 |
-| 11 | D10 | P1.15 | display MOSI |
+| 11 | D10 | P1.15 | COL4 |
 | 12 | 3V3 | - | display VCC |
 | 13 | GND | - | GND |
 | 14 | VBUS | - | (unused) |
@@ -76,7 +76,7 @@ kscan0: kscan {
         , <&xiao_d 1 GPIO_ACTIVE_HIGH>   /* COL1  D1  P0.03 */
         , <&xiao_d 2 GPIO_ACTIVE_HIGH>   /* COL2  D2  P0.28 */
         , <&xiao_d 3 GPIO_ACTIVE_HIGH>   /* COL3  D3  P0.29 */
-        , <&xiao_d 4 GPIO_ACTIVE_HIGH>   /* COL4  D4  P0.04 */
+        , <&xiao_d 10 GPIO_ACTIVE_HIGH>  /* COL4  D10 P1.15 */
         , <&xiao_d 5 GPIO_ACTIVE_HIGH>   /* COL5  D5  P0.05 */
         ;
 
@@ -89,8 +89,26 @@ kscan0: kscan {
 };
 ```
 
-The `xiao_d` nexus only defines D0..D10, so the display pins (D11 = P0.15,
-D12 = P0.19) must be referenced as raw ports: `&gpio0 15` and `&gpio0 19`.
+The `xiao_d` nexus only defines D0..D10. Display lines:
+
+```dts
+&pinctrl {
+    spi_disp_default: spi_disp_default {
+        group1 {
+            psels = <NRF_PSEL(SPIM_SCK,  0, 15)>,   /* SCK  D11 P0.15 */
+                    <NRF_PSEL(SPIM_MOSI, 0, 4)>;    /* MOSI D4  P0.04 */
+        };
+    };
+};
+nice_view_spi: &spi3 {                               /* not spi2: xiao_ble uses it for P1.13/P1.15 */
+    compatible = "nordic,nrf-spim";
+    pinctrl-0 = <&spi_disp_default>;
+    cs-gpios = <&gpio0 19 GPIO_ACTIVE_LOW>;          /* CS   D12 P0.19 */
+};
+```
+
+SCK, MOSI and CS all sit on pins the nRF52840 spec rates for a fast clock
+(table below). No MISO: the LS0xx is write-only.
 
 ## Matrix
 
@@ -152,7 +170,8 @@ Consequences:
   (CS is static, no frequency limit). That leaves 9 pins for the matrix:
   a 6x4 needs 10. So the non-Plus board cannot carry this matrix plus an
   in-spec display; the Plus is required, and D11/D12 stay.
-- MOSI on D10 (P1.15) is also a low-frequency pin. It is the data line at
-  the same 1 MHz as SCK. If the spec is to be honoured fully, MOSI belongs
-  on D4 or D5 as well, which means giving one column to a low-frequency
-  pin (fine: matrix scanning is well under 10 kHz).
+- MOSI was on D10 (P1.15), a low-frequency pin, carrying data at the same
+  1 MHz as SCK. Decided 2026-09-19: MOSI moved to D4 (P0.04, fast pin);
+  COL4 took D10. Matrix scanning is far below 10 kHz, so a column on a
+  low-frequency pin is in spec. All three display lines (MOSI D4, SCK D11,
+  CS D12) are now on the four fast pins.
