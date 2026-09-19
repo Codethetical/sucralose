@@ -102,3 +102,57 @@ D12 = P0.19) must be referenced as raw ports: `&gpio0 15` and `&gpio0 19`.
 | ROW1 | SW5 | SW20 | SW7 | SW10 | SW12 | SW11 |
 | ROW2 | SW19 | SW1 | SW8 | SW18 | SW2 | SW15 |
 | ROW3 | - | - | - | SW4 | SW21 | SW17 |
+
+## Display SPI pins: which GPIOs can carry a 1 MHz clock
+
+Source: nRF52840 Product Specification v1.11, section 7 "aQFN73 ball
+assignments" (pages 926–933 of the DigiKey PDF). Each GPIO is tagged either
+plain "General purpose I/O" or "Standard drive, low frequency I/O only".
+Nordic defines low frequency as up to 10 kHz (note on the same table;
+DevZone case 232044 confirms: the tag marks pins near the radio that can
+desense it when driven fast). The nice!view runs at `spi-max-frequency =
+<1000000>` (ZMK `shields/nice_view/nice_view.overlay`), 100x over that.
+
+| Pad | Name | Port | Spec tag | 1 MHz SPI |
+|---|---|---|---|---|
+| 1 | D0 | P0.02 | low frequency only | no |
+| 2 | D1 | P0.03 | low frequency only | no |
+| 3 | D2 | P0.28 | low frequency only | no |
+| 4 | D3 | P0.29 | low frequency only | no |
+| 5 | D4 | P0.04 | general purpose | **yes** |
+| 6 | D5 | P0.05 | general purpose | **yes** |
+| 7 | D6 | P1.11 | low frequency only | no |
+| 8 | D7 | P1.12 | low frequency only | no |
+| 9 | D8 | P1.13 | low frequency only | no |
+| 10 | D9 | P1.14 | low frequency only | no |
+| 11 | D10 | P1.15 | low frequency only | no |
+| 15 | D11 | P0.15 | general purpose | **yes** |
+| 16 | D12 | P0.19 | general purpose (QSPI/SCK on the module) | **yes** |
+| 17 | D13 | P1.01 | low frequency only | no |
+| 18 | D14 | P0.09 | low frequency only, NFC | no |
+| 19 | D15 | P0.10 | low frequency only, NFC | no |
+| 20 | D16 | P0.31 | low frequency only, battery sense | no |
+| 21 | D17 | P1.03 | low frequency only | no |
+| 22 | D18 | P1.05 | low frequency only | no |
+| 23 | D19 | P1.07 | low frequency only | no |
+
+Consequences:
+
+- The current SCK/CS on D11/D12 (pads 15/16) are the right *electrical*
+  choice: they are two of only four pins on the whole module rated for a
+  fast clock. They are also the two hardest pads to route.
+- Of the Plus-only pins, none is rated for SPI. Moving SCK or CS to
+  D13–D19 to ease routing would put the display clock on a radio-adjacent
+  pin the spec limits to 10 kHz. Seeed's own board uses P1.13/P1.15
+  (low-frequency pins) for its stock `spi2`, so it works in practice, but
+  it is out of spec with the radio on.
+- The only in-spec fast pins on the **non-Plus** XIAO edge are D4 and D5
+  (P0.04/P0.05). A design that must run on the original XIAO nRF52840 has
+  exactly two SPI-capable pins, which is SCK + MOSI with CS on any GPIO
+  (CS is static, no frequency limit). That leaves 9 pins for the matrix:
+  a 6x4 needs 10. So the non-Plus board cannot carry this matrix plus an
+  in-spec display; the Plus is required, and D11/D12 stay.
+- MOSI on D10 (P1.15) is also a low-frequency pin. It is the data line at
+  the same 1 MHz as SCK. If the spec is to be honoured fully, MOSI belongs
+  on D4 or D5 as well, which means giving one column to a low-frequency
+  pin (fine: matrix scanning is well under 10 kHz).
