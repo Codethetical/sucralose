@@ -2877,7 +2877,7 @@
 	(footprint "CustomParts:MountingHole_1.2mm_M1"
 		(layer "F.Cu")
 		(uuid "398e06e3-2429-44b9-95e6-e7117d66a5f2")
-		(at 198.5 99.5)
+		(at 199 99.5)
 		(descr "Mounting Hole 1.2mm, M1, no annular, copied from M2 Mounting Hole")
 		(tags "mountinghole M2")
 		(property "Reference" "M1"
