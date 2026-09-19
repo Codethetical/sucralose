@@ -160,6 +160,12 @@
 	(net 35 "MOSI")
 	(net 36 "SCK")
 	(net 37 "CS")
+	(net 38 "DISP_H1")
+	(net 39 "DISP_H2")
+	(net 40 "DISP_H4")
+	(net 41 "DISP_H5")
+	(net 42 "BATH_A")
+	(net 43 "BATH_B")
 	(footprint "diode_sod123_reversible"
 		(layer "F.Cu")
 		(uuid "00b7c257-fb44-4aa2-845e-9ababe941a18")
@@ -1591,6 +1597,8 @@
 				)
 			)
 			(uuid "e1e36db4-5866-4a40-8835-587bbc73437c")
+		
+			(net 39 "DISP_H2")
 		)
 		(pad "2" smd custom
 			(at 0.725 0)
@@ -1612,6 +1620,8 @@
 				)
 			)
 			(uuid "e466b01f-ee58-42f2-8df9-38d0693a7783")
+		
+			(net 36 "SCK")
 		)
 		(embedded_fonts no)
 	)
@@ -2991,6 +3001,8 @@
 				)
 			)
 			(uuid "4ac38954-5ef6-4cb8-ba6f-97c2639fe0e4")
+		
+			(net 40 "DISP_H4")
 		)
 		(pad "2" smd custom
 			(at 0.725 0)
@@ -3012,6 +3024,8 @@
 				)
 			)
 			(uuid "f73d04f5-a3c0-48f2-9e9e-e944c5af87ec")
+		
+			(net 33 "GND")
 		)
 		(embedded_fonts no)
 	)
@@ -3389,6 +3403,7 @@
 			(drill 1.0922)
 			(layers "*.Cu")
 			(uuid "5d2cef64-df2b-5fdc-af0a-9e99c8532032")
+		
 		)
 		(pad "" np_thru_hole circle
 			(at -2.54 16.51 99)
@@ -3396,6 +3411,7 @@
 			(drill 1.0922)
 			(layers "*.Cu")
 			(uuid "a1493973-9df9-52a6-8134-6e5520cf8a27")
+		
 		)
 		(pad "" np_thru_hole circle
 			(at 0 16.51 99)
@@ -3403,6 +3419,7 @@
 			(drill 1.0922)
 			(layers "*.Cu")
 			(uuid "fdeade18-81a2-5313-bc61-76c1b5d9050c")
+		
 		)
 		(pad "" np_thru_hole circle
 			(at 2.54 16.51 99)
@@ -3410,6 +3427,7 @@
 			(drill 1.0922)
 			(layers "*.Cu")
 			(uuid "76b0a90e-0f0f-5b63-893c-dec113642a14")
+		
 		)
 		(pad "" np_thru_hole circle
 			(at 5.08 16.51 99)
@@ -3417,6 +3435,7 @@
 			(drill 1.0922)
 			(layers "*.Cu")
 			(uuid "44b2cf7f-3bdd-5be8-9467-63c6242c7a82")
+		
 		)
 
 
@@ -3428,14 +3447,14 @@
 			(size 1.7526 1.7526)
 			(layers "F.Cu" "F.Mask")
 			(uuid "420a4249-3121-5003-8b43-9f6e57159aba")
-					(net 35 "MOSI")
+					(net 38 "DISP_H1")
 		)
 		(pad "2" smd circle
 			(at -2.54 16.51 99)
 			(size 1.7526 1.7526)
 			(layers "F.Cu" "F.Mask")
 			(uuid "9065b51d-a5c9-510f-8088-50737016dd12")
-					(net 36 "SCK")
+					(net 39 "DISP_H2")
 		)
 		(pad "3" smd circle
 			(at 0 16.51 99)
@@ -3449,14 +3468,14 @@
 			(size 1.7526 1.7526)
 			(layers "F.Cu" "F.Mask")
 			(uuid "a590ad81-c6c4-5c5d-b822-e57e69698c70")
-					(net 33 "GND")
+					(net 40 "DISP_H4")
 		)
 		(pad "5" smd circle
 			(at 5.08 16.51 99)
 			(size 1.7526 1.7526)
 			(layers "F.Cu" "F.Mask")
 			(uuid "4a103371-0cdd-542e-af62-408599e76d04")
-					(net 37 "CS")
+					(net 41 "DISP_H5")
 		)
 		(embedded_fonts no)
 	)
@@ -4508,6 +4527,8 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(uuid "b3522f52-85b9-4e9b-bb7b-9d15b8f273e3")
+		
+			(net 34 "BAT_P")
 		)
 		(pad "2" smd roundrect
 			(at 1 0.5)
@@ -4515,6 +4536,8 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(uuid "115921c0-1965-4426-9ca2-c197f1e65efb")
+		
+			(net 33 "GND")
 		)
 		(pad "MP" smd roundrect
 			(at -3.4 -1.75)
@@ -7780,6 +7803,8 @@
 				)
 			)
 			(uuid "3d5dcb45-f8f4-4bd5-ba0f-6088a2d6be8f")
+		
+			(net 41 "DISP_H5")
 		)
 		(pad "2" smd custom
 			(at 0.725 0)
@@ -7801,6 +7826,8 @@
 				)
 			)
 			(uuid "6330c8d8-7230-4980-bf50-4b69fd8af854")
+		
+			(net 37 "CS")
 		)
 		(embedded_fonts no)
 	)
@@ -9992,7 +10019,7 @@
 			(roundrect_rratio 0.1)
 			(thermal_bridge_angle 45)
 			(uuid "cdf1f6d8-9ea3-41bd-ac02-b160a5179069")
-					(net 34 "BAT_P")
+					(net 42 "BATH_A")
 		)
 		(pad "29" smd roundrect
 			(at -5.517823 1.006012 90)
@@ -10001,7 +10028,7 @@
 			(roundrect_rratio 0.1)
 			(thermal_bridge_angle 45)
 			(uuid "0fd91cc4-88b4-4c17-8924-29d76dc66669")
-					(net 33 "GND")
+					(net 43 "BATH_B")
 		)
 		(embedded_fonts no)
 		(model "${AMZPATH}/3dmodels/AMz3D.3dshapes/XIAO-nRF52840 v15.step"
@@ -10076,6 +10103,7 @@
 			(drill 0.8)
 			(layers "*.Cu")
 			(uuid "584ac264-5ca6-4190-a3f3-dc647be9484a")
+		
 		)
 )
 	(footprint "diode_sod123_reversible"
@@ -10513,6 +10541,8 @@
 				)
 			)
 			(uuid "56113ae3-2e34-4f0d-b354-067d3523fe91")
+		
+			(net 42 "BATH_A")
 		)
 		(pad "2" smd custom
 			(at 0.725 0)
@@ -10534,6 +10564,8 @@
 				)
 			)
 			(uuid "5a2838ff-e6b4-497b-8212-05c076e25c5e")
+		
+			(net 34 "BAT_P")
 		)
 		(embedded_fonts no)
 	)
@@ -13049,6 +13081,8 @@
 				)
 			)
 			(uuid "9fa5929e-3a08-4b8f-804c-96ba3f0b5a88")
+		
+			(net 43 "BATH_B")
 		)
 		(pad "2" smd custom
 			(at 0.725 0)
@@ -13070,6 +13104,8 @@
 				)
 			)
 			(uuid "3154c11a-ef97-454c-9bbf-73a50ba4a0c1")
+		
+			(net 33 "GND")
 		)
 		(embedded_fonts no)
 	)
@@ -13508,6 +13544,8 @@
 				)
 			)
 			(uuid "aa5955db-adc0-4905-8c43-3d14be34733b")
+		
+			(net 38 "DISP_H1")
 		)
 		(pad "2" smd custom
 			(at 0.725 0)
@@ -13529,6 +13567,8 @@
 				)
 			)
 			(uuid "4e5885fa-dce1-43d3-93c6-9ef6150a0a8e")
+		
+			(net 35 "MOSI")
 		)
 		(embedded_fonts no)
 	)
@@ -14290,7 +14330,6 @@
 			(thermal_bridge_angle 45)
 			(uuid "58926671-3441-43d6-9593-6bd1165d75eb")
 		
-			(net 1 "COL0")
 		)
 		(pad "2" smd roundrect
 			(at 5.08 8.255 180)
@@ -14300,7 +14339,6 @@
 			(thermal_bridge_angle 45)
 			(uuid "99f38a7b-e65b-452e-8cb4-ca56270a9993")
 		
-			(net 2 "COL1")
 		)
 		(pad "3" smd roundrect
 			(at 2.54 8.255 180)
@@ -14310,7 +14348,6 @@
 			(thermal_bridge_angle 45)
 			(uuid "036a125a-5eb0-441f-a0a8-2a63ef2bb5c4")
 		
-			(net 3 "COL2")
 		)
 		(pad "4" smd roundrect
 			(at 0 8.255 180)
@@ -14320,7 +14357,6 @@
 			(thermal_bridge_angle 45)
 			(uuid "4dc5a5bc-eed6-416c-b65b-bc3d31004381")
 		
-			(net 4 "COL3")
 		)
 		(pad "5" smd roundrect
 			(at -2.54 8.255 180)
@@ -14330,7 +14366,6 @@
 			(thermal_bridge_angle 45)
 			(uuid "ea821b14-0a8f-411d-9494-573a3d0d32e6")
 		
-			(net 5 "COL4")
 		)
 		(pad "6" smd roundrect
 			(at -5.08 8.255 180)
@@ -14340,7 +14375,6 @@
 			(thermal_bridge_angle 45)
 			(uuid "986ffff7-84e5-491f-8885-4f0e1bc43345")
 		
-			(net 6 "COL5")
 		)
 		(pad "7" smd roundrect
 			(at -7.62 8.255 180)
@@ -14350,7 +14384,6 @@
 			(thermal_bridge_angle 45)
 			(uuid "20f88bbe-c05f-4e90-b2ad-22ffb04a5c1d")
 		
-			(net 7 "ROW0")
 		)
 		(pad "8" smd roundrect
 			(at -7.62 -8.255)
@@ -14360,7 +14393,6 @@
 			(thermal_bridge_angle 45)
 			(uuid "b70e850f-adc1-44d2-8889-e812b0734f2e")
 		
-			(net 8 "ROW1")
 		)
 		(pad "9" smd roundrect
 			(at -5.08 -8.255)
@@ -14370,7 +14402,6 @@
 			(thermal_bridge_angle 45)
 			(uuid "03f207fb-cde8-4c3a-8222-331443e7fe20")
 		
-			(net 9 "ROW2")
 		)
 		(pad "10" smd roundrect
 			(at -2.54 -8.255)
@@ -14380,7 +14411,6 @@
 			(thermal_bridge_angle 45)
 			(uuid "d3aa4f64-158a-4031-8027-7c35536e1ff9")
 		
-			(net 10 "ROW3")
 		)
 		(pad "11" smd roundrect
 			(at 0 -8.255)
@@ -14390,7 +14420,6 @@
 			(thermal_bridge_angle 45)
 			(uuid "7be86761-5f2d-47a6-acef-9bf6400b549e")
 		
-			(net 35 "MOSI")
 		)
 		(pad "12" smd roundrect
 			(at 2.54 -8.255)
@@ -14400,7 +14429,6 @@
 			(thermal_bridge_angle 45)
 			(uuid "527f2c29-6810-4d4b-94dd-80d8c3beaf7d")
 		
-			(net 32 "VCC")
 		)
 		(pad "13" smd roundrect
 			(at 5.08 -8.255)
@@ -14410,7 +14438,6 @@
 			(thermal_bridge_angle 45)
 			(uuid "13abd96c-4209-4a6e-aaed-fb59bd188d7f")
 		
-			(net 33 "GND")
 		)
 		(pad "14" smd roundrect
 			(at 7.62 -8.255)
@@ -14430,7 +14457,6 @@
 			(thermal_bridge_angle 45)
 			(uuid "9870aea3-e9d1-4dda-83dc-b849d1b6ed20")
 		
-			(net 36 "SCK")
 		)
 		(pad "16" smd roundrect
 			(at 3.81 8.655 180)
@@ -14442,7 +14468,6 @@
 			(thermal_bridge_angle 45)
 			(uuid "754486a4-96aa-4fff-8527-6ead85f7af72")
 		
-			(net 37 "CS")
 		)
 		(pad "17" smd roundrect
 			(at 1.27 8.655 180)
@@ -14545,7 +14570,7 @@
 			(roundrect_rratio 0.1)
 			(thermal_bridge_angle 45)
 			(uuid "a2ca7023-1f38-459e-b479-3dbf16abdd31")
-					(net 34 "BAT_P")
+					(net 43 "BATH_B")
 		)
 		(pad "29" smd roundrect
 			(at -5.517823 -1.006012 90)
@@ -14554,7 +14579,7 @@
 			(roundrect_rratio 0.1)
 			(thermal_bridge_angle 45)
 			(uuid "92edd07f-47d5-4dcd-b3ac-a5e0aeaafcdf")
-					(net 33 "GND")
+					(net 42 "BATH_A")
 		)
 		(embedded_fonts no)
 		(model "${AMZPATH}/3dmodels/AMz3D.3dshapes/XIAO-nRF52840 v15.step"
@@ -14789,6 +14814,8 @@
 				)
 			)
 			(uuid "5c0b1322-656e-4137-8d1f-712b9ed44c0d")
+		
+			(net 40 "DISP_H4")
 		)
 		(pad "2" smd custom
 			(at 0.725 0)
@@ -14810,6 +14837,8 @@
 				)
 			)
 			(uuid "3a5c441d-5762-43bd-85c0-ddaeeb3eac14")
+		
+			(net 36 "SCK")
 		)
 		(embedded_fonts no)
 	)
@@ -14985,6 +15014,8 @@
 				)
 			)
 			(uuid "54d0a722-bf74-46e1-a746-0adbf5529a5e")
+		
+			(net 42 "BATH_A")
 		)
 		(pad "2" smd custom
 			(at 0.725 0)
@@ -15006,6 +15037,8 @@
 				)
 			)
 			(uuid "27a2d3c7-44ac-4d36-8229-b5acfd8262c4")
+		
+			(net 33 "GND")
 		)
 		(embedded_fonts no)
 	)
@@ -15181,6 +15214,8 @@
 				)
 			)
 			(uuid "44b0083b-a82a-4628-b560-3d5a67ea0b3e")
+		
+			(net 41 "DISP_H5")
 		)
 		(pad "2" smd custom
 			(at 0.725 0)
@@ -15202,6 +15237,8 @@
 				)
 			)
 			(uuid "6f2067a8-cfbe-4351-9aba-3ea2402ba863")
+		
+			(net 35 "MOSI")
 		)
 		(embedded_fonts no)
 	)
@@ -15379,14 +15416,14 @@
 			(size 1.7526 1.7526)
 			(layers "B.Cu" "B.Mask")
 			(uuid "fb48e3a3-df72-4369-b41d-c004ba639e13")
-					(net 35 "MOSI")
+					(net 41 "DISP_H5")
 		)
 		(pad "2" smd circle
 			(at -2.54 -16.51 279)
 			(size 1.7526 1.7526)
 			(layers "B.Cu" "B.Mask")
 			(uuid "9cc4b99f-9ebb-4bac-b559-61e2573a5213")
-					(net 36 "SCK")
+					(net 40 "DISP_H4")
 		)
 		(pad "3" smd circle
 			(at 0 -16.51 279)
@@ -15400,14 +15437,14 @@
 			(size 1.7526 1.7526)
 			(layers "B.Cu" "B.Mask")
 			(uuid "30b2aeaf-e9b5-4953-a0fc-088054475ea9")
-					(net 33 "GND")
+					(net 39 "DISP_H2")
 		)
 		(pad "5" smd circle
 			(at 5.08 -16.509999 279)
 			(size 1.7526 1.7526)
 			(layers "B.Cu" "B.Mask")
 			(uuid "1d879e28-569c-4752-8e8e-25632b356ef8")
-					(net 37 "CS")
+					(net 38 "DISP_H1")
 		)
 		(embedded_fonts no)
 	)
@@ -15583,6 +15620,8 @@
 				)
 			)
 			(uuid "367b2456-5d9c-469a-805b-b7a3f8417cc9")
+		
+			(net 39 "DISP_H2")
 		)
 		(pad "2" smd custom
 			(at 0.725 0)
@@ -15604,6 +15643,8 @@
 				)
 			)
 			(uuid "fc40dfb4-86aa-4788-b15d-43366d169d32")
+		
+			(net 33 "GND")
 		)
 		(embedded_fonts no)
 	)
@@ -15779,6 +15820,8 @@
 				)
 			)
 			(uuid "32f757fc-1ceb-43fe-9e59-43e90d3a22b6")
+		
+			(net 43 "BATH_B")
 		)
 		(pad "2" smd custom
 			(at 0.725 0)
@@ -15800,6 +15843,8 @@
 				)
 			)
 			(uuid "38d18047-6c19-47fa-8227-8570e40e73f8")
+		
+			(net 34 "BAT_P")
 		)
 		(embedded_fonts no)
 	)
@@ -15975,6 +16020,8 @@
 				)
 			)
 			(uuid "50e700a0-0ff1-49a7-9055-10d86901dd9d")
+		
+			(net 38 "DISP_H1")
 		)
 		(pad "2" smd custom
 			(at 0.725 0)
@@ -15996,6 +16043,8 @@
 				)
 			)
 			(uuid "d2a012f3-0851-47bf-81d3-4ee107bd9496")
+		
+			(net 37 "CS")
 		)
 		(embedded_fonts no)
 	)
