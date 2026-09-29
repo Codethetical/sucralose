@@ -1,0 +1,233 @@
+(footprint "SW_Slide_SSSS811101_Side_F_sucralose"
+	(version 20241229)
+	(generator "ryn")
+	(layer "F.Cu")
+	(descr "Alps SSSS811101 SPDT side slide switch, 1.4 mm. Lands per Alps land drawing; cross-checked vs ceoloide power_switch_smd_side (MIT). Pin 2 = common. Battery + in series: pin 3 BAT_RAW (JST), pin 2 BAT_P (to VCC jumper). Front copy owns the two boss NPTH.")
+	(tags "slide switch power side SSSS811101")
+	(property "Reference" "PWR"
+		(at 0 -5.3 0)
+		(layer "F.SilkS")
+		(uuid "5494d39d-cd3a-4f0e-acf7-64f0be8d519c")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(property "Value" "SSSS811101"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d4864786-002f-42e9-9210-3a8b27631164")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(property "Datasheet" "https://tech.alpsalpine.com/e/products/detail/SSSS811101/"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0de1eb48-281e-4655-ae64-5ef80e2fe7ae")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(property "Description" "Power switch, battery + in series"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0d6acfe6-5f2b-41a2-8688-20cab5fec885")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -1.305 -3.35)
+		(end 1.295 -3.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "03998cdd-7092-4381-9962-c7bd77d99e3e")
+	)
+	(fp_line
+		(start 1.295 -3.35)
+		(end 1.295 3.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "be90a62b-9560-4e08-ba73-b2054c201549")
+	)
+	(fp_line
+		(start 1.295 3.35)
+		(end -1.305 3.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "21357869-100a-466e-9c50-809340e70817")
+	)
+	(fp_line
+		(start -1.305 3.35)
+		(end -1.305 -3.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0e53875a-d7c2-457e-8573-0e7e25841363")
+	)
+	(fp_line
+		(start 1.295 0.1)
+		(end 2.845 0.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "cdd3139c-7f2d-448d-b2a7-a20f2aa01c03")
+	)
+	(fp_line
+		(start 2.845 0.1)
+		(end 2.845 1.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1a0aaeb1-40ee-4b89-9126-05ccaf411966")
+	)
+	(fp_line
+		(start 2.845 1.4)
+		(end 1.295 1.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "af7acbb9-0311-4410-9f5b-f6865276da63")
+	)
+	(fp_line
+		(start 1.295 1.4)
+		(end 1.295 0.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1fddbbd0-6d6b-4d73-a03e-97d6972261be")
+	)
+	(fp_line
+		(start -2.75 -4.35)
+		(end 1.55 -4.35)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1dcaa9c4-1c89-4d4b-ad71-9cfd5e85b91f")
+	)
+	(fp_line
+		(start 1.55 -4.35)
+		(end 1.55 4.35)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "dc558f17-9de3-482b-8aae-ade15a5535cc")
+	)
+	(fp_line
+		(start 1.55 4.35)
+		(end -2.75 4.35)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6cfc2ef0-d490-40ac-a9f3-fceb9b557df9")
+	)
+	(fp_line
+		(start -2.75 4.35)
+		(end -2.75 -4.35)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "92ffe0ac-4fb3-4b2e-91fc-45557dbe5b1f")
+	)
+	(pad "" np_thru_hole circle
+		(at 0.025 -1.5)
+		(size 0.9 0.9)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(uuid "13ab5fcd-6c3e-4020-9a6d-2009c3b2bad9")
+	)
+	(pad "" np_thru_hole circle
+		(at 0.025 1.5)
+		(size 0.9 0.9)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(uuid "0f92bc62-ca8c-4b05-aecf-c4b1f53ee06c")
+	)
+	(pad "" smd rect
+		(at -1.085 -3.65)
+		(size 0.8 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "8f0726f7-0473-4b04-abbe-54f6d80964a4")
+	)
+	(pad "" smd rect
+		(at -1.085 3.65)
+		(size 0.8 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "03fc69b8-6cd4-4460-b195-9bd0feb3ff19")
+	)
+	(pad "" smd rect
+		(at 1.125 -3.65)
+		(size 0.8 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "198c8e0f-d500-4bfc-a898-ac5a5e2971f7")
+	)
+	(pad "" smd rect
+		(at 1.125 3.65)
+		(size 0.8 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "6d17856b-9a05-4642-a32d-68be13a0ec21")
+	)
+	(pad "1" smd rect
+		(at -1.735 2.25)
+		(size 1.5 0.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "da9ba77c-329e-4e68-8fb0-031e8874e7e6")
+	)
+	(pad "2" smd rect
+		(at -1.735 -0.75)
+		(size 1.5 0.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "97f35ad5-2c99-486a-abab-694b828c6c0e")
+	)
+	(pad "3" smd rect
+		(at -1.735 -2.25)
+		(size 1.5 0.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "b89afeff-6893-496a-9e54-54d66e29cce4")
+	)
+	(embedded_fonts no)
+)

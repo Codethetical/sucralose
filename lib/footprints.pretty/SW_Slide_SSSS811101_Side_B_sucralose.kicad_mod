@@ -1,0 +1,223 @@
+(footprint "SW_Slide_SSSS811101_Side_B_sucralose"
+	(version 20241229)
+	(generator "ryn")
+	(layer "B.Cu")
+	(descr "Alps SSSS811101 SPDT side slide switch, 1.4 mm. Lands per Alps land drawing; cross-checked vs ceoloide power_switch_smd_side (MIT). Pin 2 = common. Battery + in series: pin 3 BAT_RAW (JST), pin 2 BAT_P (to VCC jumper). Back copy: no holes, front copy owns the bosses.")
+	(tags "slide switch power side SSSS811101")
+	(property "Reference" "PWR"
+		(at 0 -5.3 0)
+		(layer "B.SilkS")
+		(uuid "39841d89-5612-4ac0-8aa0-377906e938f9")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Value" "SSSS811101"
+		(at 0 0 0)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "9f5daf63-1565-4b3a-87d8-695924542b49")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Datasheet" "https://tech.alpsalpine.com/e/products/detail/SSSS811101/"
+		(at 0 0 0)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "6fe2ba52-42ae-4aaa-91a0-7c30a07946d5")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Description" "Power switch, battery + in series"
+		(at 0 0 0)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "37fb6e3a-59c7-42a3-aeea-b0ebea300d21")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+			(justify mirror)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -1.305 -3.35)
+		(end 1.295 -3.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "ee8a8e51-c2a8-478b-a305-d7dd1152e60c")
+	)
+	(fp_line
+		(start 1.295 -3.35)
+		(end 1.295 3.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "4082809e-ef74-4a2e-a673-d1830d735e14")
+	)
+	(fp_line
+		(start 1.295 3.35)
+		(end -1.305 3.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "22151694-0d5f-4029-b9fd-4da4a7348dcd")
+	)
+	(fp_line
+		(start -1.305 3.35)
+		(end -1.305 -3.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "517763a4-911f-4a5d-a09e-a952cbcb5fa9")
+	)
+	(fp_line
+		(start 1.295 -0.1)
+		(end 2.845 -0.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "85c812cb-a440-4b0c-bed7-388ce5068845")
+	)
+	(fp_line
+		(start 2.845 -0.1)
+		(end 2.845 -1.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "12b29093-0bac-429a-a92a-e58562af0073")
+	)
+	(fp_line
+		(start 2.845 -1.4)
+		(end 1.295 -1.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "ae0c16cc-23bc-4549-b033-ba50ae4aab19")
+	)
+	(fp_line
+		(start 1.295 -1.4)
+		(end 1.295 -0.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "2a568e3a-1fda-4f4c-9ffa-e942d315e456")
+	)
+	(fp_line
+		(start -2.75 -4.35)
+		(end 1.55 -4.35)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "B.CrtYd")
+		(uuid "d9db56ea-3688-4527-a132-52744cde2bb1")
+	)
+	(fp_line
+		(start 1.55 -4.35)
+		(end 1.55 4.35)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "B.CrtYd")
+		(uuid "7625a796-37e4-4ac0-a1a4-c2f2a5c29e36")
+	)
+	(fp_line
+		(start 1.55 4.35)
+		(end -2.75 4.35)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "B.CrtYd")
+		(uuid "65a9baa7-b1d2-42b8-a4d0-d45f62ba4a17")
+	)
+	(fp_line
+		(start -2.75 4.35)
+		(end -2.75 -4.35)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "B.CrtYd")
+		(uuid "ec380fcd-c5a7-4300-9cc3-cc93495eca9a")
+	)
+	(pad "" smd rect
+		(at -1.085 -3.65)
+		(size 0.8 1)
+		(layers "B.Cu" "B.Mask" "B.Paste")
+		(uuid "0e9f2ca3-49f4-45bd-b90f-a28859cc8302")
+	)
+	(pad "" smd rect
+		(at -1.085 3.65)
+		(size 0.8 1)
+		(layers "B.Cu" "B.Mask" "B.Paste")
+		(uuid "6863bf0b-91f3-4d42-92a6-1e04b2c0d8f3")
+	)
+	(pad "" smd rect
+		(at 1.125 -3.65)
+		(size 0.8 1)
+		(layers "B.Cu" "B.Mask" "B.Paste")
+		(uuid "f9292f42-ed17-425d-a129-71a909fb0351")
+	)
+	(pad "" smd rect
+		(at 1.125 3.65)
+		(size 0.8 1)
+		(layers "B.Cu" "B.Mask" "B.Paste")
+		(uuid "97c0f870-aebf-47c4-9bbe-7c4135bf4aef")
+	)
+	(pad "1" smd rect
+		(at -1.735 -2.25)
+		(size 1.5 0.7)
+		(layers "B.Cu" "B.Mask" "B.Paste")
+		(uuid "f917dd92-e3fb-45e6-8f11-2d28c0b1a9f5")
+	)
+	(pad "2" smd rect
+		(at -1.735 0.75)
+		(size 1.5 0.7)
+		(layers "B.Cu" "B.Mask" "B.Paste")
+		(uuid "b7fa8286-7a0e-4397-bf6d-0a5064c6ac71")
+	)
+	(pad "3" smd rect
+		(at -1.735 2.25)
+		(size 1.5 0.7)
+		(layers "B.Cu" "B.Mask" "B.Paste")
+		(uuid "8d3ebd09-3b2d-4116-b21e-e34602aa6576")
+	)
+	(embedded_fonts no)
+)
