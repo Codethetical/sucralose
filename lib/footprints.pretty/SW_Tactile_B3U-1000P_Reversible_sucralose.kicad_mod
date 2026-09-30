@@ -1,0 +1,103 @@
+(footprint "SW_Tactile_B3U-1000P_Reversible_sucralose"
+	(layer "F.Cu")
+	(version 20241229)
+	(generator "ryn")
+	(descr "OPTIONAL reset button. Omron B3U-1000P 3.0 x 2.5 x 1.6 mm top-actuated SMD tact, no ground terminal. Lands per Omron recommended land pattern (KiCad Button_Switch_SMD:SW_SPST_B3U-1000P). Reversible: identical lands on both faces, tied by vias. Pad 1 = XIAO RST (Seeed pad 26), pad 2 = GND. Alt: any 2-pad 3x2.5 tact on 3.4 mm land centres.")
+	(tags "reset tact switch B3U reversible optional")
+	(property "Reference" "RST"
+			(at 0 -2.3 0)
+			(layer "F.SilkS")
+			(uuid "821ff8cc-e4ae-44f5-b5e5-5db5c4a73e81")
+			(effects
+				(font
+					(size 0.8 0.8)
+					(thickness 0.12)
+				)
+			)
+		)
+	(property "Value" "B3U-1000P"
+			(at 0 2.3 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b59aceba-2b00-4d2a-8961-22f681ce6e21")
+			(effects
+				(font
+					(size 0.8 0.8)
+					(thickness 0.12)
+				)
+			)
+		)
+	(property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3u.pdf"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4cbf8023-7c3c-4d86-a4c4-7348e00c446d")
+			(effects
+				(font
+					(size 0.8 0.8)
+					(thickness 0.12)
+				)
+			)
+		)
+	(property "Description" "Optional reset button: XIAO RST to GND"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1defc301-a762-493e-a755-115b71a94539")
+			(effects
+				(font
+					(size 0.8 0.8)
+					(thickness 0.12)
+				)
+			)
+		)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect (start -1.5 -1.25) (end 1.5 1.25) (stroke (width 0.1) (type solid)) (fill no) (layer "F.Fab") (uuid "a8a3347a-81ae-47be-b2a0-f24e60e97b2a"))
+	(fp_circle (center 0 0) (end 0.75 0) (stroke (width 0.1) (type solid)) (fill no) (layer "F.Fab") (uuid "30b3f9f4-6a6a-499a-a10a-2e919850a581"))
+	(fp_line (start -1.1 -1.4) (end 1.1 -1.4) (stroke (width 0.12) (type solid)) (layer "F.SilkS") (uuid "c9c1f776-5c44-49e5-b9f6-ba4878677648"))
+	(fp_line (start -1.1 1.4) (end 1.1 1.4) (stroke (width 0.12) (type solid)) (layer "F.SilkS") (uuid "ff80c9fb-8676-4fc2-a5a8-84ec7540bd36"))
+	(fp_rect (start -2.4 -1.65) (end 2.4 1.65) (stroke (width 0.05) (type default)) (fill no) (layer "F.CrtYd") (uuid "52c95525-9153-4bfa-b056-cda5186eff0c"))
+	(fp_rect (start -1.5 -1.25) (end 1.5 1.25) (stroke (width 0.1) (type solid)) (fill no) (layer "B.Fab") (uuid "3ef09ed5-9d7c-48c1-b7e6-a94112d6a7b4"))
+	(fp_circle (center 0 0) (end 0.75 0) (stroke (width 0.1) (type solid)) (fill no) (layer "B.Fab") (uuid "8f84ff44-d655-47ce-99cc-17294a3d68d7"))
+	(fp_line (start -1.1 -1.4) (end 1.1 -1.4) (stroke (width 0.12) (type solid)) (layer "B.SilkS") (uuid "72ba5050-331b-4c62-ba97-aa28351e2b6e"))
+	(fp_line (start -1.1 1.4) (end 1.1 1.4) (stroke (width 0.12) (type solid)) (layer "B.SilkS") (uuid "c7036134-a38a-430b-bf3d-7ca2c74011f7"))
+	(fp_rect (start -2.4 -1.65) (end 2.4 1.65) (stroke (width 0.05) (type default)) (fill no) (layer "B.CrtYd") (uuid "26c506a0-c3c3-40bc-847e-8d9470e63dbf"))
+	(fp_text user "RST"
+		(at 0 -2.3 0)
+		(layer "B.SilkS")
+		(uuid "da3f7c35-090c-40b1-a882-ed95fd2410f7")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+			(justify mirror)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.7 0)
+		(size 0.9 1.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "63f0a6fd-85f1-457e-8dc6-169200b7a2d3")
+	)
+	(pad "1" smd rect
+		(at -1.7 0)
+		(size 0.9 1.7)
+		(layers "B.Cu" "B.Mask" "B.Paste")
+		(uuid "4537d578-de91-4976-abd3-c54f8f5876a9")
+	)
+	(pad "2" smd rect
+		(at 1.7 0)
+		(size 0.9 1.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "dbda9c2a-10ac-44b0-88ee-76aeab9bb45f")
+	)
+	(pad "2" smd rect
+		(at 1.7 0)
+		(size 0.9 1.7)
+		(layers "B.Cu" "B.Mask" "B.Paste")
+		(uuid "016843e7-3d5f-4f36-b9b6-f49f30ef8df5")
+	)
+	(embedded_fonts no)
+)
