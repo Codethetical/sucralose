@@ -27195,7 +27195,7 @@
 	(footprint "sucralose:SW_Tactile_B3U-1000P_Reversible_sucralose"
 		(layer "F.Cu")
 		(uuid "1af772c2-7608-48fe-8377-148576b21adb")
-		(at 144.65 130.15)
+		(at 144.65 130.55)
 		(descr "OPTIONAL reset button. Omron B3U-1000P 3.0 x 2.5 x 1.6 mm top-actuated SMD tact, no ground terminal. Lands per Omron recommended land pattern (KiCad Button_Switch_SMD:SW_SPST_B3U-1000P). Reversible: identical lands on both faces, tied by vias. Pad 1 = XIAO RST (Seeed pad 26), pad 2 = GND. Alt: any 2-pad 3x2.5 tact on 3.4 mm land centres.")
 		(tags "reset tact switch B3U reversible optional")
 		(property "Reference" "RESET"
@@ -27300,15 +27300,15 @@
 		(embedded_fonts no)
 	)
 	(segment
-		(start 146.35 130.15)
-		(end 146.2523 130.125)
+		(start 146.35 130.5500)
+		(end 146.2523 130.5250)
 		(width 0.25)
 		(layer "B.Cu")
 		(net "GND")
 		(uuid "44d4b40c-3f6c-4a47-9097-fe8b5ebd2851")
 	)
 	(segment
-		(start 146.35 130.15)
+		(start 146.35 130.5500)
 		(end 146.0023 129.375)
 		(width 0.25)
 		(layer "B.Cu")
@@ -27332,7 +27332,7 @@
 		(uuid "03cc272e-4fc8-421a-9618-4fb03d4fc6bc")
 	)
 	(via
-		(at 146.2523 130.125)
+		(at 146.2523 130.5250)
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
@@ -27837,7 +27837,7 @@
 	)
 	(segment
 		(start 142.6273 129.6250)
-		(end 142.9500 130.1500)
+		(end 142.9500 130.5500)
 		(width 0.25)
 		(layer "F.Cu")
 		(net "RST")
@@ -27852,8 +27852,8 @@
 		(uuid "66c7228f-7290-468e-8701-49a20f02e2f6")
 	)
 	(segment
-		(start 142.9500 130.1500)
-		(end 142.8773 130.1250)
+		(start 142.9500 130.5500)
+		(end 142.8773 130.5250)
 		(width 0.25)
 		(layer "B.Cu")
 		(net "RST")
@@ -27868,7 +27868,7 @@
 		(uuid "207ea7e4-2413-4134-8319-a874c729eebc")
 	)
 	(via
-		(at 142.8773 130.1250)
+		(at 142.8773 130.5250)
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
