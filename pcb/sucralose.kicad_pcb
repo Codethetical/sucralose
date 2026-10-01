@@ -17492,7 +17492,7 @@
 		(layer "Edge.Cuts")
 		(uuid "cf1b14d4-49d8-40c1-a17d-1aa563b34841")
 	)
-	(gr_text "-"
+	(gr_text "+"
 		(at 186.57 105.3 0)
 		(layer "F.SilkS")
 		(uuid "096cac9f-469b-40b3-9288-1f807cfa97dc")
@@ -17503,7 +17503,7 @@
 			)
 		)
 	)
-	(gr_text "+"
+	(gr_text "-"
 		(at 192.57 105.3 0)
 		(layer "F.SilkS")
 		(uuid "13d734bd-9077-40be-a64f-d99a66f5c206")
@@ -17514,7 +17514,7 @@
 			)
 		)
 	)
-	(gr_text "-"
+	(gr_text "+"
 		(at 192.56 105.3 0)
 		(layer "B.SilkS")
 		(uuid "5b3080b0-7cbc-42b5-b028-a647d46a81ff")
@@ -17526,7 +17526,7 @@
 			(justify mirror)
 		)
 	)
-	(gr_text "+"
+	(gr_text "-"
 		(at 186.56 105.3 0)
 		(layer "B.SilkS")
 		(uuid "99823460-5d3d-448b-8eeb-fe68538ad1ee")
