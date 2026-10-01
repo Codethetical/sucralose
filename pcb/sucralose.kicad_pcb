@@ -17492,6 +17492,52 @@
 		(layer "Edge.Cuts")
 		(uuid "cf1b14d4-49d8-40c1-a17d-1aa563b34841")
 	)
+	(gr_text "-"
+		(at 186.57 105.3 0)
+		(layer "F.SilkS")
+		(uuid "096cac9f-469b-40b3-9288-1f807cfa97dc")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+			)
+		)
+	)
+	(gr_text "+"
+		(at 192.57 105.3 0)
+		(layer "F.SilkS")
+		(uuid "13d734bd-9077-40be-a64f-d99a66f5c206")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+			)
+		)
+	)
+	(gr_text "-"
+		(at 192.56 105.3 0)
+		(layer "B.SilkS")
+		(uuid "5b3080b0-7cbc-42b5-b028-a647d46a81ff")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+			)
+			(justify mirror)
+		)
+	)
+	(gr_text "+"
+		(at 186.56 105.3 0)
+		(layer "B.SilkS")
+		(uuid "99823460-5d3d-448b-8eeb-fe68538ad1ee")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+			)
+			(justify mirror)
+		)
+	)
 	(gr_text "BATTERY BAY 25x38.5mm"
 		(at 188.5 78.75 270)
 		(layer "Dwgs.User")
