@@ -101,7 +101,7 @@
 	(pad "1" thru_hole oval
 		(at -2.5 2.65)
 		(size 1.5 2)
-		(drill 0.8)
+		(drill 1.0)
 		(layers "*.Cu" "*.Mask" "F.Paste")
 		(remove_unused_layers no)
 		(uuid "0a1b2c3d-0003-4000-8000-000000000001")
@@ -109,7 +109,7 @@
 	(pad "2" thru_hole oval
 		(at 2.5 2.65)
 		(size 1.5 2)
-		(drill 0.8)
+		(drill 1.0)
 		(layers "*.Cu" "*.Mask" "F.Paste")
 		(remove_unused_layers no)
 		(uuid "0a1b2c3d-0003-4000-8000-000000000002")
