@@ -1,0 +1,14 @@
+file_format: "1"
+id: sucralose
+name: Sucralose
+type: shield
+url: https://github.com/Codethetical/sucralose
+requires: [seeed_xiao]
+exposes: [nice_view_header]
+features:
+  - keys
+  - display
+  - studio
+siblings:
+  - sucralose_left
+  - sucralose_right

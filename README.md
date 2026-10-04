@@ -43,6 +43,11 @@ These live in `lib/footprints.pretty/`. The files ending in `_sucralose` were dr
 `case/out/` has STEP files for the partial covers: a battery top and bottom, a XIAO cover, and a display cover.
 It also has left and right reference DXFs showing the outline, keycap clearances, and M1 screw holes.
 
+## Firmware
+
+This repo is also the [ZMK module](https://zmk.dev/docs/features/modules) for the board: `firmware/` holds the
+`sucralose_left` / `sucralose_right` shield. See [`firmware/README.md`](firmware/README.md) for how to build it.
+
 ## License
 
 Sucralose is released under the [MIT License](LICENSE).

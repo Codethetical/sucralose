@@ -89,26 +89,42 @@ kscan0: kscan {
 };
 ```
 
-The `xiao_d` nexus only defines D0..D10. Display lines:
+The `xiao_d` nexus only defines D0..D10. Display lines (as shipped in
+`firmware/boards/shields/sucralose/boards/seeeduino_xiao_ble.overlay`):
 
 ```dts
 &pinctrl {
-    spi_disp_default: spi_disp_default {
+    spi3_default: spi3_default {
         group1 {
             psels = <NRF_PSEL(SPIM_SCK,  0, 15)>,   /* SCK  D11 P0.15 */
                     <NRF_PSEL(SPIM_MOSI, 0, 4)>;    /* MOSI D4  P0.04 */
         };
     };
+    /* spi3_sleep: same pins, low-power-enable */
 };
-nice_view_spi: &spi3 {                               /* not spi2: xiao_ble uses it for P1.13/P1.15 */
+nice_view_spi: &spi3 {
     compatible = "nordic,nrf-spim";
-    pinctrl-0 = <&spi_disp_default>;
-    cs-gpios = <&gpio0 19 GPIO_ACTIVE_LOW>;          /* CS   D12 P0.19 */
+    pinctrl-0 = <&spi3_default>;
+    pinctrl-1 = <&spi3_sleep>;
+    pinctrl-names = "default", "sleep";
+    cs-gpios = <&gpio0 19 GPIO_ACTIVE_HIGH>;         /* CS   D12 P0.19 */
 };
 ```
 
 SCK, MOSI and CS all sit on pins the nRF52840 spec rates for a fast clock
 (table below). No MISO: the LS0xx is write-only.
+
+- **CS is active high.** The LS0xx selects on a high SCS, and ZMK's own
+  nice!view adapters use `GPIO_ACTIVE_HIGH`. Active low leaves the panel blank.
+- **Why SPIM3.** On the `seeeduino_xiao_ble` board ZMK builds for, spi2 and
+  i2c0 are defined but disabled, so SPIM0..3 are all free. SPIM0 is avoided
+  because it shares its peripheral with TWIM0, the I2C bus the Sense's
+  on-module IMU uses (P0.07/P0.27); SPIM3 keeps that open.
+- **Board choice.** Build as `seeeduino_xiao_ble`, not Zephyr's `xiao_ble_sense`.
+  The latter enables i2c1 on D4/D5 (display MOSI, COL5), spi2 on D8..D10
+  (ROW2, ROW3, COL4) and uart0 on D6/D7 (ROW0, ROW1), and has no ZMK battery
+  or USB/BLE config. The Sense's IMU and microphone sit on internal pins, so
+  this board choice does not rule them out.
 
 ## Matrix
 

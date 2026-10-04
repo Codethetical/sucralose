@@ -1,0 +1,38 @@
+/*
+ * Copyright (c) 2026 The ZMK Contributors
+ *
+ * SPDX-License-Identifier: MIT
+ *
+ * nice!view bus for the XIAO nRF52840 Plus / Sense Plus. All three lines sit
+ * on pins rated for a fast clock (docs/PINOUT.md). SCK and CS use the Plus-only
+ * pads D11 and D12, which the xiao_d connector does not map, so they are
+ * given as raw ports.
+ *
+ * SPIM3 rather than SPIM0: SPIM0 shares its peripheral with TWIM0, the bus
+ * the Sense's on-module IMU uses, so this leaves the IMU free to enable later.
+ */
+
+&pinctrl {
+    spi3_default: spi3_default {
+        group1 {
+            psels = <NRF_PSEL(SPIM_SCK, 0, 15)>,  /* D11 */
+                    <NRF_PSEL(SPIM_MOSI, 0, 4)>;  /* D4 */
+        };
+    };
+
+    spi3_sleep: spi3_sleep {
+        group1 {
+            psels = <NRF_PSEL(SPIM_SCK, 0, 15)>,
+                    <NRF_PSEL(SPIM_MOSI, 0, 4)>;
+            low-power-enable;
+        };
+    };
+};
+
+nice_view_spi: &spi3 {
+    compatible = "nordic,nrf-spim";
+    pinctrl-0 = <&spi3_default>;
+    pinctrl-1 = <&spi3_sleep>;
+    pinctrl-names = "default", "sleep";
+    cs-gpios = <&gpio0 19 GPIO_ACTIVE_HIGH>;  /* D12; the LS0xx chip select is active high */
+};
