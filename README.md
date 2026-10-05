@@ -43,9 +43,17 @@ These live in `lib/footprints.pretty/`. The files ending in `_sucralose` were dr
 `case/out/` has STEP files for the partial covers: a battery top and bottom, a XIAO cover, and a display cover.
 It also has left and right reference DXFs showing the outline, keycap clearances, and M1 screw holes.
 
+## License
+
+Sucralose is released under the [MIT License](LICENSE).
+
+The key switch layout is the exception. To the extent it is unchanged from [chalk](https://github.com/maurzo/chalk) by maurzo,
+that layout stays under chalk's [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) license.
+Third-party files in `reference/` and the footprints derived from upstream libraries also keep their own licenses.
+
 ## Credits
 
 - **Corne:** [foostan/crkbd](https://github.com/foostan/crkbd), CC-BY-4.0.
-- **Layout reference:** [maurzo/chalk](https://github.com/maurzo/chalk), CC-BY-NC-SA-4.0.
+- **Key switch layout:** [maurzo/chalk](https://github.com/maurzo/chalk) by maurzo, CC-BY-NC-SA-4.0.
 - **PG1316S footprints:** [mikeholscher/zmk-config-mikefive](https://github.com/mikeholscher/zmk-config-mikefive)
   and [ebastler/marbastlib](https://github.com/ebastler/marbastlib), CERN-OHL-P.
