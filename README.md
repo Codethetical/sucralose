@@ -3,6 +3,8 @@
 Sucralose is a wireless, 42-key split keyboard built around Kailh PG1316S ultra-low-profile switches.
 One reversible PCB serves both halves.
 
+![Sucralose Rev. 1, both halves assembled](pics/sucralose-rev1.jpg)
+
 ## Hardware
 
 - **Switches:** [Kailh PG1316S](https://www.kailhswitch.com/uploads/15927/files/CPG1316S01D02-data-sheet.pdf),
