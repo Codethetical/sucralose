@@ -40,7 +40,7 @@ These live in `lib/footprints.pretty/`. The files ending in `_sucralose` were dr
 
 ## Case
 
-`case/out/` has STEP files for the partial covers: a battery top and bottom, a XIAO cover, and a display cover.
+`case/out/` has STL files for the partial covers: a battery cover and battery plate, left and right XIAO covers, and a screen cover.
 It also has left and right reference DXFs showing the outline, keycap clearances, and M1 screw holes.
 
 ## Firmware
