@@ -35,3 +35,6 @@ remains under its own license:
   (CC BY-NC-SA 4.0), kept unmodified for reference.
 - Footprints derived from mikeholscher/zmk-config-mikefive and
   ebastler/marbastlib (CERN-OHL-P) keep their upstream terms.
+- lib/footprints.pretty/SW_PG1316M.kicad_mod and lib/3d/PG1316M.STEP are from
+  dennisleexyz/libmodulo (https://github.com/dennisleexyz/libmodulo, commit
+  5dbcd9b) under GPL-3.0, and keep that license (including modified versions).

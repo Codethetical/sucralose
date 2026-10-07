@@ -64,3 +64,4 @@ Third-party files in `reference/` and the footprints derived from upstream libra
 - **Key switch layout:** [maurzo/chalk](https://github.com/maurzo/chalk) by maurzo, CC-BY-NC-SA-4.0.
 - **PG1316S footprints:** [mikeholscher/zmk-config-mikefive](https://github.com/mikeholscher/zmk-config-mikefive)
   and [ebastler/marbastlib](https://github.com/ebastler/marbastlib), CERN-OHL-P.
+- **PG1316M footprint and 3D model:** [dennisleexyz/libmodulo](https://github.com/dennisleexyz/libmodulo), GPL-3.0.
