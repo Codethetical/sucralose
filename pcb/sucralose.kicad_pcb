@@ -126,6 +126,72 @@
 			(outputdirectory "")
 		)
 	)
+	(footprint "sucralose:MouseBite_0.6mm_col7"
+		(layer "F.Cu")
+		(uuid "2f21d6bb-054c-4fd3-8b24-7305034d94ec")
+		(at 68.068457 95.440875 9.0)
+		(descr "Breakaway tab perforation, 0.6 mm NPTH, 0.35 mm web (JLCPCB guidance)")
+		(property "Reference" "MB5"
+			(at 0 0 9.0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "35060436-4fae-4ca6-9b59-cc3d1cf34e7a")
+			(effects
+				(font
+					(size 0.8 0.8)
+					(thickness 0.12)
+				)
+			)
+		)
+		(property "Value" "MouseBite"
+			(at 0 0 9.0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8d7c319d-f310-4f82-9fa7-9664e8ec6bc0")
+			(effects
+				(font
+					(size 0.8 0.8)
+					(thickness 0.12)
+				)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(pad "" np_thru_hole circle
+			(at 0.000189 -1.900000 9.0)
+			(size 0.6 0.6)
+			(drill 0.6)
+			(layers "*.Cu" "*.Mask")
+			(uuid "eb99734c-758c-424a-b348-9cb478207e94")
+		)
+		(pad "" np_thru_hole circle
+			(at 0.000094 -0.950000 9.0)
+			(size 0.6 0.6)
+			(drill 0.6)
+			(layers "*.Cu" "*.Mask")
+			(uuid "559ad19d-aaa6-40ca-bc73-505e89044328")
+		)
+		(pad "" np_thru_hole circle
+			(at 0.000000 0.000000 9.0)
+			(size 0.6 0.6)
+			(drill 0.6)
+			(layers "*.Cu" "*.Mask")
+			(uuid "ba1ba49f-a4c4-4511-850e-836456b0984b")
+		)
+		(pad "" np_thru_hole circle
+			(at -0.000094 0.950000 9.0)
+			(size 0.6 0.6)
+			(drill 0.6)
+			(layers "*.Cu" "*.Mask")
+			(uuid "e76fbfc4-8d58-41ed-baa6-2981bbbd788b")
+		)
+		(pad "" np_thru_hole circle
+			(at -0.000189 1.900000 9.0)
+			(size 0.6 0.6)
+			(drill 0.6)
+			(layers "*.Cu" "*.Mask")
+			(uuid "66dbf49c-037e-436d-965f-bb3e29d332a5")
+		)
+	)
 	(footprint "sucralose:SW_PG1316M_th_reversible_sucralose"
 		(layer "F.Cu")
 		(uuid "7e041aab-32a9-4f7c-a0f7-56f8fc1206ed")
@@ -19642,6 +19708,90 @@
 		(uuid "c73d0b40-140b-40f1-9ae4-071fa95bee27")
 	)
 	(gr_line
+		(start 65.088103 83.003986)
+		(end 66.57736 92.406779)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "f61bd61a-1ae2-4a97-acce-f03bc4cf3482")
+	)
+	(gr_arc
+		(start 66.57736 92.406779)
+		(mid 67.148618 92.822534)
+		(end 67.563491 92.250592)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "dc82c2c7-3355-41d4-8df1-0576fb68413e")
+	)
+	(gr_line
+		(start 67.563491 92.250592)
+		(end 66.075169 82.847651)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "0e282f50-7f88-4c6e-8ef1-81a96901a592")
+	)
+	(gr_arc
+		(start 66.075169 82.847651)
+		(mid 65.503444 82.43197)
+		(end 65.088103 83.003986)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "4837949a-a03c-4ccc-8cdf-fcc63d2dfac5")
+	)
+	(gr_line
+		(start 67.587926 98.787246)
+		(end 69.077182 108.190039)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "1f9e3ec6-3255-44ac-9448-6ed3d7bd1b5b")
+	)
+	(gr_arc
+		(start 69.077182 108.190039)
+		(mid 69.647656 108.605918)
+		(end 70.061744 108.0341)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "f776b290-6a88-4a29-883f-30ed70bd3b58")
+	)
+	(gr_line
+		(start 70.061744 108.0341)
+		(end 68.573423 98.631159)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "78798c4e-7338-4ee8-abf9-43526fc15515")
+	)
+	(gr_arc
+		(start 68.573423 98.631159)
+		(mid 68.002482 98.215354)
+		(end 67.587926 98.787246)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "21fff756-9a0c-4ad3-8e31-ead57e537247")
+	)
+	(gr_line
 		(start 62.181708 64.653725)
 		(end 61.959414 63.25022)
 		(stroke
@@ -19856,48 +20006,6 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "4e070eda-9769-418c-b4ff-062cd0957fa6")
-	)
-	(gr_line
-		(start 65.088103 83.003986)
-		(end 69.077182 108.190039)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "21fc3adf-1436-480f-89e0-07b0832b4e6d")
-	)
-	(gr_arc
-		(start 69.077182 108.190039)
-		(mid 69.647656 108.605918)
-		(end 70.061744 108.0341)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "837644a8-1249-4b44-b9a4-2eb507c61be3")
-	)
-	(gr_line
-		(start 70.061744 108.0341)
-		(end 66.075169 82.847651)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "20cdbb45-4140-42c1-813f-8173f0552c27")
-	)
-	(gr_arc
-		(start 66.075169 82.847651)
-		(mid 65.503444 82.43197)
-		(end 65.088103 83.003986)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "7154ca2a-f5d0-41b5-93a2-dc0e8815a514")
 	)
 	(gr_line
 		(start 70.406875 116.58539)
