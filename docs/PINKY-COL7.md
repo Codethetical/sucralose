@@ -13,7 +13,7 @@ Last updated 2026-10-07 (UTC). Head `1fa790a`. Main is untouched.
 - **Breakaway:**
   - Five tabs of 0.6 mm NPTH perforations with a 0.35 mm web, plus 1.0 mm slots (the JLCPCB minimum NP slot). The fifth (MB5, 5 holes, solid span 5.46 mm) sits at the C6 R0/R1 key boundary and splits the long middle slot.
   - The main-side slot wall lies on the Rev. 1 COL0 edge, so the snapped board keeps the Rev. 1 outline and corners and existing covers fit.
-  - The strip spans the full board height, and its outer corners copy the main corner rounds. Inner corners are R1.5 (a larger radius would hit the MP copper).
+  - The strip spans the full board height, and its outer corners copy the main corner rounds. Inner corners now hug the main board's corner rounds: a 1.0 mm-gap arc concentric with each main corner, filleted R0.5 into the strip's top/bottom edge (`scripts/hug_pinky_col7_corners.py`, run after `gen_pinky_col7.py`).
   - Middle tabs carry the nets (3+3 holes around a copper channel). Dead-end stubs remain after a snap; file the edge.
 - **DRC:** copper clean. The unconnected set matches main (7 display/battery ring pairs). Only new items are 8 `lib_footprint_issues` local-override warnings.
 
