@@ -3785,7 +3785,7 @@
 		(layer "F.Cu")
 		(uuid "1f7f3047-94a8-49c1-9425-aa428fd6da57")
 		(at 138.612806 130.378892)
-		(descr "Mounting Hole 1.2mm, M1, no annular, copied from M2 Mounting Hole")
+		(descr "Mounting Hole 1.2mm, M1, no annular. Courtyard and head outline 2.2 mm dia (ISO 7045 / JIS B 1111 M1-M1.2 pan head dk max 2.0)")
 		(tags "mountinghole M2")
 		(property "Reference" "M1"
 			(at 2.523779 0.090644 0)
@@ -3848,9 +3848,9 @@
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
-			(end 1.2 0)
+			(end 1.1 0)
 			(stroke
-				(width 0.15)
+				(width 0.05)
 				(type solid)
 			)
 			(fill no)
@@ -3859,7 +3859,7 @@
 		)
 		(fp_circle
 			(center 0 0)
-			(end 1.3 0)
+			(end 1.1 0)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -5107,12 +5107,13 @@
 	(footprint "CustomParts:MountingHole_1.2mm_M1"
 		(layer "F.Cu")
 		(uuid "398e06e3-2429-44b9-95e6-e7117d66a5f2")
-		(at 199 99.5)
-		(descr "Mounting Hole 1.2mm, M1, no annular, copied from M2 Mounting Hole")
+		(at 199.45 101.15)
+		(descr "Mounting Hole 1.2mm, M1, no annular. Courtyard and head outline 2.2 mm dia (ISO 7045 / JIS B 1111 M1-M1.2 pan head dk max 2.0)")
 		(tags "mountinghole M2")
 		(property "Reference" "M1"
 			(at -2.5 0 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "cd732322-3509-4422-960b-c5fface9cef2")
 			(effects
 				(font
@@ -5171,9 +5172,9 @@
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
-			(end 1.2 0)
+			(end 1.1 0)
 			(stroke
-				(width 0.15)
+				(width 0.05)
 				(type solid)
 			)
 			(fill no)
@@ -5182,7 +5183,7 @@
 		)
 		(fp_circle
 			(center 0 0)
-			(end 1.3 0)
+			(end 1.1 0)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -5214,8 +5215,8 @@
 	(footprint "CustomParts:MountingHole_1.2mm_M1"
 		(layer "F.Cu")
 		(uuid "4691b732-af3b-4b9e-9b3a-91337432cad8")
-		(at 180 99.5)
-		(descr "Mounting Hole 1.2mm, M1, no annular, copied from M2 Mounting Hole")
+		(at 180.95 101.15)
+		(descr "Mounting Hole 1.2mm, M1, no annular. Courtyard and head outline 2.2 mm dia (ISO 7045 / JIS B 1111 M1-M1.2 pan head dk max 2.0)")
 		(tags "mountinghole M2")
 		(property "Reference" "M1"
 			(at 2.523779 0.090644 0)
@@ -5278,9 +5279,9 @@
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
-			(end 1.2 0)
+			(end 1.1 0)
 			(stroke
-				(width 0.15)
+				(width 0.05)
 				(type solid)
 			)
 			(fill no)
@@ -5289,7 +5290,7 @@
 		)
 		(fp_circle
 			(center 0 0)
-			(end 1.3 0)
+			(end 1.1 0)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -6248,7 +6249,7 @@
 	(footprint "Connector_JST:JST_PH_B2B-PH-SM4-TB_1x02-1MP_P2.00mm_Vertical"
 		(layer "F.Cu")
 		(uuid "532084a9-5e09-4ddc-a466-f89d0e082064")
-		(at 189.567889 102.79633)
+		(at 193.517889 104.44633)
 		(descr "JST PH series connector, B2B-PH-SM4-TB (http://www.jst-mfg.com/product/pdf/eng/ePH.pdf)")
 		(tags "connector JST PH vertical")
 		(property "Reference" "Bat JST"
@@ -7223,7 +7224,7 @@
 		(layer "F.Cu")
 		(uuid "5b0ed6ee-02b5-4624-af14-36c0a205521b")
 		(at 104.5 56.5)
-		(descr "Mounting Hole 1.2mm, M1, no annular, copied from M2 Mounting Hole")
+		(descr "Mounting Hole 1.2mm, M1, no annular. Courtyard and head outline 2.2 mm dia (ISO 7045 / JIS B 1111 M1-M1.2 pan head dk max 2.0)")
 		(tags "mountinghole M2")
 		(property "Reference" "M1"
 			(at 2.523779 0.090644 0)
@@ -7286,9 +7287,9 @@
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
-			(end 1.2 0)
+			(end 1.1 0)
 			(stroke
-				(width 0.15)
+				(width 0.05)
 				(type solid)
 			)
 			(fill no)
@@ -7297,7 +7298,7 @@
 		)
 		(fp_circle
 			(center 0 0)
-			(end 1.3 0)
+			(end 1.1 0)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -8249,8 +8250,8 @@
 	(footprint "CustomParts:MountingHole_1.2mm_M1"
 		(layer "F.Cu")
 		(uuid "73cb6c52-103e-4ba3-9d37-946a45f84d5f")
-		(at 198.920161 58)
-		(descr "Mounting Hole 1.2mm, M1, no annular, copied from M2 Mounting Hole")
+		(at 199.870161 58)
+		(descr "Mounting Hole 1.2mm, M1, no annular. Courtyard and head outline 2.2 mm dia (ISO 7045 / JIS B 1111 M1-M1.2 pan head dk max 2.0)")
 		(tags "mountinghole M2")
 		(property "Reference" "M1"
 			(at -2.221452 0.083582 0)
@@ -8313,9 +8314,9 @@
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
-			(end 1.2 0)
+			(end 1.1 0)
 			(stroke
-				(width 0.15)
+				(width 0.05)
 				(type solid)
 			)
 			(fill no)
@@ -8324,7 +8325,7 @@
 		)
 		(fp_circle
 			(center 0 0)
-			(end 1.3 0)
+			(end 1.1 0)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -13932,7 +13933,7 @@
 		(layer "F.Cu")
 		(uuid "bbd82016-2136-41b3-a2b7-30aa28d806a4")
 		(at 66.299106 74.3289)
-		(descr "Mounting Hole 1.2mm, M1, no annular, copied from M2 Mounting Hole")
+		(descr "Mounting Hole 1.2mm, M1, no annular. Courtyard and head outline 2.2 mm dia (ISO 7045 / JIS B 1111 M1-M1.2 pan head dk max 2.0)")
 		(tags "mountinghole M2")
 		(property "Reference" "M1"
 			(at -0.58624 -1.979676 0)
@@ -13995,9 +13996,9 @@
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
-			(end 1.2 0)
+			(end 1.1 0)
 			(stroke
-				(width 0.15)
+				(width 0.05)
 				(type solid)
 			)
 			(fill no)
@@ -14006,7 +14007,7 @@
 		)
 		(fp_circle
 			(center 0 0)
-			(end 1.3 0)
+			(end 1.1 0)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -14746,7 +14747,7 @@
 		(layer "F.Cu")
 		(uuid "ddb7298c-72a8-40b5-a769-2a6a53e778ec")
 		(at 134.5 109.5)
-		(descr "Mounting Hole 1.2mm, M1, no annular, copied from M2 Mounting Hole")
+		(descr "Mounting Hole 1.2mm, M1, no annular. Courtyard and head outline 2.2 mm dia (ISO 7045 / JIS B 1111 M1-M1.2 pan head dk max 2.0)")
 		(tags "mountinghole M2")
 		(property "Reference" "M1"
 			(at -2.5 0.090644 0)
@@ -14809,9 +14810,9 @@
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
-			(end 1.2 0)
+			(end 1.1 0)
 			(stroke
-				(width 0.15)
+				(width 0.05)
 				(type solid)
 			)
 			(fill no)
@@ -14820,7 +14821,7 @@
 		)
 		(fp_circle
 			(center 0 0)
-			(end 1.3 0)
+			(end 1.1 0)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -14853,7 +14854,7 @@
 		(layer "F.Cu")
 		(uuid "de3ca551-236d-470b-aa49-655b362618e4")
 		(at 116.616507 130.277058)
-		(descr "Mounting Hole 1.2mm, M1, no annular, copied from M2 Mounting Hole")
+		(descr "Mounting Hole 1.2mm, M1, no annular. Courtyard and head outline 2.2 mm dia (ISO 7045 / JIS B 1111 M1-M1.2 pan head dk max 2.0)")
 		(tags "mountinghole M2")
 		(property "Reference" "M1"
 			(at 0 -2 0)
@@ -14916,9 +14917,9 @@
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
-			(end 1.2 0)
+			(end 1.1 0)
 			(stroke
-				(width 0.15)
+				(width 0.05)
 				(type solid)
 			)
 			(fill no)
@@ -14927,7 +14928,7 @@
 		)
 		(fp_circle
 			(center 0 0)
-			(end 1.3 0)
+			(end 1.1 0)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -15496,7 +15497,7 @@
 		(layer "F.Cu")
 		(uuid "ecaf311c-8255-4122-86f4-fa42b17c658a")
 		(at 64.66975 63.839924)
-		(descr "Mounting Hole 1.2mm, M1, no annular, copied from M2 Mounting Hole")
+		(descr "Mounting Hole 1.2mm, M1, no annular. Courtyard and head outline 2.2 mm dia (ISO 7045 / JIS B 1111 M1-M1.2 pan head dk max 2.0)")
 		(tags "mountinghole M2")
 		(property "Reference" "M1"
 			(at 0.33025 2.160076 0)
@@ -15559,9 +15560,9 @@
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
-			(end 1.2 0)
+			(end 1.1 0)
 			(stroke
-				(width 0.15)
+				(width 0.05)
 				(type solid)
 			)
 			(fill no)
@@ -15570,7 +15571,7 @@
 		)
 		(fp_circle
 			(center 0 0)
-			(end 1.3 0)
+			(end 1.1 0)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -16257,8 +16258,8 @@
 	(footprint "CustomParts:MountingHole_1.2mm_M1"
 		(layer "F.Cu")
 		(uuid "fde4ecfc-a304-4d87-a12e-5cf81348a7b9")
-		(at 180.046793 58)
-		(descr "Mounting Hole 1.2mm, M1, no annular, copied from M2 Mounting Hole")
+		(at 180.996793 58)
+		(descr "Mounting Hole 1.2mm, M1, no annular. Courtyard and head outline 2.2 mm dia (ISO 7045 / JIS B 1111 M1-M1.2 pan head dk max 2.0)")
 		(tags "mountinghole M2")
 		(property "Reference" "M1"
 			(at 2.523779 0.090644 0)
@@ -16321,9 +16322,9 @@
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
-			(end 1.2 0)
+			(end 1.1 0)
 			(stroke
-				(width 0.15)
+				(width 0.05)
 				(type solid)
 			)
 			(fill no)
@@ -16332,7 +16333,7 @@
 		)
 		(fp_circle
 			(center 0 0)
-			(end 1.3 0)
+			(end 1.1 0)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -18715,7 +18716,7 @@
 	(footprint "Connector_JST:JST_PH_B2B-PH-SM4-TB_1x02-1MP_P2.00mm_Vertical"
 		(layer "B.Cu")
 		(uuid "ca9d8d8b-4ede-49af-89e5-25b5ba81d4a2")
-		(at 189.564117 102.802616 180)
+		(at 193.514117 104.452616 180)
 		(descr "JST PH series connector, B2B-PH-SM4-TB (http://www.jst-mfg.com/product/pdf/eng/ePH.pdf)")
 		(tags "connector JST PH vertical")
 		(property "Reference" "Bat JST"
@@ -19161,7 +19162,7 @@
 	(footprint "sucralose:SW_Slide_SSSS811101_Side_F_sucralose"
 		(layer "F.Cu")
 		(uuid "300ec8c5-5c4b-4f1b-8100-2c18091b7b5d")
-		(at 201.45 105.5)
+		(at 203.3 105.5)
 		(descr "Alps SSSS811101 SPDT side slide switch, 1.4 mm. Lands per Alps land drawing; cross-checked vs ceoloide power_switch_smd_side (MIT). Pin 2 = common. Battery + in series: pin 3 BAT_RAW (JST), pin 2 BAT_P (to VCC jumper). Front copy owns the two boss NPTH.")
 		(tags "slide switch power side SSSS811101")
 		(property "Reference" "PWR"
@@ -19396,7 +19397,7 @@
 	(footprint "sucralose:SW_Slide_SSSS811101_Side_B_sucralose"
 		(layer "B.Cu")
 		(uuid "3d53d4a8-fc3d-4cd1-a010-357b8bda5e80")
-		(at 201.45 105.5)
+		(at 203.3 105.5)
 		(descr "Alps SSSS811101 SPDT side slide switch, 1.4 mm. Lands per Alps land drawing; cross-checked vs ceoloide power_switch_smd_side (MIT). Pin 2 = common. Battery + in series: pin 3 BAT_RAW (JST), pin 2 BAT_P (to VCC jumper). Back copy: no holes, front copy owns the bosses.")
 		(tags "slide switch power side SSSS811101")
 		(property "Reference" "PWR"
@@ -20239,7 +20240,7 @@
 	)
 	(gr_curve
 		(pts
-			(xy 177 60.5) (xy 177 59.947715) (xy 177.447715 59.5) (xy 178 59.5)
+			(xy 177.95 60.5) (xy 177.95 59.947715) (xy 178.397715 59.5) (xy 178.95 59.5)
 		)
 		(stroke
 			(width 0.1)
@@ -20249,8 +20250,8 @@
 		(uuid "402f5180-adc4-44da-bc8f-88cde7abaca1")
 	)
 	(gr_line
-		(start 177 97)
-		(end 177 60.5)
+		(start 177.95 98.65)
+		(end 177.95 60.5)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -20259,8 +20260,8 @@
 		(uuid "df9b6d7f-0108-4a54-bbda-9a556fbc2283")
 	)
 	(gr_line
-		(start 178 59.5)
-		(end 201 59.5)
+		(start 178.95 59.5)
+		(end 201.95 59.5)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -20270,7 +20271,7 @@
 	)
 	(gr_curve
 		(pts
-			(xy 178 98) (xy 177.447715 98) (xy 177 97.552285) (xy 177 97)
+			(xy 178.95 99.65) (xy 178.397715 99.65) (xy 177.95 99.202285) (xy 177.95 98.65)
 		)
 		(stroke
 			(width 0.1)
@@ -20380,18 +20381,8 @@
 		(uuid "8cb2b501-269c-4f39-bc27-de712d461309")
 	)
 	(gr_line
-		(start 195.9651 137.0541)
-		(end 204.6908 113.0936)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "f11fb5ac-c939-4caf-bce0-00d1ad603d6d")
-	)
-	(gr_line
 		(start 197 56.5)
-		(end 200.5 56.5)
+		(end 202.35 56.5)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -20401,7 +20392,7 @@
 	)
 	(gr_curve
 		(pts
-			(xy 201 59.5) (xy 201.552285 59.5) (xy 202 59.947715) (xy 202 60.5)
+			(xy 201.95 59.5) (xy 202.502285 59.5) (xy 202.95 59.947715) (xy 202.95 60.5)
 		)
 		(stroke
 			(width 0.1)
@@ -20411,8 +20402,8 @@
 		(uuid "4d873de9-df28-489f-969d-09d092aca6c4")
 	)
 	(gr_line
-		(start 201 98)
-		(end 178 98)
+		(start 201.95 99.65)
+		(end 178.95 99.65)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -20421,8 +20412,8 @@
 		(uuid "5be97f5e-9ffe-4d19-9090-bd3644705485")
 	)
 	(gr_line
-		(start 202 60.5)
-		(end 202 97)
+		(start 202.95 60.5)
+		(end 202.95 98.65)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -20432,7 +20423,7 @@
 	)
 	(gr_curve
 		(pts
-			(xy 202 97) (xy 202 97.552285) (xy 201.552285 98) (xy 201 98)
+			(xy 202.95 98.65) (xy 202.95 99.202285) (xy 202.502285 99.65) (xy 201.95 99.65)
 		)
 		(stroke
 			(width 0.1)
@@ -20443,7 +20434,7 @@
 	)
 	(gr_curve
 		(pts
-			(xy 203.5 59) (xy 203.5 57.5) (xy 202 56.5) (xy 200.5 56.5)
+			(xy 205.35 59) (xy 205.35 57.5) (xy 203.85 56.5) (xy 202.35 56.5)
 		)
 		(stroke
 			(width 0.1)
@@ -20453,49 +20444,8 @@
 		(uuid "27b0e58b-1ba9-49ea-bdfd-6517f6932534")
 	)
 	(gr_line
-		(start 203.5 59)
-		(end 203.5 107)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "696561bb-c155-43bd-9948-07a28217b78c")
-	)
-	(gr_curve
-		(pts
-			(xy 204.0826 109.9287) (xy 203.621944 109.3611) (xy 203.5 107.5) (xy 203.5 107)
-		)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "74bac9e6-f2bf-4215-9221-001ff26e8e00")
-	)
-	(gr_line
-		(start 204.36 110.2705)
-		(end 204.0826 109.9287)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "4e9d41d2-fd75-4a2a-8f90-3b15c47e13ce")
-	)
-	(gr_line
-		(start 204.5845 110.6497)
-		(end 204.36 110.2705)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "7d187afa-83bb-4ac6-82b4-60d06a2c18c1")
-	)
-	(gr_line
-		(start 204.6908 113.0936)
-		(end 204.8723 112.3637)
+		(start 195.9651 137.0541)
+		(end 205.35 111.9238)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -20503,48 +20453,8 @@
 		(layer "Edge.Cuts")
 		(uuid "69e34689-1ae7-447a-a44a-da64e00feda3")
 	)
-	(gr_line
-		(start 204.7508 111.0574)
-		(end 204.5845 110.6497)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "15cd5a57-c856-4ff9-a895-0bd6ef02590d")
-	)
-	(gr_line
-		(start 204.8555 111.4854)
-		(end 204.7508 111.0574)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "2bbd67bb-f860-494e-a0d3-61ed6e61c9d2")
-	)
-	(gr_line
-		(start 204.8723 112.3637)
-		(end 204.8963 111.9238)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "17cb7232-f423-4a0d-b457-e7bc4d822f7d")
-	)
-	(gr_line
-		(start 204.8963 111.9238)
-		(end 204.8555 111.4854)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "cf1b14d4-49d8-40c1-a17d-1aa563b34841")
-	)
 	(gr_text "+"
-		(at 186.57 105.3 0)
+		(at 190.52 106.95 0)
 		(layer "F.SilkS")
 		(uuid "096cac9f-469b-40b3-9288-1f807cfa97dc")
 		(effects
@@ -20555,7 +20465,7 @@
 		)
 	)
 	(gr_text "-"
-		(at 192.57 105.3 0)
+		(at 196.52 106.95 0)
 		(layer "F.SilkS")
 		(uuid "13d734bd-9077-40be-a64f-d99a66f5c206")
 		(effects
@@ -20566,7 +20476,7 @@
 		)
 	)
 	(gr_text "+"
-		(at 192.56 105.3 0)
+		(at 196.51 106.95 0)
 		(layer "B.SilkS")
 		(uuid "5b3080b0-7cbc-42b5-b028-a647d46a81ff")
 		(effects
@@ -20578,7 +20488,7 @@
 		)
 	)
 	(gr_text "-"
-		(at 186.56 105.3 0)
+		(at 190.51 106.95 0)
 		(layer "B.SilkS")
 		(uuid "99823460-5d3d-448b-8eeb-fe68538ad1ee")
 		(effects
@@ -27105,14 +27015,6 @@
 		(uuid "1e783a7b-7e1c-4124-ae55-74b8e32db61a")
 	)
 	(via
-		(at 175.8773 97.5)
-		(size 0.6)
-		(drill 0.3)
-		(layers "F.Cu" "B.Cu")
-		(net "GND")
-		(uuid "4323f548-dcbe-491e-857d-95ea0792ccfb")
-	)
-	(via
 		(at 140.0023 103)
 		(size 0.6)
 		(drill 0.3)
@@ -27145,44 +27047,12 @@
 		(uuid "1d368089-9e9b-4eaa-a763-5099bebca2f6")
 	)
 	(segment
-		(start 175.8773 97.5)
-		(end 178.8773 100.5)
-		(width 0.25)
-		(layer "B.Cu")
-		(net "GND")
-		(uuid "1fc5b0bb-5bd0-484a-b050-4f4e2c92ad2b")
-	)
-	(segment
 		(start 135.743 126.58)
 		(end 134.8773 126.25)
 		(width 0.25)
 		(layer "B.Cu")
 		(net "GND")
 		(uuid "3204ab1b-674d-4683-b630-9cf2b0ab4f8d")
-	)
-	(segment
-		(start 185.1273 99.125)
-		(end 188.2523 99.125)
-		(width 0.25)
-		(layer "B.Cu")
-		(net "GND")
-		(uuid "3b980823-fcd1-4ebb-9c05-136b19513ca6")
-	)
-	(segment
-		(start 183.7523 100.5)
-		(end 185.1273 99.125)
-		(width 0.25)
-		(layer "B.Cu")
-		(net "GND")
-		(uuid "9bd14a94-bfe5-426f-9d4f-a28a6e879c00")
-	)
-	(segment
-		(start 178.8773 100.5)
-		(end 183.7523 100.5)
-		(width 0.25)
-		(layer "B.Cu")
-		(net "GND")
-		(uuid "a3d6b028-8969-43a3-8395-6c2fc0c2031e")
 	)
 	(segment
 		(start 139.3773 104.75)
@@ -29556,86 +29426,6 @@
 		(net "BATH_B")
 		(uuid "fb581f1b-c21d-416e-b60a-9c06b9b3f716")
 	)
-	(segment
-		(start 184.5 103.25)
-		(end 184.5 98.9)
-		(width 0.25)
-		(layer "F.Cu")
-		(net "BAT_P")
-		(uuid "da3d63b5-95ef-4d88-87ce-1f22d6977956")
-	)
-	(segment
-		(start 184.5 98.9)
-		(end 197 98.9)
-		(width 0.25)
-		(layer "F.Cu")
-		(net "BAT_P")
-		(uuid "b7c28000-44a3-41cc-99fd-c90c90435521")
-	)
-	(segment
-		(start 197 98.9)
-		(end 197 104.75)
-		(width 0.25)
-		(layer "F.Cu")
-		(net "BAT_P")
-		(uuid "ca3bb305-cfae-40e1-8c72-dcb8b015a101")
-	)
-	(segment
-		(start 197 104.75)
-		(end 199.715 104.75)
-		(width 0.25)
-		(layer "F.Cu")
-		(net "BAT_P")
-		(uuid "206e8069-db92-4e03-b417-5575b86fe46e")
-	)
-	(via
-		(at 197 104.0)
-		(size 0.6)
-		(drill 0.3)
-		(layers "F.Cu" "B.Cu")
-		(net "BAT_P")
-		(uuid "ca16bbe8-1a8f-4214-9326-ffe3277e15db")
-	)
-	(segment
-		(start 197 104.0)
-		(end 197 106.25)
-		(width 0.25)
-		(layer "B.Cu")
-		(net "BAT_P")
-		(uuid "053f0755-2b1e-434e-920b-b05ebdd76d81")
-	)
-	(segment
-		(start 197 106.25)
-		(end 199.715 106.25)
-		(width 0.25)
-		(layer "B.Cu")
-		(net "BAT_P")
-		(uuid "04749cb2-49dd-45be-8e76-2df1a9111e13")
-	)
-	(segment
-		(start 188.567889 103.29633)
-		(end 188.566 107.75)
-		(width 0.25)
-		(layer "F.Cu")
-		(net "BAT_RAW")
-		(uuid "a69b225a-0b76-4333-98b3-558e035b9719")
-	)
-	(segment
-		(start 188.566 107.75)
-		(end 199.715 107.75)
-		(width 0.25)
-		(layer "F.Cu")
-		(net "BAT_RAW")
-		(uuid "ef8965cf-c056-45b3-9379-e9b05610ae69")
-	)
-	(via
-		(at 188.566 107.75)
-		(size 0.6)
-		(drill 0.3)
-		(layers "F.Cu" "B.Cu")
-		(net "BAT_RAW")
-		(uuid "a8fe1e4a-9d87-46e0-bcc0-8103adee93fb")
-	)
 	(embedded_fonts no)
 	(footprint "sucralose:SW_Tactile_B3U-1000P_Reversible_sucralose"
 		(layer "F.Cu")
@@ -30273,78 +30063,6 @@
 		(uuid "66c7228f-7290-468e-8701-49a20f02e2f6")
 	)
 	(segment
-		(start 190.5679 103.2963)
-		(end 190.5679 99.85)
-		(width 0.25)
-		(layer "F.Cu")
-		(net "GND")
-		(uuid "3fbed447-8d2d-4803-bd3b-cea59bcf6b19")
-	)
-	(via
-		(at 190.5679 99.85)
-		(size 0.6)
-		(drill 0.3)
-		(layers "F.Cu" "B.Cu")
-		(net "GND")
-		(uuid "d9a0c76b-c1b5-4d43-a99a-29650a63e636")
-	)
-	(segment
-		(start 188.2523 99.125)
-		(end 188.5641 99.4368)
-		(width 0.25)
-		(layer "B.Cu")
-		(net "GND")
-		(uuid "500e4832-d0ab-4ee6-91e9-cc8fb1befcc5")
-	)
-	(segment
-		(start 188.5641 99.4368)
-		(end 188.5641 99.85)
-		(width 0.25)
-		(layer "B.Cu")
-		(net "GND")
-		(uuid "68f150e3-271c-4908-a9bb-f614eefa9edb")
-	)
-	(segment
-		(start 188.5641 99.85)
-		(end 188.5641 103.3026)
-		(width 0.25)
-		(layer "B.Cu")
-		(net "GND")
-		(uuid "7f78f9ab-0d47-48ef-b801-487996f801ed")
-	)
-	(segment
-		(start 188.5641 99.85)
-		(end 190.5679 99.85)
-		(width 0.25)
-		(layer "B.Cu")
-		(net "GND")
-		(uuid "915500f5-b44c-4507-a69c-4850b7c30119")
-	)
-	(segment
-		(start 190.5641 103.3026)
-		(end 190.5641 107.75)
-		(width 0.25)
-		(layer "B.Cu")
-		(net "BAT_RAW")
-		(uuid "8ed50cf0-b149-4acb-a299-62a291be84ce")
-	)
-	(segment
-		(start 188.566 107.75)
-		(end 190.5641 107.75)
-		(width 0.25)
-		(layer "B.Cu")
-		(net "BAT_RAW")
-		(uuid "ba4cf5e2-46cf-4d92-8f63-74e166a83264")
-	)
-	(segment
-		(start 190.5641 107.75)
-		(end 199.715 107.75)
-		(width 0.25)
-		(layer "B.Cu")
-		(net "BAT_RAW")
-		(uuid "0785c32d-d236-48e0-8769-4f877fb6301b")
-	)
-	(segment
 		(start 142.9500 130.5500)
 		(end 142.8773 130.5250)
 		(width 0.25)
@@ -30399,14 +30117,6 @@
 		(layer "F.Cu")
 		(net "BAT_P")
 		(uuid "ryn16562-850e-4e2f-9a54-5feafef4bc50")
-	)
-	(segment
-		(start 184.5023 103.2500)
-		(end 184.5000 103.2500)
-		(width 0.25)
-		(layer "F.Cu")
-		(net "BAT_P")
-		(uuid "ryn1c41e-e8d4-4aee-9ec8-c3e77a49c12c")
 	)
 	(segment
 		(start 112.1273 87.0000)
@@ -32767,5 +32477,979 @@
 		(layers "F.Cu" "B.Cu")
 		(net "pinky7_bottom")
 		(uuid "ryn79ffd-b6e1-4a34-84f2-2f7d68642dd7")
+	)
+	(footprint "CustomParts:MountingHole_1.2mm_M1"
+		(layer "F.Cu")
+		(uuid "b3f061c4-c51f-4e2d-9826-1bc632da02a8")
+		(at 203.3 111)
+		(descr "Mounting Hole 1.2mm, M1, no annular. Courtyard and head outline 2.2 mm dia (ISO 7045 / JIS B 1111 M1-M1.2 pan head dk max 2.0)")
+		(tags "mountinghole M2")
+		(property "Reference" "M1"
+			(at  -2.5 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "601ede9e-20cf-4a77-964d-57e4c9e21990")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole_1.2mm_M1"
+			(at 0 3.15 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4fd2666e-d76c-4f2f-872e-c24cc76f4c84")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a825ab28-b66e-4905-bc7b-9dcf53fc4beb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3c97fb4c-e222-4e96-88c3-a07716d94fd2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "mounting_hardware/mounting_hole"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "1bad2858-9fa0-4f5f-810a-13b6d42a8aae")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center 0 0)
+			(end 1.1 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "Cmts.User")
+			(uuid "abed4f36-b208-4c42-8c0a-5f3902cbc6f9")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1.1 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "b0b117ad-86b8-45f4-a7b6-4c00e43a6f4f")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "d8ebd0fd-d876-4641-abb7-ba26aa3e1cfe")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 1.2 1.2)
+			(drill 1.2)
+			(layers "*.Cu" "*.Mask")
+			(uuid "978befa2-8482-4fc6-9056-7fb96cb2268c")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "CustomParts:MountingHole_1.2mm_M1"
+		(layer "F.Cu")
+		(uuid "7af81de4-d2dc-4b72-9a4e-5e289c6db06f")
+		(at 176.75 68.5)
+		(descr "Mounting Hole 1.2mm, M1, no annular. Courtyard and head outline 2.2 mm dia (ISO 7045 / JIS B 1111 M1-M1.2 pan head dk max 2.0)")
+		(tags "mountinghole M2")
+		(property "Reference" "M1"
+			(at  -2.5 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "6090b82c-1750-4189-acbf-e4eeb5d37789")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole_1.2mm_M1"
+			(at 0 3.15 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fb657701-79a3-487d-9389-98a904fa11d5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "772ffcec-d6bf-4532-bdb2-02d2d7c6d3db")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1a468334-5971-4e30-8911-a985ea1586b4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "mounting_hardware/mounting_hole"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "665ca139-7606-4699-a3ca-f1ee603afa7b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center 0 0)
+			(end 1.1 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "Cmts.User")
+			(uuid "29653dc4-259e-48f0-a307-7624d7b206c2")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1.1 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "47d6bec4-b7d5-4534-a478-d495484b46b3")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "3862eecb-4658-403a-b739-f7c9ed9b6304")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 1.2 1.2)
+			(drill 1.2)
+			(layers "*.Cu" "*.Mask")
+			(uuid "a881a5dc-2d50-45df-b0ad-7f87da07ad3a")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "CustomParts:MountingHole_1.2mm_M1"
+		(layer "F.Cu")
+		(uuid "9d27ffe8-57ba-4f7a-8151-3907fc284f17")
+		(at 176.75 78.75)
+		(descr "Mounting Hole 1.2mm, M1, no annular. Courtyard and head outline 2.2 mm dia (ISO 7045 / JIS B 1111 M1-M1.2 pan head dk max 2.0)")
+		(tags "mountinghole M2")
+		(property "Reference" "M1"
+			(at  -2.5 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "3e9e4250-7dff-4ace-93cf-dc61756254c4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole_1.2mm_M1"
+			(at 0 3.15 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ee97cc10-9480-463e-ba7a-f1e3ee15be98")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1d69c8d9-3f5e-42fd-a13e-f0604cea2e39")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "edb3bf04-0c6e-4644-97da-35cc72dff7c3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "mounting_hardware/mounting_hole"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "66cb36bd-11d6-4e6b-836a-4ab7706254d0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center 0 0)
+			(end 1.1 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "Cmts.User")
+			(uuid "507f96cf-6579-4d5f-9065-49664ea896b7")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1.1 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "19cc8e67-ac3a-465f-8436-854ac86d2c9e")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "4817c2db-e6dc-44ff-bb3a-d87554cf2d04")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 1.2 1.2)
+			(drill 1.2)
+			(layers "*.Cu" "*.Mask")
+			(uuid "d83fed0a-819e-4ada-86cb-b3f4b71f93d1")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "CustomParts:MountingHole_1.2mm_M1"
+		(layer "F.Cu")
+		(uuid "c39de879-be7c-414f-8e57-a9fef793b839")
+		(at 176.75 89)
+		(descr "Mounting Hole 1.2mm, M1, no annular. Courtyard and head outline 2.2 mm dia (ISO 7045 / JIS B 1111 M1-M1.2 pan head dk max 2.0)")
+		(tags "mountinghole M2")
+		(property "Reference" "M1"
+			(at  -2.5 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "500664ff-7254-4c08-9931-9a953699ea40")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole_1.2mm_M1"
+			(at 0 3.15 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "047198b2-2e04-4284-abb6-c7dd295b6742")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "43e600e4-a537-4422-af38-f2ddc3cbe9d9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "50958aa3-4780-4512-8910-fcc975552e20")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "mounting_hardware/mounting_hole"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "4e9718e8-6709-4998-8889-a939f81b5e0f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center 0 0)
+			(end 1.1 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "Cmts.User")
+			(uuid "72e0a244-1f84-453d-a3ad-ff166b751ad1")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1.1 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "15a38eaf-524a-4665-8e19-9280c8441b44")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "4cf58dc1-18d0-4397-a31b-6e19f75accbc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 1.2 1.2)
+			(drill 1.2)
+			(layers "*.Cu" "*.Mask")
+			(uuid "f7c00fa2-0553-4f31-b3d8-a152e1bccdbe")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "CustomParts:MountingHole_1.2mm_M1"
+		(layer "F.Cu")
+		(uuid "f7860710-0ff0-4b4a-9d9d-bbe70b52f2b2")
+		(at 204.15 68.5)
+		(descr "Mounting Hole 1.2mm, M1, no annular. Courtyard and head outline 2.2 mm dia (ISO 7045 / JIS B 1111 M1-M1.2 pan head dk max 2.0)")
+		(tags "mountinghole M2")
+		(property "Reference" "M1"
+			(at  -2.5 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "0d688edb-7489-4ee8-80d0-e757d6f7178a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole_1.2mm_M1"
+			(at 0 3.15 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5ec0fd2c-d177-4318-91e3-45741074fb20")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "51b06586-a32e-4b1f-8c26-85e9ae91cea2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "16a8d9eb-f60d-4175-b101-94891369c83a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "mounting_hardware/mounting_hole"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "430db9dd-fcb1-4420-b7d6-1ac27350ab14")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center 0 0)
+			(end 1.1 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "Cmts.User")
+			(uuid "ad5c6e9a-e042-4978-961d-0eb751484b7c")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1.1 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "ce1ac877-e4c2-42b4-b7d3-288e334f18d0")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "1db7d831-9e9b-4d73-8891-bde4dfbee42c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 1.2 1.2)
+			(drill 1.2)
+			(layers "*.Cu" "*.Mask")
+			(uuid "d5e7155f-91c2-41ce-b1e2-d9935137078a")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "CustomParts:MountingHole_1.2mm_M1"
+		(layer "F.Cu")
+		(uuid "910a9972-2fbb-4751-bcd7-1d72278aabde")
+		(at 204.15 78.75)
+		(descr "Mounting Hole 1.2mm, M1, no annular. Courtyard and head outline 2.2 mm dia (ISO 7045 / JIS B 1111 M1-M1.2 pan head dk max 2.0)")
+		(tags "mountinghole M2")
+		(property "Reference" "M1"
+			(at  -2.5 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "ccc03550-668f-4a4f-b4ac-8ba2e7c2fbd0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole_1.2mm_M1"
+			(at 0 3.15 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9da199b4-610e-4709-9765-63bcac84c1a2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "46dc73db-bfca-47a6-8b26-3e77c3863b16")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fb25f465-cb07-4e38-8e7c-8ee5274d4bce")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "mounting_hardware/mounting_hole"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "cf85d358-8538-4ef3-a447-41d7d31a6b80")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center 0 0)
+			(end 1.1 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "Cmts.User")
+			(uuid "cdce813b-2c33-4653-9d5d-4063c16f0d0f")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1.1 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "6c297031-5150-4707-b6cb-ecf4a20df2d7")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "ca6b3423-d72e-4de1-95c7-3d8308077ddf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 1.2 1.2)
+			(drill 1.2)
+			(layers "*.Cu" "*.Mask")
+			(uuid "1167d6aa-2398-4aeb-9898-dac340c7bec2")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "CustomParts:MountingHole_1.2mm_M1"
+		(layer "F.Cu")
+		(uuid "29000934-27c3-4685-8cd1-9e7cd3518a1a")
+		(at 204.15 89)
+		(descr "Mounting Hole 1.2mm, M1, no annular. Courtyard and head outline 2.2 mm dia (ISO 7045 / JIS B 1111 M1-M1.2 pan head dk max 2.0)")
+		(tags "mountinghole M2")
+		(property "Reference" "M1"
+			(at  -2.5 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "d2178ae5-a820-4f68-9f6c-933cfe3a817c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole_1.2mm_M1"
+			(at 0 3.15 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c86167f0-60e4-4ae6-8af7-d4142d659b15")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f222dd09-6c5e-4f30-a90c-36b12bdb2200")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "26140c97-3dbb-4408-8e1f-be3953892d74")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "mounting_hardware/mounting_hole"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "356d3296-8dc0-4b78-a9ce-c89a11a0cf82")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center 0 0)
+			(end 1.1 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "Cmts.User")
+			(uuid "d0909a75-80cf-46a6-8fbc-0138fdd544ca")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1.1 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "f24c3409-8272-4252-b8fa-334800c7d309")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "c60a34d2-8b6f-4138-a316-b74f7f3260b0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 1.2 1.2)
+			(drill 1.2)
+			(layers "*.Cu" "*.Mask")
+			(uuid "7a80fe34-619a-4bf2-bfe5-4d4b27bd899d")
+		)
+		(embedded_fonts no)
+	)
+	(gr_line
+		(start 205.35 59)
+		(end 205.35 111.9238)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "ca58e18e-6d2c-400f-871a-fbf20bdbd121")
+	)
+	(segment
+		(start 192.517889 104.94633)
+		(end 192.517889 108.35)
+		(width 0.25)
+		(layer "F.Cu")
+		(net "BAT_RAW")
+		(uuid "685a20b1-8933-40bb-a99b-7419b408e027")
+	)
+	(segment
+		(start 192.517889 108.35)
+		(end 200.965 108.35)
+		(width 0.25)
+		(layer "F.Cu")
+		(net "BAT_RAW")
+		(uuid "b217f3be-c562-4f3e-b18e-f16c5dfd1d12")
+	)
+	(segment
+		(start 200.965 108.35)
+		(end 201.565 107.75)
+		(width 0.25)
+		(layer "F.Cu")
+		(net "BAT_RAW")
+		(uuid "9736e992-47d4-4e02-ac8e-c16ed39dc371")
+	)
+	(via
+		(at 192.517889 108.35)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(net "BAT_RAW")
+		(uuid "2c71dcbe-4c94-4191-abeb-840b35f25867")
+	)
+	(segment
+		(start 194.514117 104.952616)
+		(end 194.514117 108.35)
+		(width 0.25)
+		(layer "B.Cu")
+		(net "BAT_RAW")
+		(uuid "eb0b84b5-f04b-4d6d-a64a-66676fc169a1")
+	)
+	(segment
+		(start 194.514117 108.35)
+		(end 200.965 108.35)
+		(width 0.25)
+		(layer "B.Cu")
+		(net "BAT_RAW")
+		(uuid "e9942510-0cda-4026-884f-3b51cd0e2633")
+	)
+	(segment
+		(start 200.965 108.35)
+		(end 201.565 107.75)
+		(width 0.25)
+		(layer "B.Cu")
+		(net "BAT_RAW")
+		(uuid "4bc58db7-3df4-4ddc-bf37-1f350b917144")
+	)
+	(segment
+		(start 192.517889 108.35)
+		(end 194.514117 108.35)
+		(width 0.25)
+		(layer "B.Cu")
+		(net "BAT_RAW")
+		(uuid "15885400-1d59-49cb-a828-50a874cbd165")
+	)
+	(segment
+		(start 194.517889 104.94633)
+		(end 194.517889 101.5)
+		(width 0.25)
+		(layer "F.Cu")
+		(net "GND")
+		(uuid "d298ee41-f80e-462b-ae9e-abb2d81b3cae")
+	)
+	(via
+		(at 194.517889 101.5)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(net "GND")
+		(uuid "e47b24f3-5d37-4fc5-b846-25b16135a401")
+	)
+	(segment
+		(start 175.8773 97.5)
+		(end 175.8773 101.15)
+		(width 0.25)
+		(layer "B.Cu")
+		(net "GND")
+		(uuid "4d322c8d-764f-4204-b69f-12c3fd6e5f0a")
+	)
+	(segment
+		(start 175.8773 101.15)
+		(end 176.8773 102.15)
+		(width 0.25)
+		(layer "B.Cu")
+		(net "GND")
+		(uuid "1b5ca482-0728-438e-abf8-70f9d74cb48f")
+	)
+	(segment
+		(start 176.8773 102.15)
+		(end 182.2 102.15)
+		(width 0.25)
+		(layer "B.Cu")
+		(net "GND")
+		(uuid "4714c490-c43d-4c15-9b5b-13c55a23313a")
+	)
+	(segment
+		(start 182.2 102.15)
+		(end 182.2 100.55)
+		(width 0.25)
+		(layer "B.Cu")
+		(net "GND")
+		(uuid "3cfc2d49-c4cb-4e21-a89e-7ff711fb1766")
+	)
+	(segment
+		(start 182.2 100.55)
+		(end 192.514117 100.55)
+		(width 0.25)
+		(layer "B.Cu")
+		(net "GND")
+		(uuid "a74db434-c0ee-4628-b72f-c2b0e7056774")
+	)
+	(segment
+		(start 192.514117 100.55)
+		(end 192.514117 104.952616)
+		(width 0.25)
+		(layer "B.Cu")
+		(net "GND")
+		(uuid "a0d95921-c9ea-4934-96af-4e17801dce58")
+	)
+	(segment
+		(start 192.514117 101.5)
+		(end 194.517889 101.5)
+		(width 0.25)
+		(layer "B.Cu")
+		(net "GND")
+		(uuid "4411e62b-b218-46fd-b2e9-b821f68eab68")
+	)
+	(segment
+		(start 184.5023 103.25)
+		(end 184.5 100.55)
+		(width 0.25)
+		(layer "F.Cu")
+		(net "BAT_P")
+		(uuid "25934811-1ec0-46c7-9280-e341278b30e8")
+	)
+	(segment
+		(start 184.5 100.55)
+		(end 198.4 100.55)
+		(width 0.25)
+		(layer "F.Cu")
+		(net "BAT_P")
+		(uuid "4f3a1a17-6e36-464a-9930-66f84f2b47ce")
+	)
+	(segment
+		(start 198.4 100.55)
+		(end 198.4 104.75)
+		(width 0.25)
+		(layer "F.Cu")
+		(net "BAT_P")
+		(uuid "cfb6c5a2-0bb3-487c-9216-13dbe000cc9b")
+	)
+	(segment
+		(start 198.4 104.75)
+		(end 201.565 104.75)
+		(width 0.25)
+		(layer "F.Cu")
+		(net "BAT_P")
+		(uuid "c94ddf4d-cb6d-4972-935a-3f6d2513ee95")
+	)
+	(segment
+		(start 198.4 104.75)
+		(end 198.4 105.5)
+		(width 0.25)
+		(layer "F.Cu")
+		(net "BAT_P")
+		(uuid "74a78fff-d517-4a2d-8c12-c4d8edb66e73")
+	)
+	(via
+		(at 198.4 105.5)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(net "BAT_P")
+		(uuid "ffccf776-fb5d-42a0-a46e-5fef1f462aef")
+	)
+	(segment
+		(start 198.4 105.5)
+		(end 198.4 106.25)
+		(width 0.25)
+		(layer "B.Cu")
+		(net "BAT_P")
+		(uuid "8bb9efba-b233-4ebb-a043-6b4868036f64")
+	)
+	(segment
+		(start 198.4 106.25)
+		(end 201.565 106.25)
+		(width 0.25)
+		(layer "B.Cu")
+		(net "BAT_P")
+		(uuid "bf35d51d-fd69-4ea5-9c50-dbf890ced79b")
+	)
+	(via
+		(at 175.8773 97.5)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(net "GND")
+		(uuid "d52a6aa1-a9d1-4416-af55-7dcf2ffc1848")
 	)
 )
