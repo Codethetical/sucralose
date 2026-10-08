@@ -1,0 +1,109 @@
+(footprint "MountingHole_1.2mm_M1"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(uuid "0346c6cb-a4d8-4959-8200-b909074b033f")
+	(descr "Mounting Hole 1.2mm, M1, no annular. Courtyard and head outline 2.2 mm dia (ISO 7045 / JIS B 1111 M1-M1.2 pan head dk max 2.0)")
+	(tags "mountinghole M1")
+	(property "Reference" "M1"
+		(at 0 -2 0)
+		(layer "F.SilkS")
+		(uuid "30a59b67-07de-4ea6-b924-37c413870e0c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+)
+	(property "Value" "MountingHole_1.2mm_M1"
+		(at 0 3.15 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3dc50f13-05c7-4ca5-9f31-a8d7353f23c2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2a5956c7-343c-4e43-b2e7-af954fb76656")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "914ad1ab-188e-4642-9629-e793ef886efe")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+)
+	(property "KiLib_Generator" "mounting_hardware/mounting_hole"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "65678a8f-b086-4f8d-9502-1c38bb86f11e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+)
+	(attr exclude_from_pos_files exclude_from_bom)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_circle
+		(center 0 0)
+		(end 1.1 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "Cmts.User")
+		(uuid "b393692f-4692-453b-92b0-1968b124fb9c")
+)
+	(fp_circle
+		(center 0 0)
+		(end 1.1 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "92c68be3-84d6-4f60-ab81-96ba1a62968d")
+)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "b029a797-1211-4c4c-b5ca-e69716f29952")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+)
+	(pad "" np_thru_hole circle
+		(at 0 0)
+		(size 1.2 1.2)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(uuid "a44c7703-4182-44ff-8067-3e97ec96aa93")
+)
+	(embedded_fonts no)
+)
