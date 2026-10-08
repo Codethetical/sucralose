@@ -126,6 +126,113 @@
 			(outputdirectory "")
 		)
 	)
+(footprint "CustomParts:MountingHole_1.2mm_M1"
+		(layer "F.Cu")
+		(uuid "3bf9ca44-da87-4dab-bc82-4566cd021559")
+		(at 102.414 70.41)
+		(descr "Mounting Hole 1.2mm, M1, no annular. Courtyard and head outline 2.2 mm dia (ISO 7045 / JIS B 1111 M1-M1.2 pan head dk max 2.0)")
+		(tags "mountinghole M2")
+		(property "Reference" "M1"
+			(at 2.523779 0.090644 0)
+			(layer "F.SilkS")
+			(uuid "8aa59b7c-c7fc-49dd-8638-823cef7fc663")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole_1.2mm_M1"
+			(at 0 3.15 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "65eea554-bdd7-4258-9363-6a3a2a3d02e8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3eb64063-c820-49be-a91c-51ef056656aa")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "28b102c4-ab68-409d-96a5-9864339f452d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "mounting_hardware/mounting_hole"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "15aeef72-84c1-49d5-b332-5663d9c7cacf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center 0 0)
+			(end 1.1 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "Cmts.User")
+			(uuid "2db34ea4-e989-43a8-918f-7fabe4483bd3")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1.1 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "d2117faf-309e-48a7-b232-1336737ff4f9")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "9750b246-b9c8-4900-8c05-53fcec4fa42b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 1.2 1.2)
+			(drill 1.2)
+			(layers "*.Cu" "*.Mask")
+			(uuid "42baa16e-fb6c-4d09-ad65-f76a69de1294")
+		)
+		(embedded_fonts no)
+	)
 	(footprint "sucralose:MouseBite_0.6mm_col7"
 		(layer "F.Cu")
 		(uuid "2f21d6bb-054c-4fd3-8b24-7305034d94ec")
