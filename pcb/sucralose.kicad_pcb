@@ -128,6 +128,114 @@
 	)
 	(footprint "CustomParts:MountingHole_1.2mm_M1"
 		(layer "F.Cu")
+		(uuid "b3f061c4-c51f-4e2d-9826-1bc632da02a8")
+		(at 203.3 111)
+		(descr "Mounting Hole 1.2mm, M1, no annular. Courtyard and head outline 2.2 mm dia (ISO 7045 / JIS B 1111 M1-M1.2 pan head dk max 2.0)")
+		(tags "mountinghole M2")
+		(property "Reference" "M1"
+			(at  -2.5 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "601ede9e-20cf-4a77-964d-57e4c9e21990")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole_1.2mm_M1"
+			(at 0 3.15 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4fd2666e-d76c-4f2f-872e-c24cc76f4c84")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a825ab28-b66e-4905-bc7b-9dcf53fc4beb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3c97fb4c-e222-4e96-88c3-a07716d94fd2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "mounting_hardware/mounting_hole"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "1bad2858-9fa0-4f5f-810a-13b6d42a8aae")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center 0 0)
+			(end 1.1 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "Cmts.User")
+			(uuid "abed4f36-b208-4c42-8c0a-5f3902cbc6f9")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1.1 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "b0b117ad-86b8-45f4-a7b6-4c00e43a6f4f")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "d8ebd0fd-d876-4641-abb7-ba26aa3e1cfe")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 1.2 1.2)
+			(drill 1.2)
+			(layers "*.Cu" "*.Mask")
+			(uuid "978befa2-8482-4fc6-9056-7fb96cb2268c")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "CustomParts:MountingHole_1.2mm_M1"
+		(layer "F.Cu")
 		(uuid "7af81de4-d2dc-4b72-9a4e-5e289c6db06f")
 		(at 176.75 68.5)
 		(descr "Mounting Hole 1.2mm, M1, no annular. Courtyard and head outline 2.2 mm dia (ISO 7045 / JIS B 1111 M1-M1.2 pan head dk max 2.0)")
