@@ -4388,7 +4388,7 @@
 	(footprint "CustomParts:MountingHole_1.2mm_M1"
 		(layer "F.Cu")
 		(uuid "4691b732-af3b-4b9e-9b3a-91337432cad8")
-		(at 180.95 101.15)
+		(at 181.45 101.15)
 		(descr "Mounting Hole 1.2mm, M1, no annular. Courtyard and head outline 2.2 mm dia (ISO 7045 / JIS B 1111 M1-M1.2 pan head dk max 2.0)")
 		(tags "mountinghole M2")
 		(property "Reference" "M1"
@@ -7799,7 +7799,7 @@
 	(footprint "CustomParts:MountingHole_1.2mm_M1"
 		(layer "F.Cu")
 		(uuid "73cb6c52-103e-4ba3-9d37-946a45f84d5f")
-		(at 199.5 58)
+		(at 199.45 58)
 		(descr "Mounting Hole 1.2mm, M1, no annular. Courtyard and head outline 2.2 mm dia (ISO 7045 / JIS B 1111 M1-M1.2 pan head dk max 2.0)")
 		(tags "mountinghole M2")
 		(property "Reference" "M1"
@@ -17956,7 +17956,7 @@
 	(footprint "CustomParts:MountingHole_1.2mm_M1"
 		(layer "F.Cu")
 		(uuid "fde4ecfc-a304-4d87-a12e-5cf81348a7b9")
-		(at 180.996793 58)
+		(at 181.45 58)
 		(descr "Mounting Hole 1.2mm, M1, no annular. Courtyard and head outline 2.2 mm dia (ISO 7045 / JIS B 1111 M1-M1.2 pan head dk max 2.0)")
 		(tags "mountinghole M2")
 		(property "Reference" "M1"
@@ -28375,7 +28375,7 @@
 			(justify mirror)
 		)
 	)
-	(gr_text "BATTERY BAY 25x38.5mm"
+	(gr_text "BATTERY BAY 25x40.15mm"
 		(at 188.5 78.75 270)
 		(layer "Dwgs.User")
 		(uuid "eab36e0f-969f-4d22-af83-5d04410dce19")
@@ -33643,8 +33643,8 @@
 		(uuid "3204ab1b-674d-4683-b630-9cf2b0ab4f8d")
 	)
 	(segment
-		(start 182.2 102.15)
-		(end 182.2 100.55)
+		(start 182.5 102.15)
+		(end 182.5 100.55)
 		(width 0.25)
 		(layer "B.Cu")
 		(net "GND")
@@ -33660,7 +33660,7 @@
 	)
 	(segment
 		(start 176.8773 102.15)
-		(end 182.2 102.15)
+		(end 182.5 102.15)
 		(width 0.25)
 		(layer "B.Cu")
 		(net "GND")
@@ -33723,7 +33723,7 @@
 		(uuid "a0d95921-c9ea-4934-96af-4e17801dce58")
 	)
 	(segment
-		(start 182.2 100.55)
+		(start 182.5 100.55)
 		(end 192.514117 100.55)
 		(width 0.25)
 		(layer "B.Cu")
