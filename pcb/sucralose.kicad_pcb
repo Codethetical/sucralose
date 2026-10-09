@@ -3573,7 +3573,7 @@
 	(footprint "CustomParts:MountingHole_1.2mm_M1"
 		(layer "F.Cu")
 		(uuid "29000934-27c3-4685-8cd1-9e7cd3518a1a")
-		(at 204.15 89)
+		(at 204.65 89)
 		(descr "Mounting Hole 1.2mm, M1, no annular. Courtyard and head outline 2.2 mm dia (ISO 7045 / JIS B 1111 M1-M1.2 pan head dk max 2.0)")
 		(tags "mountinghole M2")
 		(property "Reference" "M1"
@@ -3771,7 +3771,7 @@
 	(footprint "sucralose:SW_Slide_SSSS811101_Side_F_sucralose"
 		(layer "F.Cu")
 		(uuid "300ec8c5-5c4b-4f1b-8100-2c18091b7b5d")
-		(at 203.3 105.5)
+		(at 203.8 105.5)
 		(descr "Alps SSSS811101 SPDT side slide switch, 1.4 mm. Lands per Alps land drawing; cross-checked vs ceoloide power_switch_smd_side (MIT). Pin 2 = common. Battery + in series: pin 3 BAT_RAW (JST), pin 2 BAT_P (to VCC jumper). Front copy owns the two boss NPTH.")
 		(tags "slide switch power side SSSS811101")
 		(property "Reference" "PWR"
@@ -4734,7 +4734,7 @@
 	(footprint "CustomParts:MountingHole_1.2mm_M1"
 		(layer "F.Cu")
 		(uuid "398e06e3-2429-44b9-95e6-e7117d66a5f2")
-		(at 199.45 101.15)
+		(at 199.95 101.15)
 		(descr "Mounting Hole 1.2mm, M1, no annular. Courtyard and head outline 2.2 mm dia (ISO 7045 / JIS B 1111 M1-M1.2 pan head dk max 2.0)")
 		(tags "mountinghole M2")
 		(property "Reference" "M1"
@@ -4842,7 +4842,7 @@
 	(footprint "CustomParts:MountingHole_1.2mm_M1"
 		(layer "F.Cu")
 		(uuid "4691b732-af3b-4b9e-9b3a-91337432cad8")
-		(at 181.45 101.15)
+		(at 181.95 101.15)
 		(descr "Mounting Hole 1.2mm, M1, no annular. Courtyard and head outline 2.2 mm dia (ISO 7045 / JIS B 1111 M1-M1.2 pan head dk max 2.0)")
 		(tags "mountinghole M2")
 		(property "Reference" "M1"
@@ -7813,7 +7813,7 @@
 	(footprint "CustomParts:MountingHole_1.2mm_M1"
 		(layer "F.Cu")
 		(uuid "73cb6c52-103e-4ba3-9d37-946a45f84d5f")
-		(at 199.45 58)
+		(at 199.95 58)
 		(descr "Mounting Hole 1.2mm, M1, no annular. Courtyard and head outline 2.2 mm dia (ISO 7045 / JIS B 1111 M1-M1.2 pan head dk max 2.0)")
 		(tags "mountinghole M2")
 		(property "Reference" "M1"
@@ -10055,7 +10055,7 @@
 	(footprint "CustomParts:MountingHole_1.2mm_M1"
 		(layer "F.Cu")
 		(uuid "910a9972-2fbb-4751-bcd7-1d72278aabde")
-		(at 204.15 78.75)
+		(at 204.65 78.75)
 		(descr "Mounting Hole 1.2mm, M1, no annular. Courtyard and head outline 2.2 mm dia (ISO 7045 / JIS B 1111 M1-M1.2 pan head dk max 2.0)")
 		(tags "mountinghole M2")
 		(property "Reference" "M1"
@@ -14345,7 +14345,7 @@
 	(footprint "CustomParts:MountingHole_1.2mm_M1"
 		(layer "F.Cu")
 		(uuid "b3f061c4-c51f-4e2d-9826-1bc632da02a8")
-		(at 203.3 111)
+		(at 203.8 111)
 		(descr "Mounting Hole 1.2mm, M1, no annular. Courtyard and head outline 2.2 mm dia (ISO 7045 / JIS B 1111 M1-M1.2 pan head dk max 2.0)")
 		(tags "mountinghole M2")
 		(property "Reference" "M1"
@@ -17985,7 +17985,7 @@
 	(footprint "CustomParts:MountingHole_1.2mm_M1"
 		(layer "F.Cu")
 		(uuid "f7860710-0ff0-4b4a-9d9d-bbe70b52f2b2")
-		(at 204.15 68.5)
+		(at 204.65 68.5)
 		(descr "Mounting Hole 1.2mm, M1, no annular. Courtyard and head outline 2.2 mm dia (ISO 7045 / JIS B 1111 M1-M1.2 pan head dk max 2.0)")
 		(tags "mountinghole M2")
 		(property "Reference" "M1"
@@ -18362,7 +18362,7 @@
 	(footprint "CustomParts:MountingHole_1.2mm_M1"
 		(layer "F.Cu")
 		(uuid "fde4ecfc-a304-4d87-a12e-5cf81348a7b9")
-		(at 181.45 58)
+		(at 181.95 58)
 		(descr "Mounting Hole 1.2mm, M1, no annular. Courtyard and head outline 2.2 mm dia (ISO 7045 / JIS B 1111 M1-M1.2 pan head dk max 2.0)")
 		(tags "mountinghole M2")
 		(property "Reference" "M1"
@@ -20229,7 +20229,7 @@
 	(footprint "sucralose:SW_Slide_SSSS811101_Side_B_sucralose"
 		(layer "B.Cu")
 		(uuid "3d53d4a8-fc3d-4cd1-a010-357b8bda5e80")
-		(at 203.3 105.5)
+		(at 203.8 105.5)
 		(descr "Alps SSSS811101 SPDT side slide switch, 1.4 mm. Lands per Alps land drawing; cross-checked vs ceoloide power_switch_smd_side (MIT). Pin 2 = common. Battery + in series: pin 3 BAT_RAW (JST), pin 2 BAT_P (to VCC jumper). Back copy: no holes, front copy owns the bosses.")
 		(tags "slide switch power side SSSS811101")
 		(property "Reference" "PWR"
@@ -21873,10 +21873,10 @@
 	)
 	(gr_poly
 		(pts
-			(xy 204.3506 91.4853) (xy 204.3176 91.4739) (xy 204.2834 91.4673) (xy 204.2561 91.4674) (xy 204.2363 91.4734)
-			(xy 204.2251 91.4852) (xy 204.2232 91.502) (xy 204.2315 91.5235) (xy 204.2478 91.5445) (xy 204.2684 91.5602)
-			(xy 204.2919 91.5698) (xy 204.3172 91.5732) (xy 204.3427 91.5699) (xy 204.3673 91.5599) (xy 204.3852 91.5454)
-			(xy 204.3921 91.53) (xy 204.3882 91.5141) (xy 204.3742 91.499)
+			(xy 204.8506 91.4853) (xy 204.8176 91.4739) (xy 204.7834 91.4673) (xy 204.7561 91.4674) (xy 204.7363 91.4734)
+			(xy 204.7251 91.4852) (xy 204.7232 91.502) (xy 204.7315 91.5235) (xy 204.7478 91.5445) (xy 204.7684 91.5602)
+			(xy 204.7919 91.5698) (xy 204.8172 91.5732) (xy 204.8427 91.5699) (xy 204.8673 91.5599) (xy 204.8852 91.5454)
+			(xy 204.8921 91.53) (xy 204.8882 91.5141) (xy 204.8742 91.499)
 		)
 		(stroke
 			(width 0)
@@ -21888,10 +21888,10 @@
 	)
 	(gr_poly
 		(pts
-			(xy 204.9404 83.3187) (xy 204.9565 83.3036) (xy 204.9726 83.2758) (xy 204.9876 83.2366) (xy 205.0011 83.187)
-			(xy 205.0109 83.1346) (xy 205.0134 83.0974) (xy 205.0089 83.0759) (xy 204.9977 83.0703) (xy 204.98 83.0813)
-			(xy 204.9559 83.109) (xy 204.934 83.1435) (xy 204.9171 83.1798) (xy 204.9061 83.2163) (xy 204.9013 83.2508)
-			(xy 204.9029 83.2815) (xy 204.9118 83.3064) (xy 204.9252 83.32)
+			(xy 205.4404 83.3187) (xy 205.4565 83.3036) (xy 205.4726 83.2758) (xy 205.4876 83.2366) (xy 205.5011 83.187)
+			(xy 205.5109 83.1346) (xy 205.5134 83.0974) (xy 205.5089 83.0759) (xy 205.4977 83.0703) (xy 205.48 83.0813)
+			(xy 205.4559 83.109) (xy 205.434 83.1435) (xy 205.4171 83.1798) (xy 205.4061 83.2163) (xy 205.4013 83.2508)
+			(xy 205.4029 83.2815) (xy 205.4118 83.3064) (xy 205.4252 83.32)
 		)
 		(stroke
 			(width 0)
@@ -22399,11 +22399,11 @@
 	)
 	(gr_poly
 		(pts
-			(xy 204.057 77.398) (xy 204.0718 77.4191) (xy 204.0861 77.4339) (xy 204.0992 77.4414) (xy 204.1122 77.4409)
-			(xy 204.1257 77.4335) (xy 204.139 77.42) (xy 204.1515 77.4013) (xy 204.1627 77.3781) (xy 204.1715 77.3516)
-			(xy 204.1748 77.3235) (xy 204.1704 77.2963) (xy 204.159 77.2712) (xy 204.1415 77.2492) (xy 204.1186 77.2321)
-			(xy 204.0909 77.2207) (xy 204.0636 77.2173) (xy 204.0415 77.2225) (xy 204.0252 77.2353) (xy 204.0156 77.2548)
-			(xy 204.0132 77.2802) (xy 204.0188 77.3107) (xy 204.0297 77.3425) (xy 204.0428 77.3721)
+			(xy 204.557 77.398) (xy 204.5718 77.4191) (xy 204.5861 77.4339) (xy 204.5992 77.4414) (xy 204.6122 77.4409)
+			(xy 204.6257 77.4335) (xy 204.639 77.42) (xy 204.6515 77.4013) (xy 204.6627 77.3781) (xy 204.6715 77.3516)
+			(xy 204.6748 77.3235) (xy 204.6704 77.2963) (xy 204.659 77.2712) (xy 204.6415 77.2492) (xy 204.6186 77.2321)
+			(xy 204.5909 77.2207) (xy 204.5636 77.2173) (xy 204.5415 77.2225) (xy 204.5252 77.2353) (xy 204.5156 77.2548)
+			(xy 204.5132 77.2802) (xy 204.5188 77.3107) (xy 204.5297 77.3425) (xy 204.5428 77.3721)
 		)
 		(stroke
 			(width 0)
@@ -24953,10 +24953,10 @@
 	)
 	(gr_poly
 		(pts
-			(xy 204.3506 91.4853) (xy 204.3176 91.4739) (xy 204.2834 91.4673) (xy 204.2561 91.4674) (xy 204.2363 91.4734)
-			(xy 204.2251 91.4852) (xy 204.2232 91.502) (xy 204.2315 91.5235) (xy 204.2478 91.5445) (xy 204.2684 91.5602)
-			(xy 204.2919 91.5698) (xy 204.3172 91.5732) (xy 204.3427 91.5699) (xy 204.3673 91.5599) (xy 204.3852 91.5454)
-			(xy 204.3921 91.53) (xy 204.3882 91.5141) (xy 204.3742 91.499)
+			(xy 204.8506 91.4853) (xy 204.8176 91.4739) (xy 204.7834 91.4673) (xy 204.7561 91.4674) (xy 204.7363 91.4734)
+			(xy 204.7251 91.4852) (xy 204.7232 91.502) (xy 204.7315 91.5235) (xy 204.7478 91.5445) (xy 204.7684 91.5602)
+			(xy 204.7919 91.5698) (xy 204.8172 91.5732) (xy 204.8427 91.5699) (xy 204.8673 91.5599) (xy 204.8852 91.5454)
+			(xy 204.8921 91.53) (xy 204.8882 91.5141) (xy 204.8742 91.499)
 		)
 		(stroke
 			(width 0)
@@ -24968,10 +24968,10 @@
 	)
 	(gr_poly
 		(pts
-			(xy 204.9404 83.3187) (xy 204.9565 83.3036) (xy 204.9726 83.2758) (xy 204.9876 83.2366) (xy 205.0011 83.187)
-			(xy 205.0109 83.1346) (xy 205.0134 83.0974) (xy 205.0089 83.0759) (xy 204.9977 83.0703) (xy 204.98 83.0813)
-			(xy 204.9559 83.109) (xy 204.934 83.1435) (xy 204.9171 83.1798) (xy 204.9061 83.2163) (xy 204.9013 83.2508)
-			(xy 204.9029 83.2815) (xy 204.9118 83.3064) (xy 204.9252 83.32)
+			(xy 205.4404 83.3187) (xy 205.4565 83.3036) (xy 205.4726 83.2758) (xy 205.4876 83.2366) (xy 205.5011 83.187)
+			(xy 205.5109 83.1346) (xy 205.5134 83.0974) (xy 205.5089 83.0759) (xy 205.4977 83.0703) (xy 205.48 83.0813)
+			(xy 205.4559 83.109) (xy 205.434 83.1435) (xy 205.4171 83.1798) (xy 205.4061 83.2163) (xy 205.4013 83.2508)
+			(xy 205.4029 83.2815) (xy 205.4118 83.3064) (xy 205.4252 83.32)
 		)
 		(stroke
 			(width 0)
@@ -25479,11 +25479,11 @@
 	)
 	(gr_poly
 		(pts
-			(xy 204.057 77.398) (xy 204.0718 77.4191) (xy 204.0861 77.4339) (xy 204.0992 77.4414) (xy 204.1122 77.4409)
-			(xy 204.1257 77.4335) (xy 204.139 77.42) (xy 204.1515 77.4013) (xy 204.1627 77.3781) (xy 204.1715 77.3516)
-			(xy 204.1748 77.3235) (xy 204.1704 77.2963) (xy 204.159 77.2712) (xy 204.1415 77.2492) (xy 204.1186 77.2321)
-			(xy 204.0909 77.2207) (xy 204.0636 77.2173) (xy 204.0415 77.2225) (xy 204.0252 77.2353) (xy 204.0156 77.2548)
-			(xy 204.0132 77.2802) (xy 204.0188 77.3107) (xy 204.0297 77.3425) (xy 204.0428 77.3721)
+			(xy 204.557 77.398) (xy 204.5718 77.4191) (xy 204.5861 77.4339) (xy 204.5992 77.4414) (xy 204.6122 77.4409)
+			(xy 204.6257 77.4335) (xy 204.639 77.42) (xy 204.6515 77.4013) (xy 204.6627 77.3781) (xy 204.6715 77.3516)
+			(xy 204.6748 77.3235) (xy 204.6704 77.2963) (xy 204.659 77.2712) (xy 204.6415 77.2492) (xy 204.6186 77.2321)
+			(xy 204.5909 77.2207) (xy 204.5636 77.2173) (xy 204.5415 77.2225) (xy 204.5252 77.2353) (xy 204.5156 77.2548)
+			(xy 204.5132 77.2802) (xy 204.5188 77.3107) (xy 204.5297 77.3425) (xy 204.5428 77.3721)
 		)
 		(stroke
 			(width 0)
@@ -28066,7 +28066,7 @@
 	)
 	(gr_curve
 		(pts
-			(xy 177.95 60.5) (xy 177.95 59.947715) (xy 178.397715 59.5) (xy 178.95 59.5)
+			(xy 178.45 60.5) (xy 178.45 59.947715) (xy 178.897715 59.5) (xy 179.45 59.5)
 		)
 		(stroke
 			(width 0.1)
@@ -28076,8 +28076,8 @@
 		(uuid "402f5180-adc4-44da-bc8f-88cde7abaca1")
 	)
 	(gr_line
-		(start 177.95 98.65)
-		(end 177.95 60.5)
+		(start 178.45 98.65)
+		(end 178.45 60.5)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -28086,8 +28086,8 @@
 		(uuid "df9b6d7f-0108-4a54-bbda-9a556fbc2283")
 	)
 	(gr_line
-		(start 178.95 59.5)
-		(end 201.95 59.5)
+		(start 179.45 59.5)
+		(end 202.45 59.5)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -28097,7 +28097,7 @@
 	)
 	(gr_curve
 		(pts
-			(xy 178.95 99.65) (xy 178.397715 99.65) (xy 177.95 99.202285) (xy 177.95 98.65)
+			(xy 179.45 99.65) (xy 178.897715 99.65) (xy 178.45 99.202285) (xy 178.45 98.65)
 		)
 		(stroke
 			(width 0.1)
@@ -28208,7 +28208,7 @@
 	)
 	(gr_line
 		(start 195.9651 137.0541)
-		(end 205.35 111.9238)
+		(end 205.85 110.5849)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -28218,7 +28218,7 @@
 	)
 	(gr_line
 		(start 197 56.5)
-		(end 202.35 56.5)
+		(end 202.85 56.5)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -28228,7 +28228,7 @@
 	)
 	(gr_curve
 		(pts
-			(xy 201.95 59.5) (xy 202.502285 59.5) (xy 202.95 59.947715) (xy 202.95 60.5)
+			(xy 202.45 59.5) (xy 203.002285 59.5) (xy 203.45 59.947715) (xy 203.45 60.5)
 		)
 		(stroke
 			(width 0.1)
@@ -28238,8 +28238,8 @@
 		(uuid "4d873de9-df28-489f-969d-09d092aca6c4")
 	)
 	(gr_line
-		(start 201.95 99.65)
-		(end 178.95 99.65)
+		(start 202.45 99.65)
+		(end 179.45 99.65)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -28248,8 +28248,8 @@
 		(uuid "5be97f5e-9ffe-4d19-9090-bd3644705485")
 	)
 	(gr_line
-		(start 202.95 60.5)
-		(end 202.95 98.65)
+		(start 203.45 60.5)
+		(end 203.45 98.65)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -28259,7 +28259,7 @@
 	)
 	(gr_curve
 		(pts
-			(xy 202.95 98.65) (xy 202.95 99.202285) (xy 202.502285 99.65) (xy 201.95 99.65)
+			(xy 203.45 98.65) (xy 203.45 99.202285) (xy 203.002285 99.65) (xy 202.45 99.65)
 		)
 		(stroke
 			(width 0.1)
@@ -28270,7 +28270,7 @@
 	)
 	(gr_curve
 		(pts
-			(xy 205.35 59) (xy 205.35 57.5) (xy 203.85 56.5) (xy 202.35 56.5)
+			(xy 205.85 59) (xy 205.85 57.5) (xy 204.35 56.5) (xy 202.85 56.5)
 		)
 		(stroke
 			(width 0.1)
@@ -28280,8 +28280,8 @@
 		(uuid "27b0e58b-1ba9-49ea-bdfd-6517f6932534")
 	)
 	(gr_line
-		(start 205.35 59)
-		(end 205.35 111.9238)
+		(start 205.85 59)
+		(end 205.85 110.5849)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -28336,7 +28336,7 @@
 		)
 	)
 	(gr_text "BATTERY BAY 25x40.15mm"
-		(at 188.5 78.75 270)
+		(at 189 78.75 270)
 		(layer "Dwgs.User")
 		(uuid "eab36e0f-969f-4d22-af83-5d04410dce19")
 		(effects
@@ -37228,8 +37228,8 @@
 		(uuid "2a624213-6810-4764-ba5a-e0eb279aa24a")
 	)
 	(segment
-		(start 201.5650 104.7500)
-		(end 200.8731 104.5000)
+		(start 202.065 104.75)
+		(end 201.3731 104.5)
 		(width 0.25)
 		(layer "F.Cu")
 		(net "BAT_P")
@@ -37244,8 +37244,8 @@
 		(uuid "ryn9c14c-cd60-4552-bc8e-2eb7350cbded")
 	)
 	(segment
-		(start 200.8731 104.5000)
-		(end 195.1231 104.5000)
+		(start 201.3731 104.5)
+		(end 195.1231 104.5)
 		(width 0.25)
 		(layer "F.Cu")
 		(net "BAT_P")
@@ -37292,16 +37292,16 @@
 		(uuid "ryn97406-b923-4ccf-bbe7-ebfc4319bd40")
 	)
 	(segment
-		(start 201.5650 106.2500)
-		(end 200.8731 106.0000)
+		(start 202.065 106.25)
+		(end 201.3731 106)
 		(width 0.25)
 		(layer "B.Cu")
 		(net "BAT_P")
 		(uuid "ryn93a65-60a0-407f-a5ff-81320bfd9fd9")
 	)
 	(segment
-		(start 200.8731 106.0000)
-		(end 199.3731 104.5000)
+		(start 201.3731 106)
+		(end 199.3731 104.5)
 		(width 0.25)
 		(layer "B.Cu")
 		(net "BAT_P")
@@ -37348,16 +37348,16 @@
 		(uuid "ryn961ee-d73c-4cb3-aa7f-27d305322ffc")
 	)
 	(segment
-		(start 201.5650 107.7500)
-		(end 200.8731 107.5000)
+		(start 202.065 107.75)
+		(end 201.3731 107.5)
 		(width 0.25)
 		(layer "F.Cu")
 		(net "BAT_RAW")
 		(uuid "ryn9d3bb-d399-48f5-a165-906b0dc8c052")
 	)
 	(segment
-		(start 200.8731 107.5000)
-		(end 195.7481 107.5000)
+		(start 201.3731 107.5)
+		(end 195.7481 107.5)
 		(width 0.25)
 		(layer "F.Cu")
 		(net "BAT_RAW")
@@ -37436,16 +37436,16 @@
 		(uuid "ryn9df13-4c9e-4c85-ae9e-09924e5143b5")
 	)
 	(segment
-		(start 201.5650 107.7500)
-		(end 200.8731 107.5000)
+		(start 202.065 107.75)
+		(end 201.3731 107.5)
 		(width 0.25)
 		(layer "B.Cu")
 		(net "BAT_RAW")
 		(uuid "ryn98f77-0ba2-4a4d-ba94-2b9186a5ecec")
 	)
 	(segment
-		(start 200.8731 107.5000)
-		(end 195.7481 107.5000)
+		(start 201.3731 107.5)
+		(end 195.7481 107.5)
 		(width 0.25)
 		(layer "B.Cu")
 		(net "BAT_RAW")
