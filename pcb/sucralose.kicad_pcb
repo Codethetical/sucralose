@@ -128,14 +128,14 @@
 	)
 (footprint "CustomParts:MountingHole_1.2mm_M1"
 		(layer "F.Cu")
-		(uuid "4ce37a53-5dd2-45ce-bcc8-ab176e90cbe6")
-		(at 102.8825 73.374)
+		(uuid "647fb114-9fa4-444f-a496-c98cc8afa5c7")
+		(at 102.648 71.892)
 		(descr "Mounting Hole 1.2mm, M1, no annular. Courtyard and head outline 2.2 mm dia (ISO 7045 / JIS B 1111 M1-M1.2 pan head dk max 2.0)")
 		(tags "mountinghole M2")
 		(property "Reference" "M1"
 			(at 2.523779 0.090644 0)
 			(layer "F.SilkS")
-			(uuid "bff81ab3-b227-4e9c-be60-526254bf244d")
+			(uuid "c0d44e61-a197-4be1-9f48-d86944526b5c")
 			(effects
 				(font
 					(size 1 1)
@@ -147,7 +147,7 @@
 			(at 0 3.15 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2eb12c1f-81e5-438b-bd7c-501b39454390")
+			(uuid "a243c18b-635c-4def-a1fe-6d390ea0f112")
 			(effects
 				(font
 					(size 1 1)
@@ -159,7 +159,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f8be3dce-c37f-4802-af26-627cac229376")
+			(uuid "622b909f-3baa-4f84-8d12-600602a78d08")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -170,7 +170,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "31cbae28-67c1-4169-92e9-5583f3a7ae7a")
+			(uuid "b9c2f231-5de7-40ad-9b44-3d9eaa90ea17")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -181,7 +181,7 @@
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "e911fb14-9b60-42cb-ae6a-4eaed61401d3")
+			(uuid "450bebc1-30c4-4842-bb3b-9d83d540bc43")
 			(effects
 				(font
 					(size 1 1)
@@ -200,7 +200,7 @@
 			)
 			(fill no)
 			(layer "Cmts.User")
-			(uuid "5f9b015b-3c95-4232-897f-7097305ccfa8")
+			(uuid "108d1a87-8385-43a7-8ab4-2f52f5ed1ea6")
 		)
 		(fp_circle
 			(center 0 0)
@@ -211,12 +211,12 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "0415a39e-383c-4d81-9cfb-2d1ff5ee94bf")
+			(uuid "e200ad8d-deaf-4708-a37d-a706f0e73d3d")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
 			(layer "F.Fab")
-			(uuid "545d9751-275e-4318-98c1-e0171a53c43d")
+			(uuid "82df037e-56af-45f7-91cc-c19ce23f2c97")
 			(effects
 				(font
 					(size 1 1)
@@ -229,7 +229,7 @@
 			(size 1.2 1.2)
 			(drill 1.2)
 			(layers "*.Cu" "*.Mask")
-			(uuid "3a3dcb55-994e-4ea5-8229-6a1c6a61e1a1")
+			(uuid "0b4b6ac9-e001-40f4-bf6c-0d9492f4b28a")
 		)
 		(embedded_fonts no)
 	)
@@ -22729,35 +22729,27 @@
 	
 	(segment
 		(start 106.7523 68.625)
-		(end 104.0023 71.375)
+		(end 105.0023 70.375)
 		(width 0.25)
 		(layer "B.Cu")
 		(net "ROW0")
-		(uuid "5837d0e3-4915-4f50-a08f-7a1e0cb2c5e2")
+		(uuid "eb390740-086e-4c20-a621-e8004c12b785")
 	)
 	(segment
-		(start 104.0023 71.375)
-		(end 98.7523 71.375)
+		(start 105.0023 70.375)
+		(end 99.5023 70.375)
 		(width 0.25)
 		(layer "B.Cu")
 		(net "ROW0")
-		(uuid "5d50b438-4766-49f4-a4bd-9e8d567bb3c7")
+		(uuid "32b7f4e5-148f-4838-8c21-f6d7858e625d")
 	)
 	(segment
-		(start 98.7523 71.375)
-		(end 94.6273 75.5)
-		(width 0.25)
-		(layer "B.Cu")
-		(net "ROW0")
-		(uuid "bbfd9b3b-17d8-4428-afc2-082166ae4323")
-	)
-	(segment
-		(start 94.6273 75.5)
+		(start 99.5023 70.375)
 		(end 94.3773 75.5)
 		(width 0.25)
 		(layer "B.Cu")
 		(net "ROW0")
-		(uuid "339fb35b-ca4b-4422-a504-7f85af7bd63d")
+		(uuid "9a959d88-2417-4485-9a6e-c328c2d7a24d")
 	)
 	(segment
 		(start 165.6273 65)
