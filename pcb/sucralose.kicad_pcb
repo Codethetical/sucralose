@@ -5426,7 +5426,7 @@
 		(descr "JST PH series connector, B2B-PH-SM4-TB (http://www.jst-mfg.com/product/pdf/eng/ePH.pdf)")
 		(tags "connector JST PH vertical")
 		(property "Reference" "Bat JST"
-			(at -7.567889 0.20367 0)
+			(at -8.917889 1.60367 0)
 			(layer "F.SilkS")
 			(uuid "52b61750-3919-45b7-a0b6-332a694c58b0")
 			(effects
@@ -13360,6 +13360,398 @@
 		)
 		(embedded_fonts no)
 	)
+	(footprint "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
+		(layer "F.Cu")
+		(uuid "4232a6f3-1cbc-4104-a143-13c4e9663350")
+		(at 186.75 104)
+		(descr "SMD Solder Jumper, 1x1.5mm Triangular Pads, 0.3mm gap, open")
+		(tags "solder jumper open")
+		(property "Reference" "BYP"
+			(at 0 -1.8 0)
+			(layer "F.SilkS")
+			(uuid "9943359f-5cfd-4633-95bc-a20a05b69904")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "BYP"
+			(at 0 1.9 0)
+			(layer "F.Fab")
+			(uuid "3c80dca3-8e62-48b9-8ff5-0d3f19af7332")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dc1fca18-97c9-496a-b2c7-11b6af02348e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c0f89802-cc65-4e5c-a98d-451b12dd91f1")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(zone_connect 1)
+		(attr exclude_from_pos_files exclude_from_bom allow_soldermask_bridges)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_rect
+			(start -1.225 -0.75)
+			(end 1.225 0.75)
+			(stroke
+				(width 0)
+				(type default)
+			)
+			(fill yes)
+			(layer "F.Mask")
+			(uuid "fc9d8cb4-15ad-4b65-bf8e-900166508403")
+		)
+		(fp_line
+			(start -1.4 -1)
+			(end 1.4 -1)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "b1747979-b6ac-4209-86d2-53222ea09968")
+		)
+		(fp_line
+			(start -1.4 1)
+			(end -1.4 -1)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "6ec7cacc-c677-4605-8ae8-17d55ad95a99")
+		)
+		(fp_line
+			(start 1.4 -1)
+			(end 1.4 1)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "d5ca392d-6264-4086-83e7-e13191e9fcf9")
+		)
+		(fp_line
+			(start 1.4 1)
+			(end -1.4 1)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "52fc0c22-10fb-4813-88e9-cd02e8bb8f63")
+		)
+		(fp_line
+			(start -1.65 -1.25)
+			(end -1.65 1.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "6983577d-a668-420b-b2ee-852cbec0455d")
+		)
+		(fp_line
+			(start -1.65 -1.25)
+			(end 1.65 -1.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "666db6c8-e484-4acb-b370-bd3caaaaf097")
+		)
+		(fp_line
+			(start 1.65 1.25)
+			(end -1.65 1.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "724fa196-5838-4dc6-9a1d-de306ec97aa7")
+		)
+		(fp_line
+			(start 1.65 1.25)
+			(end 1.65 -1.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "761d071e-ab3d-40ee-9507-111df225f8a8")
+		)
+		(pad "1" smd custom
+			(at -0.725 0)
+			(size 0.3 0.3)
+			(layers "F.Cu" "F.Mask")
+			(net "BAT_P")
+			(zone_connect 2)
+			(thermal_bridge_angle 45)
+			(options
+				(clearance outline)
+				(anchor rect)
+			)
+			(primitives
+				(gr_poly
+					(pts
+						(xy 1 0) (xy 0.5 0.75) (xy -0.5 0.75) (xy -0.5 -0.75) (xy 0.5 -0.75)
+					)
+					(width 0)
+					(fill yes)
+				)
+			)
+			(uuid "f4ab5825-77b5-450e-a1b1-61c07cb008c0")
+		)
+		(pad "2" smd custom
+			(at 0.725 0)
+			(size 0.3 0.3)
+			(layers "F.Cu" "F.Mask")
+			(net "BAT_RAW")
+			(zone_connect 2)
+			(thermal_bridge_angle 45)
+			(options
+				(clearance outline)
+				(anchor rect)
+			)
+			(primitives
+				(gr_poly
+					(pts
+						(xy 0.5 0.75) (xy -0.65 0.75) (xy -0.15 0) (xy -0.65 -0.75) (xy 0.5 -0.75)
+					)
+					(width 0)
+					(fill yes)
+				)
+			)
+			(uuid "0f860edf-c285-4db7-9d4f-509f92f4969a")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
+		(layer "B.Cu")
+		(uuid "3974eca5-fa91-40a3-9701-a016cbaa41ea")
+		(at 186.755498 103.994199)
+		(descr "SMD Solder Jumper, 1x1.5mm Triangular Pads, 0.3mm gap, open")
+		(tags "solder jumper open")
+		(property "Reference" "BYP"
+			(at 0 -1.8 180)
+			(layer "B.SilkS")
+			(uuid "ee048071-4c8f-4ebc-af54-4c7c86eb953e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "BYP"
+			(at 0 -1.9 180)
+			(layer "B.Fab")
+			(uuid "64ee1186-9171-4464-9349-7f6f3143b5d0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "82a8a8d0-f98f-48a5-b2c6-b9e48eb30712")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "17c91079-4bd3-4d60-8cf9-f743a6c1a142")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(zone_connect 1)
+		(attr exclude_from_pos_files exclude_from_bom allow_soldermask_bridges)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_rect
+			(start -1.225 0.75)
+			(end 1.225 -0.75)
+			(stroke
+				(width 0)
+				(type default)
+			)
+			(fill yes)
+			(layer "B.Mask")
+			(uuid "d3c203aa-1c58-4882-b0b8-9cb5cd008bae")
+		)
+		(fp_line
+			(start -1.4 -1)
+			(end -1.4 1)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "7470ef32-6750-4774-8c49-85ac25236876")
+		)
+		(fp_line
+			(start -1.4 1)
+			(end 1.4 1)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "40b192bf-f8f2-4928-b09d-87abac69b84a")
+		)
+		(fp_line
+			(start 1.4 -1)
+			(end -1.4 -1)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "2c7000a5-dc47-478b-bf5c-c4f5602ca21f")
+		)
+		(fp_line
+			(start 1.4 1)
+			(end 1.4 -1)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "6fba5481-58d2-40cd-828a-1c1580370aa5")
+		)
+		(fp_line
+			(start -1.65 1.25)
+			(end -1.65 -1.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "6eb718ba-1f61-4f4e-9345-80f9b21edbf9")
+		)
+		(fp_line
+			(start -1.65 1.25)
+			(end 1.65 1.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "68df4276-418d-43fa-82c1-7aa9b23c7945")
+		)
+		(fp_line
+			(start 1.65 -1.25)
+			(end -1.65 -1.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "a6d10904-8eb1-4301-8ee6-dd4f8f671624")
+		)
+		(fp_line
+			(start 1.65 -1.25)
+			(end 1.65 1.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "3b8d2896-bf36-4de0-84cd-92659e0749f1")
+		)
+		(pad "1" smd custom
+			(at -0.725 0)
+			(size 0.3 0.3)
+			(layers "B.Cu" "B.Mask")
+			(net "BAT_P")
+			(zone_connect 2)
+			(thermal_bridge_angle 45)
+			(options
+				(clearance outline)
+				(anchor rect)
+			)
+			(primitives
+				(gr_poly
+					(pts
+						(xy 1 0) (xy 0.5 -0.75) (xy -0.5 -0.75) (xy -0.5 0.75) (xy 0.5 0.75)
+					)
+					(width 0)
+					(fill yes)
+				)
+			)
+			(uuid "2b37015a-968e-4761-b095-012ffb46f094")
+		)
+		(pad "2" smd custom
+			(at 0.725 0)
+			(size 0.3 0.3)
+			(layers "B.Cu" "B.Mask")
+			(net "BAT_RAW")
+			(zone_connect 2)
+			(thermal_bridge_angle 45)
+			(options
+				(clearance outline)
+				(anchor rect)
+			)
+			(primitives
+				(gr_poly
+					(pts
+						(xy 0.5 -0.75) (xy -0.65 -0.75) (xy -0.15 0) (xy -0.65 0.75) (xy 0.5 0.75)
+					)
+					(width 0)
+					(fill yes)
+				)
+			)
+			(uuid "acb79508-d54c-478d-bf29-af02bad6c2a4")
+		)
+		(embedded_fonts no)
+	)
 	(footprint "sucralose:MouseBite_0.6mm_col7"
 		(layer "F.Cu")
 		(uuid "ae3eaee1-9f48-4ab2-8ac6-a0089c66693b")
@@ -20842,7 +21234,7 @@
 		(descr "JST PH series connector, B2B-PH-SM4-TB (http://www.jst-mfg.com/product/pdf/eng/ePH.pdf)")
 		(tags "connector JST PH vertical")
 		(property "Reference" "Bat JST"
-			(at 7.564117 -0.197384 0)
+			(at 8.914117 -1.597384 0)
 			(layer "B.SilkS")
 			(uuid "aa35ce03-5865-4a4a-a764-7f66caf93cb6")
 			(effects
@@ -37426,5 +37818,85 @@
 		(layer "B.Cu")
 		(net "GND")
 		(uuid "ryn9d83f-e344-487a-9c0c-af360719bb3e")
+	)
+	(segment
+		(start 186.025 104)
+		(end 185.275 103.25)
+		(width 0.25)
+		(layer "F.Cu")
+		(net "BAT_P")
+		(uuid "9cf219aa-4bef-4149-ba65-1e42b599e3c3")
+	)
+	(segment
+		(start 187.475 104)
+		(end 187.475 107.5)
+		(width 0.25)
+		(layer "F.Cu")
+		(net "BAT_RAW")
+		(uuid "fabd03ea-33f8-4caa-ba22-029a1413cf94")
+	)
+	(segment
+		(start 187.475 107.5)
+		(end 188.325 108.35)
+		(width 0.25)
+		(layer "F.Cu")
+		(net "BAT_RAW")
+		(uuid "ad4da84b-e327-46be-bf16-96a313f8577b")
+	)
+	(segment
+		(start 188.325 108.35)
+		(end 192.517889 108.35)
+		(width 0.25)
+		(layer "F.Cu")
+		(net "BAT_RAW")
+		(uuid "58bcc71c-f441-4cb7-8063-ff874a639b20")
+	)
+	(segment
+		(start 186.025 104)
+		(end 185.275 103.25)
+		(width 0.25)
+		(layer "B.Cu")
+		(net "BAT_P")
+		(uuid "a14dd3df-ce80-4bcc-8199-31266b2412ee")
+	)
+	(segment
+		(start 187.475 104)
+		(end 187.475 107.5)
+		(width 0.25)
+		(layer "B.Cu")
+		(net "BAT_RAW")
+		(uuid "62628348-0555-4179-bc4b-cd73579d4f0d")
+	)
+	(segment
+		(start 187.475 107.5)
+		(end 188.325 108.35)
+		(width 0.25)
+		(layer "B.Cu")
+		(net "BAT_RAW")
+		(uuid "a1be0c1c-9382-44aa-978d-e8b9cfa6df94")
+	)
+	(segment
+		(start 188.325 108.35)
+		(end 192.517889 108.35)
+		(width 0.25)
+		(layer "B.Cu")
+		(net "BAT_RAW")
+		(uuid "153cb528-a154-4715-a805-632ab236edf0")
+	)
+	(segment
+		(start 185.275 103.25)
+		(end 184.5023 103.25)
+		(width 0.25)
+		(layer "F.Cu")
+		(net "BAT_P")
+		(uuid "a45c652f-e958-490a-ae67-a563b70e130d")
+	)
+	(via
+		(at 185.275 103.25)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(net "BAT_P")
+		(uuid "2a624213-6810-4764-ba5a-e0eb279aa24a")
 	)
 )
