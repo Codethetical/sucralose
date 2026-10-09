@@ -2881,7 +2881,7 @@
 	(footprint "CustomParts:MountingHole_1.2mm_M1"
 		(layer "F.Cu")
 		(uuid "1f7f3047-94a8-49c1-9425-aa428fd6da57")
-		(at 138.612806 130.378892)
+		(at 138.3835 130.378892)
 		(descr "Mounting Hole 1.2mm, M1, no annular. Courtyard and head outline 2.2 mm dia (ISO 7045 / JIS B 1111 M1-M1.2 pan head dk max 2.0)")
 		(tags "mountinghole M2")
 		(property "Reference" "M1"
