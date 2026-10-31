@@ -4,7 +4,7 @@
 if SHIELD_SUCRALOSE_LEFT
 
 config ZMK_KEYBOARD_NAME
-    default "Sucralose"
+    default "Sucralose2"
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y

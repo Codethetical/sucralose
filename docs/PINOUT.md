@@ -36,7 +36,7 @@ Two independent chains agree on every pin used here.
 | 14 | VBUS | - | (unused) |
 | 15 | D11 | P0.15 | display SCK |
 | 16 | D12 | P0.19 | display CS |
-| 17 | D13 | P1.01 | free |
+| 17 | D13 | P1.01 | COL6 (breakaway strip) |
 | 18 | D14 | P0.09 | free (NFC) |
 | 19 | D15 | P0.10 | free (NFC) |
 | 20 | D16 | P0.31 | free (battery sense) |
@@ -56,8 +56,8 @@ Two independent chains agree on every pin used here.
   the pad silkscreened D17. Seeed acknowledged an inconsistency. Nothing here
   depends on them.
 
-The whole design fits in **D0..D12**, all corroborated by two independent
-sources, leaving D13..D19 free.
+The main board fits in **D0..D12**, all corroborated by two independent
+sources. The breakaway strip's COL6 adds D13, leaving D14..D19 free.
 
 ## ZMK kscan
 
@@ -72,7 +72,8 @@ kscan0: kscan {
     diode-direction = "col2row";
 
     col-gpios
-        = <&xiao_d 0 GPIO_ACTIVE_HIGH>   /* COL0  D0  P0.02 */
+        = <&gpio1 1 GPIO_ACTIVE_HIGH>    /* COL6  D13 P1.01 */
+        , <&xiao_d 0 GPIO_ACTIVE_HIGH>   /* COL0  D0  P0.02 */
         , <&xiao_d 1 GPIO_ACTIVE_HIGH>   /* COL1  D1  P0.03 */
         , <&xiao_d 2 GPIO_ACTIVE_HIGH>   /* COL2  D2  P0.28 */
         , <&xiao_d 3 GPIO_ACTIVE_HIGH>   /* COL3  D3  P0.29 */
@@ -89,7 +90,11 @@ kscan0: kscan {
 };
 ```
 
-The `xiao_d` nexus only defines D0..D10. Display lines (as shipped in
+This is the left half; the right lists the same pins in reverse, COL5 first and
+COL6 last.
+
+The `xiao_d` nexus only defines D0..D10, so COL6 and the display lines use raw
+ports. Display lines (as shipped in
 `firmware/boards/shields/sucralose/boards/seeeduino_xiao_ble.overlay`):
 
 ```dts
@@ -128,14 +133,17 @@ SCK, MOSI and CS all sit on pins the nRF52840 spec rates for a fast clock
 
 ## Matrix
 
-21 keys: 6 columns x 3 rows, plus 3 thumbs on ROW3.
+25 keys per half: 6 columns x 3 rows, 3 thumbs on ROW3, and the 4-key breakaway
+strip on COL6.
 
-| | COL0 outer | COL1 pinky | COL2 ring | COL3 middle | COL4 index | COL5 inner |
-|---|---|---|---|---|---|---|
-| ROW0 | SW13 | SW16 | SW3 | SW14 | SW9 | SW6 |
-| ROW1 | SW5 | SW20 | SW7 | SW10 | SW12 | SW11 |
-| ROW2 | SW19 | SW1 | SW8 | SW18 | SW2 | SW15 |
-| ROW3 | - | - | - | SW4 | SW21 | SW17 |
+| | COL6 strip | COL0 outer | COL1 pinky | COL2 ring | COL3 middle | COL4 index | COL5 inner |
+|---|---|---|---|---|---|---|---|
+| ROW0 | C6 R0 | SW13 | SW16 | SW3 | SW14 | SW9 | SW6 |
+| ROW1 | C6 R1 | SW5 | SW20 | SW7 | SW10 | SW12 | SW11 |
+| ROW2 | C6 R2 | SW19 | SW1 | SW8 | SW18 | SW2 | SW15 |
+| ROW3 | C6 R3 | - | - | - | SW4 | SW21 | SW17 |
+
+C6 R3 is physically the top of the strip, above C6 R0.
 
 ## Display SPI pins: which GPIOs can carry a 1 MHz clock
 

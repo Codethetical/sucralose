@@ -20,9 +20,7 @@ Last updated 2026-10-07 (UTC). Head `1fa790a`. Main is untouched.
 ## Open Items
 
 1. **ROW3 trace:** C6 R3's ROW3 trace runs diagonally across the C0 R0/R1 area on the top side. It's cosmetic. Jahn was offered a reroute along the edge or under the display; no decision yet.
-2. **Firmware not updated:**
-   - 7 columns: add COL6 = `&xiao_d 13` to the left/right overlays (the right is mirrored, so COL6 goes first) and `col-offset` = 7.
-   - Matrix transform and keymap need the C6 positions (R0-R3).
+2. **Firmware:** done, see `firmware/README.md`. COL6 is `&gpio1 1` because `xiao_d` stops at D10. It is first on the left and last on the right, since it sits outboard of COL0. The C6 keys and the snapped-board "6 Column" layout have not been tested on hardware.
 3. **Keycap gap:** C6 keycaps sit about 4.3 mm from C0's; main columns are about 1 mm apart. Closing it pushes the switches into the slots.
 4. **Not done yet:** cover/case model updates, a JLCPCB order check (confirm mouse bites and slots in the Gerber preview), and a physical snap test.
 

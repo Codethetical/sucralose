@@ -6,10 +6,15 @@
 
 #include "sucralose.dtsi"
 
-/* XIAO on the front face: COL0 (pinky) is leftmost. */
+/*
+ * XIAO on the front face: COL6 (breakaway strip) is leftmost, then COL0
+ * (pinky). COL6 is D13, a Plus-only pad the xiao_d connector does not map,
+ * so it is given as a raw port.
+ */
 &kscan0 {
     col-gpios
-        = <&xiao_d 0 GPIO_ACTIVE_HIGH>   /* COL0 */
+        = <&gpio1 1 GPIO_ACTIVE_HIGH>    /* COL6 */
+        , <&xiao_d 0 GPIO_ACTIVE_HIGH>   /* COL0 */
         , <&xiao_d 1 GPIO_ACTIVE_HIGH>   /* COL1 */
         , <&xiao_d 2 GPIO_ACTIVE_HIGH>   /* COL2 */
         , <&xiao_d 3 GPIO_ACTIVE_HIGH>   /* COL3 */

@@ -7,10 +7,17 @@
 #include "sucralose.dtsi"
 
 &default_transform {
-    col-offset = <6>;
+    col-offset = <7>;
 };
 
-/* XIAO on the back face: the board is flipped, so COL5 (inner) is leftmost. */
+&six_col_transform {
+    col-offset = <7>;
+};
+
+/*
+ * XIAO on the back face: the board is flipped, so COL5 (inner) is leftmost and
+ * COL6 (breakaway strip) rightmost. COL6 is D13, as on the left.
+ */
 &kscan0 {
     col-gpios
         = <&xiao_d 5 GPIO_ACTIVE_HIGH>   /* COL5 */
@@ -19,5 +26,6 @@
         , <&xiao_d 2 GPIO_ACTIVE_HIGH>   /* COL2 */
         , <&xiao_d 1 GPIO_ACTIVE_HIGH>   /* COL1 */
         , <&xiao_d 0 GPIO_ACTIVE_HIGH>   /* COL0 */
+        , <&gpio1 1 GPIO_ACTIVE_HIGH>    /* COL6 */
         ;
 };
