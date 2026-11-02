@@ -1,17 +1,34 @@
 # Sucralose
 
-Sucralose is a wireless, 42-key split keyboard built around Kailh PG1316S ultra-low-profile switches.
+Sucralose is a wireless, 50-key split keyboard built around Kailh PG1316S ultra-low-profile switches.
 One reversible PCB serves both halves.
 
-![Sucralose Rev. 1, both halves assembled](pics/sucralose-rev1.jpg)
+![Sucralose Rev. 2, both halves assembled](pics/sucralose-rev2.jpg)
+
+## Rev. 2
+
+Rev. 2 keeps the Rev. 1 key layout and adds:
+
+- **A 7th column on both halves:** four Kailh PG1316M switches sit on a strip outboard of the pinky column.
+  Their narrow keycaps, mounted in portrait, minimize the added width.
+  The strip is a breakaway section, so you can snap it off and keep a 42-key board.
+- **A larger battery cutout:** the bigger opening in the PCB allows a slimmer battery cover.
+- **Pads for a slide switch and reset button:** both are on the board edge.
+
+The two halves stacked are now under 13.5 mm tall.
+
+![Rev. 2 stacked halves beside a cased Corne](pics/rev2-stacked-height-vs-cased-corne.jpg)
+
+![An assembled Rev. 2 half above a bare Rev. 2 PCB](pics/sucralose-rev2-w-pcb.jpg)
 
 ## Hardware
 
 - **Switches:** [Kailh PG1316S](https://www.kailhswitch.com/uploads/15927/files/CPG1316S01D02-data-sheet.pdf),
   21 per half, on a 17 mm pitch to fit their smaller keycaps.
+- **7th column:** Kailh PG1316M, 4 per half, on the breakaway strip. The firmware runs with or without it.
 - **Controller:** Seeed XIAO nRF52840 Plus, running [ZMK](https://zmk.dev).
 - **Display:** [nice!view](https://nicekeyboards.com/nice-view/), soldered flush to keep the stack low.
-- **Power:** a LiPo pouch in a corner bay beside the key field, a JST-PH connector, and a side slide switch.
+- **Power:** a LiPo pouch in a corner cutout beside the key field, a JST-PH connector, and a side slide switch.
   An optional side reset button is also supported.
 - **PCB:** 1 mm thick, so the full stack stays in ultra-low-profile range.
 
@@ -34,6 +51,8 @@ These live in `lib/footprints.pretty/`. The files ending in `_sucralose` were dr
 - **PG1316S:** a reversible footprint with plated through-holes and locating-pin holes.
   It builds on [mikefive](https://github.com/mikeholscher/zmk-config-mikefive)'s footprints and
   [marbastlib](https://github.com/ebastler/marbastlib)'s.
+- **PG1316M:** a reversible footprint with plated through-hole terminals, derived from
+  [libmodulo](https://github.com/dennisleexyz/libmodulo)'s.
 - **XIAO nRF52840 Plus:** a reversible version of Seeed's official single-sided footprint.
 - **nice!view:** a dual-sided header, plus chevron solder jumpers for net selection.
 - **Alps SSSS811101 power switch:** front and back versions, checked against
