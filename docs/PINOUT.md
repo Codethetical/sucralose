@@ -25,7 +25,7 @@ Two independent chains agree on every pin used here.
 | 3 | D2 | P0.28 | COL2 |
 | 4 | D3 | P0.29 | COL3 |
 | 5 | D4 | P0.04 | display MOSI |
-| 6 | D5 | P0.05 | COL5 |
+| 6 | D5 | P0.05 | LED data (WS2812B chain, SPIM2 MOSI) |
 | 7 | D6 | P1.11 | ROW0 |
 | 8 | D7 | P1.12 | ROW1 |
 | 9 | D8 | P1.13 | ROW2 |
@@ -37,17 +37,29 @@ Two independent chains agree on every pin used here.
 | 15 | D11 | P0.15 | display SCK |
 | 16 | D12 | P0.19 | display CS |
 | 17 | D13 | P1.01 | COL6 (breakaway strip) |
-| 18 | D14 | P0.09 | free (NFC) |
-| 19 | D15 | P0.10 | free (NFC) |
+| 18 | D14 | P0.09 | COL5 (NFC pin released as GPIO) |
+| 19 | D15 | P0.10 | LED power gate (PMOS, active low) |
 | 20 | D16 | P0.31 | free (battery sense) |
 | 21 | D17 | P1.03 | free (disputed) |
 | 22 | D18 | P1.05 | free (disputed) |
 | 23 | D19 | P1.07 | free (disputed) |
 
+## Rev. 3 RGB changes
+
+- **D5 (P0.05) carries the LED data.** WS2812 data runs at 800 kHz, so it needs
+  one of the four fast pins (table below). D4, D11 and D12 are the display, so
+  COL5 gave up D5.
+- **COL5 moved to D14 (P0.09).** Matrix scanning is far below 10 kHz, so a
+  low-frequency pin is in spec. P0.09 is an NFC pad by default; the shield
+  releases it with `&uicr { nfct-pins-as-gpios; };`.
+- **D15 (P0.10) gates the LED rail.** A PMOS (AO3401A) switches 3V3 to VLED,
+  with a 100k gate pull-up so the LEDs stay off at boot and in soft off. ZMK's
+  `zmk,ext-power-generic` drives it active low.
+- Once written, the NFC-as-GPIO setting can only be undone by a UICR erase.
+
 ## Pins deliberately avoided
 
-- **D14 = P0.09, D15 = P0.10** are NFC pins by default. Usable as GPIO only with
-  `CONFIG_NFCT_PINS_AS_GPIOS`.
+- **D14 = P0.09, D15 = P0.10** are NFC pins by default (Rev. 3 uses both; see above).
 - **D16 = P0.31** is AIN7/BAT. ZMK's `xiao_ble` board reads battery voltage on
   the ADC, so leave it alone.
 - **D17/D18/D19 = P1.03/P1.05/P1.07.** Seeed's published Plus pinout image is
@@ -78,7 +90,7 @@ kscan0: kscan {
         , <&xiao_d 2 GPIO_ACTIVE_HIGH>   /* COL2  D2  P0.28 */
         , <&xiao_d 3 GPIO_ACTIVE_HIGH>   /* COL3  D3  P0.29 */
         , <&xiao_d 10 GPIO_ACTIVE_HIGH>  /* COL4  D10 P1.15 */
-        , <&xiao_d 5 GPIO_ACTIVE_HIGH>   /* COL5  D5  P0.05 */
+        , <&gpio0 9 GPIO_ACTIVE_HIGH>    /* COL5  D14 P0.09 */
         ;
 
     row-gpios

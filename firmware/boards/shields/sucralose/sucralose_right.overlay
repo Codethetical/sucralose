@@ -20,7 +20,7 @@
  */
 &kscan0 {
     col-gpios
-        = <&xiao_d 5 GPIO_ACTIVE_HIGH>   /* COL5 */
+        = <&gpio0 9 GPIO_ACTIVE_HIGH>   /* COL5  D14 P0.09 (NFC pin, see uicr) */
         , <&xiao_d 10 GPIO_ACTIVE_HIGH>  /* COL4 */
         , <&xiao_d 3 GPIO_ACTIVE_HIGH>   /* COL3 */
         , <&xiao_d 2 GPIO_ACTIVE_HIGH>   /* COL2 */

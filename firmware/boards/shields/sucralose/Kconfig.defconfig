@@ -16,4 +16,18 @@ if SHIELD_SUCRALOSE_LEFT || SHIELD_SUCRALOSE_RIGHT
 config ZMK_SPLIT
     default y
 
+# Rev. 3: per-key WS2812B-2020 chain on D5 (see boards/seeeduino_xiao_ble.overlay)
+config ZMK_RGB_UNDERGLOW
+    default y
+
+config WS2812_STRIP
+    default y
+
+config ZMK_RGB_UNDERGLOW_EXT_POWER
+    default y
+
+# 21 LEDs on the XIAO 3V3 rail: cap brightness (about 15 mA per LED at full white)
+config ZMK_RGB_UNDERGLOW_BRT_MAX
+    default 40
+
 endif
