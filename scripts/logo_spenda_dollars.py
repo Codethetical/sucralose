@@ -13,7 +13,12 @@ import numpy as np
 from PIL import Image, ImageDraw, ImageFont
 from scipy import ndimage
 
-SRC, DST = 'assets/logo_spenda.png', 'assets/logo_spenda_dollars.png'
+import os
+SRC = 'assets/logo_spenda.png'
+# DOLLAR_FILL=60 + DST=... gives a solid-glyph copy for silkscreen tracing
+# (same seed, same positions); the hollow outline is too thin for silk.
+DST = os.environ.get('DST', 'assets/logo_spenda_dollars.png')
+FILL = int(os.environ.get('DOLLAR_FILL', 238))
 FONT = '/usr/share/fonts/truetype/dejavu/DejaVuSerif-Bold.ttf'
 SS = 4  # supersample
 
@@ -52,7 +57,7 @@ for k, cy, cx, d in sorted(gran, key=lambda t: -t[3]):  # biggest first
         sw = max(1, int(round(px * 0.06)))
         l, t, r, b = f.getbbox('$', stroke_width=sw)
         tile = Image.new('L', (r - l + 4 * sw, b - t + 4 * sw), 255)
-        ImageDraw.Draw(tile).text((2 * sw - l, 2 * sw - t), '$', font=f, fill=238,
+        ImageDraw.Draw(tile).text((2 * sw - l, 2 * sw - t), '$', font=f, fill=FILL,
                                   stroke_width=sw, stroke_fill=60)
         tile = tile.rotate(ang, resample=Image.BICUBIC, expand=True, fillcolor=255)
         tile = tile.resize((max(1, tile.width // SS), max(1, tile.height // SS)), Image.LANCZOS)
